@@ -1,57 +1,47 @@
-import requests
-import json
 import os
-from datetime import datetime, timedelta
+import json
 
-# 設定想補抓的歷史日期區間 (例如: 2026-03-01 到 昨天)
-start_date = datetime(2026, 3, 1)
-end_date = datetime.now() - timedelta(days=1)
+def generate_date_index(history_dir="history", output_file="date_index.json"):
+    """
+    掃描 history 資料夾，建立 { "YYYY-MM-DD": ["path/to/game1.json", ...] } 的索引檔
+    """
+    date_map = {}
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Referer": "https://www.cpbl.com.tw/"
-}
+    if not os.path.exists(history_dir):
+        print(f"⚠️ 找不到目錄：{history_dir}")
+        return
 
-def save_json(filepath, data):
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    # 遍歷 history 目錄下的所有 JSON 檔
+    for root, _, files in os.walk(history_dir):
+        for file in files:
+            if file.endswith(".json"):
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        
+                        # 讀取 JSON 中的日期（支援 common 鍵值名稱）
+                        game_date = data.get("date") or data.get("game_date") or data.get("Date")
+                        
+                        # 取得相對於專案根目錄的相對路徑 (例如: history/A/2026/100.json)
+                        relative_path = os.path.relpath(file_path, ".").replace("\\", "/")
 
-current_dt = start_date
-while current_dt <= end_date:
-    date_str = current_dt.strftime("%Y-%m-%d")
-    print(f"🔄 正在補抓歷史資料: {date_str}")
-    
-    list_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/{date_str}"
-    try:
-        res = requests.get(list_url, headers=headers, timeout=10)
-        if res.status_code == 200:
-            data = res.json()
-            games_list = data.get("Data", {}).get("Games", [])
-            
-            if games_list:
-                # 儲存該日的 schedule
-                save_json(f"schedule/{date_str}.json", data)
-                
-                # 抓取該日每場比賽詳情
-                for g in games_list:
-                    game_id = g.get("GameId")
-                    kind_code = g.get("KindCode")
-                    game_sno = g.get("GameSno")
-                    year = (g.get("PreExeDate") or date_str)[:4]
+                        if game_date:
+                            if game_date not in date_map:
+                                date_map[game_date] = []
+                            if relative_path not in date_map[game_date]:
+                                date_map[game_date].append(relative_path)
+                except Exception as e:
+                    print(f"❌ 讀取 {file_path} 失敗: {e}")
 
-                    if game_id:
-                        detail_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/{game_id}"
-                        detail_res = requests.get(detail_url, headers=headers, timeout=10)
-                        if detail_res.status_code == 200:
-                            history_path = f"history/{kind_code}/{year}/{game_sno}.json"
-                            save_json(history_path, detail_res.json())
-            else:
-                print(f"⚪ {date_str} 無賽事")
-    except Exception as e:
-        print(f"❌ {date_str} 抓取失敗: {e}")
-        
-    current_dt += timedelta(days=1)
+    # 將日期排序後輸出成 json
+    sorted_date_map = {k: sorted(date_map[k]) for k in sorted(date_map.keys())}
 
-print("🎉 歷史資料補抓完成！")
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(sorted_date_map, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 成功生成日期對照索引檔：{output_file}")
+
+if __name__ == "__main__":
+    # 執行生成索引檔
+    generate_date_index()
