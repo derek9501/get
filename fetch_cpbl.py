@@ -21,27 +21,26 @@ headers = {
     "X-Requested-With": "XMLHttpRequest"
 }
 
+# 設定為 2026 年例行賽（kindCode: A）編號 308 場次
 payload = {
     "year": "2026",
     "kindCode": "A",
-    "gameSno": "1"
+    "gameSno": "308"
 }
 
 result_data = {}
 
 try:
-    # 先 visit 官網首頁帶入整套 Cookie 與 Session
     session.get("https://www.cpbl.com.tw/box/index", headers=headers, timeout=15)
-    
-    # 發送 POST 請求
     response = session.post(url, headers=headers, json=payload, timeout=15)
     
     if response.status_code == 200:
         result_data = response.json()
-        print("✅ 成功獲取 CPBL 數據！")
+        print("✅ 成功獲取場次 308 數據！")
     else:
         result_data = {"error": True, "message": f"HTTP status {response.status_code}"}
         print(f"❌ HTTP 錯誤：{response.status_code}")
+
 except Exception as e:
     result_data = {"error": True, "message": str(e)}
     print(f"❌ 執行異常：{e}")
