@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CPBL 賽事 API Hub</title>
+  <title>CPBL 賽事</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; color: #333; }
     .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
@@ -11,8 +11,11 @@
     
     /* 工具列與日期選擇 */
     .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #eee; }
-    .date-picker { font-size: 14px; padding: 6px 12px; border-radius: 6px; border: 1px solid #ccc; font-family: inherit; }
-    
+    .date-control { display: flex; align-items: center; gap: 6px; }
+    .date-picker { font-size: 14px; padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc; font-family: inherit; }
+    .nav-btn { background: #f1f5f9; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: bold; color: #334155; cursor: pointer; transition: 0.2s; }
+    .nav-btn:hover { background: #e2e8f0; }
+
     /* 賽事頁籤 */
     .tabs { display: flex; gap: 6px; background: #f1f5f9; padding: 4px; border-radius: 8px; }
     .tab-btn { border: none; background: none; padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; color: #64748b; cursor: pointer; transition: 0.2s; }
@@ -41,12 +44,13 @@
 <body>
 
   <div class="container">
-    <h1>CPBL 賽事 API Hub</h1>
+    <h1>CPBL 賽事</h1>
     
     <div class="toolbar">
-      <div>
-        <label for="date-select" style="font-size: 14px; font-weight: bold; margin-right: 6px;">選擇日期：</label>
+      <div class="date-control">
+        <button class="nav-btn" onclick="changeDate(-1)">前一天</button>
         <input type="date" id="date-select" class="date-picker">
+        <button class="nav-btn" onclick="changeDate(1)">隔天</button>
       </div>
 
       <div class="tabs">
@@ -70,6 +74,19 @@
     const dateInput = document.getElementById('date-select');
     dateInput.value = todayStr;
     dateInput.addEventListener('change', () => loadDataForDate(dateInput.value));
+
+    // 切換日期 (前一天 -1 / 隔天 +1)
+    function changeDate(offset) {
+      const current = new Date(dateInput.value);
+      current.setDate(current.getDate() + offset);
+      const year = current.getFullYear();
+      const month = String(current.getMonth() + 1).padStart(2, '0');
+      const day = String(current.getDate()).padStart(2, '0');
+      const newDateStr = `${year}-${month}-${day}`;
+      
+      dateInput.value = newDateStr;
+      loadDataForDate(newDateStr);
+    }
 
     function copyUrl(url) {
       navigator.clipboard.writeText(url).then(() => {
