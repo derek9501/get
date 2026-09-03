@@ -3,7 +3,9 @@ name: Update CPBL Live Score
 on:
   schedule:
     - cron: '*/5 * * * *'  # 每 5 分鐘自動執行一次
-  workflow_dispatch:        # 支援手動觸發
+  workflow_dispatch:        # 支援在 GitHub 頁面手動觸發
+  push:
+    branches: [ main ]     # 變更推送到 main 分支時觸發
 
 jobs:
   build:
@@ -13,8 +15,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,6 +31,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add *.json
-          git commit -m "Auto update game JSON files" || exit 0
+          git add today/ schedule/ history/
+          git commit -m "Auto update CPBL today & history data" || exit 0
           git push origin main
