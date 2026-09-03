@@ -1,0 +1,63 @@
+{
+  "Data": {
+    "Game": {
+      "GameId": "2026-A-308",
+      "SkipTrackman": false,
+      "GameStatus": "SCHEDULED",
+      "Visiting": {
+        "Team": {
+          "Code": "AKP011",
+          "Name": "台鋼雄鷹",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Home": {
+        "Team": {
+          "Code": "ADD011",
+          "Name": "統一7-ELEVEn獅",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Field": {
+        "No": "F31",
+        "Abbe": "亞太主"
+      },
+      "KindCode": "A",
+      "GameSno": 308,
+      "PreExeDate": "2026-09-04T18:35:00",
+      "Week": 36,
+      "InningSeq": 1,
+      "VisitingHomeType": 1,
+      "WinningPitcher": null,
+      "LoserPitcher": null,
+      "Closer": null,
+      "Referee": [],
+      "LiveLog": [],
+      "MVP": null
+    }
+  }
+}

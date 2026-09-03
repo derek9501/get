@@ -1,0 +1,63 @@
+{
+  "Data": {
+    "Game": {
+      "GameId": "2026-A-309",
+      "SkipTrackman": false,
+      "GameStatus": "SCHEDULED",
+      "Visiting": {
+        "Team": {
+          "Code": "AAA011",
+          "Name": "味全龍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Home": {
+        "Team": {
+          "Code": "ACN011",
+          "Name": "中信兄弟",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Field": {
+        "No": "F19",
+        "Abbe": "洲際"
+      },
+      "KindCode": "A",
+      "GameSno": 309,
+      "PreExeDate": "2026-09-04T18:35:00",
+      "Week": 36,
+      "InningSeq": 1,
+      "VisitingHomeType": 1,
+      "WinningPitcher": null,
+      "LoserPitcher": null,
+      "Closer": null,
+      "Referee": [],
+      "LiveLog": [],
+      "MVP": null
+    }
+  }
+}
