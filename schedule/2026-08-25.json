@@ -1,0 +1,225 @@
+{
+  "Data": {
+    "Games": [
+      {
+        "GameId": "2026-A-286",
+        "SkipTrackman": false,
+        "GameStatus": "FINISHED",
+        "Visiting": {
+          "Team": {
+            "Code": "AJL011",
+            "Name": "樂天桃猿",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
+          },
+          "Score": 11,
+          "AccumulationScore": {
+            "W": 16,
+            "L": 12,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "ACN011",
+            "Name": "中信兄弟",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          },
+          "Score": 1,
+          "AccumulationScore": {
+            "W": 17,
+            "L": 16,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F29",
+          "Abbe": "大巨蛋"
+        },
+        "KindCode": "A",
+        "GameSno": 286,
+        "PreExeDate": "2026-08-25T18:35:00",
+        "Week": 35,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000006906",
+          "Name": "艾菩樂"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000005151",
+          "Name": "羅戈"
+        },
+        "Closer": null,
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "彭楚雲"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "吳家維"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "范杞平"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "張展榮"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
+      },
+      {
+        "GameId": "2026-A-287",
+        "SkipTrackman": false,
+        "GameStatus": "POSTPONED",
+        "Visiting": {
+          "Team": {
+            "Code": "AAA011",
+            "Name": "味全龍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "ADD011",
+            "Name": "統一7-ELEVEn獅",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F31",
+          "Abbe": "亞太主"
+        },
+        "KindCode": "A",
+        "GameSno": 287,
+        "PreExeDate": "2026-08-25T18:35:00",
+        "Week": 35,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
+      },
+      {
+        "GameId": "2026-D-216",
+        "SkipTrackman": false,
+        "GameStatus": "POSTPONED",
+        "Visiting": {
+          "Team": {
+            "Code": "ACN022",
+            "Name": "中信兄弟二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AAA022",
+            "Name": "味全龍二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F13",
+          "Abbe": "斗六"
+        },
+        "KindCode": "D",
+        "GameSno": 216,
+        "PreExeDate": "2026-08-25T16:05:00",
+        "Week": 35,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
+      },
+      {
+        "GameId": "2026-D-217",
+        "SkipTrackman": false,
+        "GameStatus": "POSTPONED",
+        "Visiting": {
+          "Team": {
+            "Code": "ADD022",
+            "Name": "統一7-ELEVEn獅二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AEO022",
+            "Name": "富邦悍將二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F07",
+          "Abbe": "嘉義市"
+        },
+        "KindCode": "D",
+        "GameSno": 217,
+        "PreExeDate": "2026-08-25T16:05:00",
+        "Week": 35,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Data": {
+    "Game": {
+      "GameId": "2026-A-252",
+      "SkipTrackman": false,
+      "GameStatus": "SCHEDULED",
+      "Visiting": {
+        "Team": {
+          "Code": "ADD011",
+          "Name": "統一7-ELEVEn獅",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Home": {
+        "Team": {
+          "Code": "AEO011",
+          "Name": "富邦悍將",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Field": {
+        "No": "F08",
+        "Abbe": "新莊"
+      },
+      "KindCode": "A",
+      "GameSno": 252,
+      "PreExeDate": "2026-10-04T17:05:00",
+      "Week": 40,
+      "InningSeq": 1,
+      "VisitingHomeType": 1,
+      "WinningPitcher": null,
+      "LoserPitcher": null,
+      "Closer": null,
+      "Referee": [],
+      "LiveLog": [],
+      "MVP": null
+    }
+  }
+}

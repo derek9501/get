@@ -1,0 +1,63 @@
+{
+  "Data": {
+    "Game": {
+      "GameId": "2026-D-175",
+      "SkipTrackman": false,
+      "GameStatus": "SCHEDULED",
+      "Visiting": {
+        "Team": {
+          "Code": "AAA022",
+          "Name": "味全龍二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Home": {
+        "Team": {
+          "Code": "AEO022",
+          "Name": "富邦悍將二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Field": {
+        "No": "F07",
+        "Abbe": "嘉義市"
+      },
+      "KindCode": "D",
+      "GameSno": 175,
+      "PreExeDate": "2026-09-13T14:05:00",
+      "Week": 37,
+      "InningSeq": 1,
+      "VisitingHomeType": 1,
+      "WinningPitcher": null,
+      "LoserPitcher": null,
+      "Closer": null,
+      "Referee": [],
+      "LiveLog": [],
+      "MVP": null
+    }
+  }
+}

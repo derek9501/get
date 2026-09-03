@@ -1,0 +1,243 @@
+{
+  "Data": {
+    "Games": [
+      {
+        "GameId": "2026-A-127",
+        "SkipTrackman": false,
+        "GameStatus": "FINISHED",
+        "Visiting": {
+          "Team": {
+            "Code": "ACN011",
+            "Name": "中信兄弟",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          },
+          "Score": 4,
+          "AccumulationScore": {
+            "W": 11,
+            "L": 28,
+            "T": 1
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AKP011",
+            "Name": "台鋼雄鷹",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+          },
+          "Score": 6,
+          "AccumulationScore": {
+            "W": 22,
+            "L": 19,
+            "T": 1
+          }
+        },
+        "Field": {
+          "No": "F09",
+          "Abbe": "澄清湖"
+        },
+        "KindCode": "A",
+        "GameSno": 127,
+        "PreExeDate": "2026-05-28T18:35:00",
+        "Week": 22,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000006833",
+          "Name": "陳宇宏"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000005151",
+          "Name": "羅戈"
+        },
+        "Closer": {
+          "Acnt": "0000006949",
+          "Name": "林詩翔"
+        },
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "彭楚雲"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "張展榮"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "木內九二生"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "陳均瑋"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
+      },
+      {
+        "GameId": "2026-D-91",
+        "SkipTrackman": false,
+        "GameStatus": "FINISHED",
+        "Visiting": {
+          "Team": {
+            "Code": "ADD022",
+            "Name": "統一7-ELEVEn獅二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
+          },
+          "Score": 5,
+          "AccumulationScore": {
+            "W": 12,
+            "L": 16,
+            "T": 1
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AKP022",
+            "Name": "台鋼雄鷹二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+          },
+          "Score": 4,
+          "AccumulationScore": {
+            "W": 20,
+            "L": 7,
+            "T": 3
+          }
+        },
+        "Field": {
+          "No": "F32",
+          "Abbe": "皇鷹學院"
+        },
+        "KindCode": "D",
+        "GameSno": 91,
+        "PreExeDate": "2026-05-28T14:05:00",
+        "Week": 22,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000006210",
+          "Name": "林原裕"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000006917",
+          "Name": "謝葆錡"
+        },
+        "Closer": null,
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "周慶祖"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "陳乃瑞"
+          },
+          {
+            "Job": "二壘審",
+            "Name": ""
+          },
+          {
+            "Job": "三壘審",
+            "Name": "陳勛"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
+      },
+      {
+        "GameId": "2026-D-92",
+        "SkipTrackman": false,
+        "GameStatus": "FINISHED",
+        "Visiting": {
+          "Team": {
+            "Code": "AAA022",
+            "Name": "味全龍二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 11,
+            "L": 16,
+            "T": 2
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AEO022",
+            "Name": "富邦悍將二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
+          },
+          "Score": 4,
+          "AccumulationScore": {
+            "W": 15,
+            "L": 13,
+            "T": 2
+          }
+        },
+        "Field": {
+          "No": "F07",
+          "Abbe": "嘉義市"
+        },
+        "KindCode": "D",
+        "GameSno": 92,
+        "PreExeDate": "2026-05-28T14:05:00",
+        "Week": 22,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000006269",
+          "Name": "愛力戈"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007581",
+          "Name": "黃暐傑"
+        },
+        "Closer": null,
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "林恩鈺"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "林柏安"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "范杞平"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "歐銘錦"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
+      }
+    ]
+  }
+}

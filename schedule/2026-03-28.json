@@ -1,0 +1,84 @@
+{
+  "Data": {
+    "Games": [
+      {
+        "GameId": "2026-A-1",
+        "SkipTrackman": false,
+        "GameStatus": "FINISHED",
+        "Visiting": {
+          "Team": {
+            "Code": "ACN011",
+            "Name": "中信兄弟",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          },
+          "Score": 2,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 1,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AJL011",
+            "Name": "樂天桃猿",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
+          },
+          "Score": 3,
+          "AccumulationScore": {
+            "W": 1,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F29",
+          "Abbe": "大巨蛋"
+        },
+        "KindCode": "A",
+        "GameSno": 1,
+        "PreExeDate": "2026-03-28T17:05:00",
+        "Week": 13,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000000941",
+          "Name": "陳冠宇"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000001232",
+          "Name": "江忠城"
+        },
+        "Closer": null,
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "張展榮"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "楊崇煇"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "木內九二生"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "尤志欽"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
+      }
+    ]
+  }
+}
