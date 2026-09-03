@@ -69,7 +69,13 @@
   <script>
     let currentGamesData = [];
     let currentFilter = 'ALL';
-    const todayStr = new Date().toISOString().split('T')[8];
+    const todayStr = new Date().toISOString().split('T')[0];
+    // 修正後的程式碼：使用瀏覽器當地的年/月/日
+const now = new Date();
+const year = now.getFullYear();
+const month = String(now.getMonth() + 1).padStart(2, '0');
+const day = String(now.getDate()).padStart(2, '0');
+const todayStr = `${year}-${month}-${day}`;
 
     const dateInput = document.getElementById('date-select');
     dateInput.value = todayStr;
