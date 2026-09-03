@@ -2,28 +2,76 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>CPBL 即時比分</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPBL 即時計分板</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f4f6f9; margin: 0; padding: 20px; text-align: center; }
+    .card { background: white; border-radius: 12px; padding: 20px; max-width: 500px; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .status { font-size: 14px; color: #666; margin-bottom: 15px; }
+    .scoreboard { display: flex; justify-content: space-around; align-items: center; margin: 20px 0; }
+    .team { flex: 1; }
+    .team img { width: 60px; height: 60px; object-fit: contain; }
+    .team-name { font-size: 18px; font-weight: bold; margin-top: 8px; }
+    .score { font-size: 36px; font-weight: bold; color: #333; }
+    .vs { font-size: 20px; color: #999; font-weight: bold; }
+    .meta { font-size: 13px; color: #888; border-top: 1px solid #eee; pt: 10px; margin-top: 15px; }
+  </style>
 </head>
 <body>
-  <h2>CPBL 即時數據</h2>
-  <div id="status">載入中...</div>
-  <pre id="output"></pre>
+
+  <div class="card">
+    <h2>CPBL 即時賽況</h2>
+    <div class="status" id="last-update">載入中...</div>
+
+    <div class="scoreboard">
+      <div class="team">
+        <img id="visiting-logo" src="" alt="客隊 Logo">
+        <div class="team-name" id="visiting-name">-</div>
+        <div class="score" id="visiting-score">0</div>
+      </div>
+      
+      <div class="vs">VS</div>
+
+      <div class="team">
+        <img id="home-logo" src="" alt="主隊 Logo">
+        <div class="team-name" id="home-name">-</div>
+        <div class="score" id="home-score">0</div>
+      </div>
+    </div>
+
+    <div class="meta">
+      <span id="stadium">球場：-</span> | <span id="game-status">狀態：-</span>
+    </div>
+  </div>
 
   <script>
-    async function getScore() {
+    async function fetchScore() {
       try {
-        // 直接讀取 GitHub 上產生的 JSON 檔 (避免快取)
         const res = await fetch('./live_score.json?t=' + new Date().getTime());
-        const data = await res.json();
-        document.getElementById('status').textContent = '最後讀取時間：' + new Date().toLocaleTimeString();
-        document.getElementById('output').textContent = JSON.stringify(data, null, 2);
-      } catch (err) {
-        document.getElementById('status').textContent = '讀取失敗：' + err.message;
+        const json = await res.json();
+        
+        if (json.Data && json.Data.Game) {
+          const game = json.Data.Game;
+          
+          document.getElementById('visiting-name').innerText = game.Visiting.Team.Name;
+          document.getElementById('visiting-logo').src = game.Visiting.Team.BigLogoUrl;
+          document.getElementById('visiting-score').innerText = game.Visiting.Score;
+
+          document.getElementById('home-name').innerText = game.Home.Team.Name;
+          document.getElementById('home-logo').src = game.Home.Team.BigLogoUrl;
+          document.getElementById('home-score').innerText = game.Home.Score;
+
+          document.getElementById('stadium').innerText = '球場：' + game.Field.Abbe;
+          document.getElementById('game-status').innerText = '狀態：' + game.GameStatus;
+          document.getElementById('last-update').innerText = '最後更新：' + new Date().toLocaleTimeString();
+        }
+      } catch (e) {
+        document.getElementById('last-update').innerText = '讀取資料失敗';
       }
     }
 
-    getScore();
-    setInterval(getScore, 5000); // 前端每 5 秒輪詢更新畫面
+    fetchScore();
+    setInterval(fetchScore, 30000); // 每 30 秒自動向背景整理
   </script>
 </body>
 </html>
