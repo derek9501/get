@@ -21,13 +21,13 @@ def generate_html():
 <html lang="zh-TW">
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6QT37T7RY"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-01KQHNLNQQ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-Q6QT37T7RY');
+      gtag('config', 'G-01KQHNLNQQ');
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
