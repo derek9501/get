@@ -6,7 +6,7 @@ from datetime import datetime
 # 取得今天日期 (YYYY-MM-DD)
 today_str = datetime.now().strftime("%Y-%m-%d")
 
-# 正確的中職當日賽事清單 API 網址
+# 中職當日賽事清單 API 網址
 list_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/{today_str}"
 
 headers = {
@@ -16,19 +16,19 @@ headers = {
 }
 
 try:
-    # 1. 取得今日賽事列表
+    # 1. 抓取今日賽事列表
     res = requests.get(list_url, headers=headers, timeout=15)
     
     if res.status_code == 200:
         data = res.json()
         games_list = data.get("Data", {}).get("Games", [])
         
-        # 先儲存當日的賽事總清單 API (可存成 schedule.json)
+        # 儲存當日賽事總清單 API
         with open("schedule.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         print(f"✅ 已更新今日 ({today_str}) 賽事總清單 (schedule.json)")
 
-        # 2. 遍歷每一場比賽，分別下載詳細數據並存成 {GameId}.json
+        # 2. 下載每場比賽的詳細即時數據
         for g in games_list:
             game_id = g.get("GameId") # 例如 2026-A-301
             if game_id:
@@ -43,7 +43,7 @@ try:
                         json.dump(game_data, f, ensure_ascii=False, indent=2)
                     print(f"✅ 已成功產出比賽 JSON: {filename}")
 
-        # 3. 將今日第一場比賽同時複製一份給預設的 live_score.json
+        # 3. 複製第一場比賽到預設的 live_score.json
         if games_list:
             first_game_id = games_list[0].get("GameId")
             if os.path.exists(f"{first_game_id}.json"):
