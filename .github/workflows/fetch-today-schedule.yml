@@ -1,0 +1,35 @@
+name: Update CPBL Today Schedule
+
+on:
+  schedule:
+    # 每天台灣時間 08:00 (UTC 00:00) 自動執行一次
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允許在 GitHub 頁面上隨時手動點擊按鈕執行
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. 檢出程式碼 (Checkout repository)
+        uses: actions/checkout@v4
+
+      - name: 2. 設定 Python 環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 3. 安裝依賴套件
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: 4. 執行 Python 腳本抓取最新賽事
+        run: python fetch_today_schedule.py
+
+      - name: 5. 自動 Commit 並 Push 更新後的 today-schedule.json
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add today-schedule.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update today-schedule.json" && git push)
