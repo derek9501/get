@@ -1,68 +1,109 @@
-import requests
-import json
 import os
-import shutil
-from datetime import datetime
+import json
+import re
+from datetime import datetime, timezone, timedelta
 
-# 取得今天日期
-today_dt = datetime.now()
-today_str = today_dt.strftime("%Y-%m-%d")
+def get_tz():
+    return timezone(timedelta(hours=8))
 
-# CPBL 當日賽事清單 API
-list_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/{today_str}"
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Referer": "https://www.cpbl.com.tw/"
-}
+def format_date(date_str):
+    if not date_str:
+        return ""
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+        weekdays = ["一", "二", "三", "四", "五", "六", "日"]
+        return f"{dt.month}/{dt.day} ({weekdays[dt.weekday()]})"
+    except Exception:
+        return date_str
 
-def save_json(filepath, data):
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+def generate_html():
+    html_content = """<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6QT37T7RY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-try:
-    res = requests.get(list_url, headers=headers, timeout=15)
-    
-    if res.status_code == 200:
-        data = res.json()
-        games_list = data.get("Data", {}).get("Games", [])
-        
-        # 1. 儲存當日 schedule 到 today/ 與 schedule/ 資料夾
-        save_json("today/schedule.json", data)
-        save_json(f"schedule/{today_str}.json", data)
-        print(f"✅ 已更新今日 schedule (today/schedule.json & schedule/{today_str}.json)")
+      gtag('config', 'G-Q6QT37T7RY');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPBL 賽事資訊與對戰歷史</title>
+    <style>
+        :root {
+            --primary-color: #003865;
+            --secondary-color: #05549e;
+            --bg-color: #f4f6f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+        }
+        .game-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .team-vs {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .history-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .history-table th, .history-table td {
+            border: 1px solid var(--border-color);
+            padding: 8px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .history-table th {
+            background-color: #f0f4f8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CPBL 賽事歷史對戰數據</h1>
+        <div id="content"></div>
+    </div>
+</body>
+</html>
+"""
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html_content)
 
-        # 2. 清空 today/ 資料夾內的舊比賽 JSON 檔 (避免跨日殘留)
-        if os.path.exists("today"):
-            for fname in os.listdir("today"):
-                if fname != "schedule.json" and fname.endswith(".json"):
-                    os.remove(os.path.join("today", fname))
-
-        # 3. 下載今日各場次，同時存入 today/ 與 history/
-        for g in games_list:
-            game_id = g.get("GameId")       # 例: 2026-A-306
-            kind_code = g.get("KindCode")   # 例: A
-            game_sno = g.get("GameSno")     # 例: 306
-            year = g.get("PreExeDate", today_str)[:4]
-
-            if game_id:
-                detail_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/{game_id}"
-                detail_res = requests.get(detail_url, headers=headers, timeout=15)
-                
-                if detail_res.status_code == 200:
-                    game_data = detail_res.json()
-                    
-                    # 存入 today/ 資料夾 (格式: today/2026-A-306.json)
-                    save_json(f"today/{game_id}.json", game_data)
-                    
-                    # 歸檔至 history/ 資料夾 (格式: history/A/2026/306.json)
-                    history_path = f"history/{kind_code}/{year}/{game_sno}.json"
-                    save_json(history_path, game_data)
-                    print(f"✅ 已產出: today/{game_id}.json 與 {history_path}")
-
-    else:
-        print(f"❌ API 請求失敗，Status Code: {res.status_code}")
-
-except Exception as e:
-    print(f"❌ 執行錯誤: {e}")
+if __name__ == "__main__":
+    generate_html()
