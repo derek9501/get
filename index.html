@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>CPBL 即時比分</title>
+</head>
+<body>
+  <h2>CPBL 即時數據</h2>
+  <div id="status">載入中...</div>
+  <pre id="output"></pre>
+
+  <script>
+    async function getScore() {
+      try {
+        // 直接讀取 GitHub 上產生的 JSON 檔 (避免快取)
+        const res = await fetch('./live_score.json?t=' + new Date().getTime());
+        const data = await res.json();
+        document.getElementById('status').textContent = '最後讀取時間：' + new Date().toLocaleTimeString();
+        document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        document.getElementById('status').textContent = '讀取失敗：' + err.message;
+      }
+    }
+
+    getScore();
+    setInterval(getScore, 5000); // 前端每 5 秒輪詢更新畫面
+  </script>
+</body>
+</html>
