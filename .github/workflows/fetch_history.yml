@@ -1,0 +1,32 @@
+name: Fetch History CPBL Data
+
+on:
+  workflow_dispatch: # 支援在 GitHub 網頁手動觸發
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Fetch History Script
+        run: python fetch_history.py
+
+      - name: Commit and Push History Data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add schedule/ history/
+          git commit -m "Populate historical CPBL data" || exit 0
+          git push origin main
