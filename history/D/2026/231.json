@@ -1,0 +1,63 @@
+{
+  "Data": {
+    "Game": {
+      "GameId": "2026-D-231",
+      "SkipTrackman": false,
+      "GameStatus": "SCHEDULED",
+      "Visiting": {
+        "Team": {
+          "Code": "AKP022",
+          "Name": "台鋼雄鷹二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Home": {
+        "Team": {
+          "Code": "ACN022",
+          "Name": "中信兄弟二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
+      },
+      "Field": {
+        "No": "F20",
+        "Abbe": "場地未定"
+      },
+      "KindCode": "D",
+      "GameSno": 231,
+      "PreExeDate": "2026-09-26T14:05:00",
+      "Week": 39,
+      "InningSeq": 1,
+      "VisitingHomeType": 1,
+      "WinningPitcher": null,
+      "LoserPitcher": null,
+      "Closer": null,
+      "Referee": [],
+      "LiveLog": [],
+      "MVP": null
+    }
+  }
+}
