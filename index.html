@@ -3,75 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CPBL 即時計分板</title>
+  <title>CPBL 即時賽事 API Hub</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f4f6f9; margin: 0; padding: 20px; text-align: center; }
-    .card { background: white; border-radius: 12px; padding: 20px; max-width: 500px; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-    .status { font-size: 14px; color: #666; margin-bottom: 15px; }
-    .scoreboard { display: flex; justify-content: space-around; align-items: center; margin: 20px 0; }
-    .team { flex: 1; }
-    .team img { width: 60px; height: 60px; object-fit: contain; }
-    .team-name { font-size: 18px; font-weight: bold; margin-top: 8px; }
-    .score { font-size: 36px; font-weight: bold; color: #333; }
-    .vs { font-size: 20px; color: #999; font-weight: bold; }
-    .meta { font-size: 13px; color: #888; border-top: 1px solid #eee; pt: 10px; margin-top: 15px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; color: #333; }
+    .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    h1 { font-size: 22px; margin-top: 0; border-bottom: 2px solid #eee; padding-bottom: 12px; color: #1a252f; }
+    .info { font-size: 14px; color: #666; margin-bottom: 20px; }
+    .game-card { border: 1px solid #e1e8ed; border-radius: 8px; padding: 16px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .game-card:hover { background: #f1f5f9; }
+    .teams { font-size: 16px; font-weight: bold; }
+    .score { color: #d9534f; margin: 0 6px; }
+    .status-badge { font-size: 12px; padding: 3px 8px; border-radius: 4px; background: #e9ecef; color: #495057; font-weight: normal; margin-left: 8px; }
+    .status-FINISHED { background: #d4edda; color: #155724; }
+    .status-POSTPONED { background: #f8d7da; color: #721c24; }
+    .btn-group { display: flex; gap: 8px; }
+    .btn { text-decoration: none; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; border: none; }
+    .btn-primary { background: #0066cc; color: #fff; }
+    .btn-primary:hover { background: #0052a3; }
+    .btn-outline { background: #e2e8f0; color: #334155; }
+    .btn-outline:hover { background: #cbd5e1; }
+    .toast { position: fixed; bottom: 20px; right: 20px; background: #333; color: #fff; padding: 10px 16px; border-radius: 6px; font-size: 14px; display: none; }
   </style>
 </head>
 <body>
 
-  <div class="card">
-    <h2>CPBL 即時賽況</h2>
-    <div class="status" id="last-update">載入中...</div>
-
-    <div class="scoreboard">
-      <div class="team">
-        <img id="visiting-logo" src="" alt="客隊 Logo">
-        <div class="team-name" id="visiting-name">-</div>
-        <div class="score" id="visiting-score">0</div>
-      </div>
-      
-      <div class="vs">VS</div>
-
-      <div class="team">
-        <img id="home-logo" src="" alt="主隊 Logo">
-        <div class="team-name" id="home-name">-</div>
-        <div class="score" id="home-score">0</div>
-      </div>
-    </div>
-
-    <div class="meta">
-      <span id="stadium">球場：-</span> | <span id="game-status">狀態：-</span>
-    </div>
+  <div class="container">
+    <h1>CPBL 當日賽事 API 列表</h1>
+    <div class="info" id="update-info">載入資料中...</div>
+    <div id="game-list"></div>
   </div>
 
+  <div id="toast" class="toast">已複製 API 網址！</div>
+
   <script>
-    async function fetchScore() {
+    function copyUrl(url) {
+      navigator.clipboard.writeText(url).then(() => {
+        const toast = document.getElementById('toast');
+        toast.style.display = 'block';
+        setTimeout(() => { toast.style.display = 'none'; }, 2000);
+      });
+    }
+
+    async function loadSchedule() {
+      const infoElem = document.getElementById('update-info');
+      const listElem = document.getElementById('game-list');
+
       try {
-        const res = await fetch('./live_score.json?t=' + new Date().getTime());
-        const json = await res.json();
+        const res = await fetch('./schedule.json?t=' + Date.now());
+        if (!res.ok) throw new Error('無法讀取 schedule.json');
         
-        if (json.Data && json.Data.Game) {
-          const game = json.Data.Game;
-          
-          document.getElementById('visiting-name').innerText = game.Visiting.Team.Name;
-          document.getElementById('visiting-logo').src = game.Visiting.Team.BigLogoUrl;
-          document.getElementById('visiting-score').innerText = game.Visiting.Score;
+        const json = await res.json();
+        const games = json.Data?.Games || [];
 
-          document.getElementById('home-name').innerText = game.Home.Team.Name;
-          document.getElementById('home-logo').src = game.Home.Team.BigLogoUrl;
-          document.getElementById('home-score').innerText = game.Home.Score;
-
-          document.getElementById('stadium').innerText = '球場：' + game.Field.Abbe;
-          document.getElementById('game-status').innerText = '狀態：' + game.GameStatus;
-          document.getElementById('last-update').innerText = '最後更新：' + new Date().toLocaleTimeString();
+        if (games.length === 0) {
+          infoElem.innerText = '今日無安排賽事';
+          return;
         }
-      } catch (e) {
-        document.getElementById('last-update').innerText = '讀取資料失敗';
+
+        infoElem.innerText = `共找到 ${games.length} 場賽事`;
+        listElem.innerHTML = '';
+
+        games.forEach(g => {
+          const gameId = g.GameId;
+          const visiting = g.Visiting.Team.Name;
+          const visitingScore = g.Visiting.Score;
+          const home = g.Home.Team.Name;
+          const homeScore = g.Home.Score;
+          const stadium = g.Field.Abbe || '未定';
+          const status = g.GameStatus;
+          const jsonUrl = `${window.location.origin}${window.location.pathname}${gameId}.json`;
+
+          const card = document.createElement('div');
+          card.className = 'game-card';
+          card.innerHTML = `
+            <div>
+              <div class="teams">
+                ${visiting} <span class="score">${visitingScore}</span> 
+                vs 
+                <span class="score">${homeScore}</span> ${home}
+                <span class="status-badge status-${status}">${status}</span>
+              </div>
+              <div style="font-size: 12px; color: #888; margin-top: 6px;">
+                場次: ${gameId} | 球場: ${stadium}
+              </div>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-outline" onclick="copyUrl('${jsonUrl}')">複製連結</button>
+              <a class="btn btn-primary" href="./${gameId}.json" target="_blank">檢視 JSON</a>
+            </div>
+          `;
+          listElem.appendChild(card);
+        });
+
+      } catch (err) {
+        infoElem.innerText = '讀取失敗或無今日賽事';
       }
     }
 
-    fetchScore();
-    setInterval(fetchScore, 30000); // 每 30 秒自動向背景整理
+    loadSchedule();
   </script>
 </body>
 </html>
