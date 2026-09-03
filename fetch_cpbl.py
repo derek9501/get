@@ -1,12 +1,19 @@
 import os
 import json
 import re
+import requests
 from datetime import datetime, timezone, timedelta
 
+# ==========================================
+# 1. 工具函式與基礎設定
+# ==========================================
+
 def get_tz():
+    """取得 UTC+8 時區"""
     return timezone(timedelta(hours=8))
 
 def format_date(date_str):
+    """將 YYYY-MM-DD 轉成 M/D (星期X) 格式"""
     if not date_str:
         return ""
     try:
@@ -16,7 +23,98 @@ def format_date(date_str):
     except Exception:
         return date_str
 
+def save_to_history(game_id, game_data):
+    """
+    解析 GameId (例如 "2026-A-301")
+    自動寫入歷史目錄: history/{KindCode}/{Year}/{GameSno}.json
+    """
+    try:
+        # 使用正規表達式拆解 GameId 格式 (年份-類別代碼-場次)
+        match = re.match(r"^(\d{4})-([A-Z]+)-(\d+)$", game_id)
+        if match:
+            year, kind_code, game_sno = match.groups()
+            history_dir = os.path.join("history", kind_code, year)
+            os.makedirs(history_dir, exist_ok=True)
+            
+            # 歷史目錄檔名以場次編號命名 (例: 301.json)
+            history_filepath = os.path.join(history_dir, f"{int(game_sno)}.json")
+            with open(history_filepath, "w", encoding="utf-8") as f:
+                json.dump(game_data, f, ensure_ascii=False, indent=2)
+            print(f"📁 [歷史歸檔] 已備份至: {history_filepath}")
+    except Exception as e:
+        print(f"⚠️ 歸檔歷史資料時發生錯誤 ({game_id}): {e}")
+
+# ==========================================
+# 2. 舊版資料抓取與整合核心 (API Fetcher)
+# ==========================================
+
+def fetch_cpbl_data():
+    """從 CPBL 官方 API 取得當日賽事清單與單場數據，並同步歸檔至歷史目錄"""
+    today_str = datetime.now(get_tz()).strftime("%Y-%m-%d")
+    list_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/{today_str}"
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.cpbl.com.tw/"
+    }
+
+    try:
+        print(f"🚀 開始抓取今日 ({today_str}) CPBL 賽事資訊...")
+        res = requests.get(list_url, headers=headers, timeout=15)
+        
+        if res.status_code == 200:
+            data = res.json()
+            games_list = data.get("Data", {}).get("Games", [])
+            
+            # 1. 儲存當日總清單
+            with open("schedule.json", "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            print(f"✅ 已更新賽事總清單 (schedule.json)")
+
+            if not games_list:
+                print("ℹ️ 今日無排定賽事。")
+                return
+
+            # 2. 遍歷每場賽事，下載詳細數據
+            for g in games_list:
+                game_id = g.get("GameId") # 例如 2026-A-301
+                if game_id:
+                    detail_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/{game_id}"
+                    detail_res = requests.get(detail_url, headers=headers, timeout=15)
+                    
+                    if detail_res.status_code == 200:
+                        game_data = detail_res.json()
+                        filename = f"{game_id}.json"
+                        
+                        # 儲存根目錄 JSON
+                        with open(filename, "w", encoding="utf-8") as f:
+                            json.dump(game_data, f, ensure_ascii=False, indent=2)
+                        print(f"✅ 已成功產出比賽 JSON: {filename}")
+
+                        # 新版功能：同步歸檔至 history/ 結構
+                        save_to_history(game_id, game_data)
+
+            # 3. 將今日第一場比賽複製給預設 live_score.json
+            first_game_id = games_list[0].get("GameId")
+            if first_game_id and os.path.exists(f"{first_game_id}.json"):
+                with open(f"{first_game_id}.json", "r", encoding="utf-8") as src, \
+                     open("live_score.json", "w", encoding="utf-8") as dst:
+                    dst.write(src.read())
+                print(f"✅ 已更新 live_score.json (來源: {first_game_id}.json)")
+
+        else:
+            print(f"❌ 取得賽事清單失敗，HTTP Status: {res.status_code}")
+
+    except Exception as e:
+        print(f"❌ 執行 API 抓取時發生異常：{e}")
+
+# ==========================================
+# 3. HTML 網頁生成 (新版模組)
+# ==========================================
+
 def generate_html():
+    """產生前端網頁 index.html"""
     html_content = """<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -95,6 +193,15 @@ def generate_html():
 """
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
+    print("✅ 已成功生成 index.html")
+
+# ==========================================
+# 主程式進入點
+# ==========================================
 
 if __name__ == "__main__":
+    # 執行資料抓取與歷史歸檔
+    fetch_cpbl_data()
+    
+    # 生成 HTML 頁面
     generate_html()
