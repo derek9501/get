@@ -3,7 +3,7 @@ name: Update CPBL Live Score
 on:
   schedule:
     - cron: '*/5 * * * *' # 每 5 分鐘自動執行一次 (GitHub Actions 最快頻率為 5 分鐘)
-  workflow_dispatch: # 支援手動觸發執行
+workflow_dispatch: # 支援手動觸發執行
 
 jobs:
   build:
