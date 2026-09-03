@@ -2,8 +2,8 @@ name: Update CPBL Live Score
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # 每 5 分鐘自動執行一次 (GitHub Actions 最快頻率為 5 分鐘)
-workflow_dispatch: # 支援手動觸發執行
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/python-commits@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
