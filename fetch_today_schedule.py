@@ -31,7 +31,7 @@ def fetch_today_schedule():
         data = []
 
     # 1. 寫入 today_schedule.json
-    today_file = "today_schedule.json"
+    today_file = "today-schedule.json"
     with open(today_file, "w", encoding="utf-8") as f:
         json.dump(
             {
