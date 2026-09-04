@@ -38,5 +38,5 @@ jobs:
          git add .
          # 允許在沒有新更動時不報錯
          git commit -m "Auto update CPBL today & history data" || echo "No changes to commit"
-         git pull origin main --rebase
-         git push origin main
+         git pull origin main
+
