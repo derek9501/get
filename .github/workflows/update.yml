@@ -7,6 +7,10 @@ on:
   push:
     branches: [ main ]     # 變更推送到 main 分支時觸發
 
+concurrency:
+  group: cpbl-update
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,6 +38,3 @@ jobs:
           git add today/ schedule/ history/
           git commit -m "Auto update CPBL today & history data" || exit 0
           git push origin main
-          concurrency:
-  group: cpbl-update
-  cancel-in-progress: true
