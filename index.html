@@ -1,192 +1,75 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CPBL 賽事</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; color: #333; }
-    .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-    h1 { font-size: 22px; margin-top: 0; color: #1a252f; }
-    
-    /* 工具列與日期選擇 */
-    .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #eee; }
-    .date-control { display: flex; align-items: center; gap: 6px; }
-    .date-picker { font-size: 14px; padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc; font-family: inherit; }
-    .nav-btn { background: #f1f5f9; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: bold; color: #334155; cursor: pointer; transition: 0.2s; }
-    .nav-btn:hover { background: #e2e8f0; }
-
-    /* 賽事頁籤 */
-    .tabs { display: flex; gap: 6px; background: #f1f5f9; padding: 4px; border-radius: 8px; }
-    .tab-btn { border: none; background: none; padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; color: #64748b; cursor: pointer; transition: 0.2s; }
-    .tab-btn.active { background: #fff; color: #0f172a; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-
-    /* 列表與卡片 */
-    .info { font-size: 13px; color: #666; margin-bottom: 16px; }
-    .game-card { border: 1px solid #e1e8ed; border-radius: 8px; padding: 16px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-    .game-card:hover { background: #f8fafc; }
-    .teams { font-size: 16px; font-weight: bold; }
-    .score { color: #d9534f; margin: 0 6px; }
-    .badge { font-size: 11px; padding: 3px 6px; border-radius: 4px; background: #e2e8f0; color: #475569; font-weight: normal; margin-left: 6px; }
-    .status-FINISHED { background: #d4edda; color: #155724; }
-    .status-POSTPONED { background: #f8d7da; color: #721c24; }
-
-    /* 按鈕與通知 */
-    .btn-group { display: flex; gap: 8px; }
-    .btn { text-decoration: none; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; border: none; }
-    .btn-primary { background: #0066cc; color: #fff; }
-    .btn-primary:hover { background: #0052a3; }
-    .btn-outline { background: #e2e8f0; color: #334155; }
-    .btn-outline:hover { background: #cbd5e1; }
-    .toast { position: fixed; bottom: 20px; right: 20px; background: #333; color: #fff; padding: 10px 16px; border-radius: 6px; font-size: 14px; display: none; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPBL 賽事資訊與對戰歷史</title>
+    <style>
+        :root {
+            --primary-color: #003865;
+            --secondary-color: #05549e;
+            --bg-color: #f4f6f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+        }
+        .game-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .team-vs {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .history-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .history-table th, .history-table td {
+            border: 1px solid var(--border-color);
+            padding: 8px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .history-table th {
+            background-color: #f0f4f8;
+        }
+    </style>
 </head>
 <body>
-
-  <div class="container">
-    <h1>CPBL 賽事</h1>
-    
-    <div class="toolbar">
-      <div class="date-control">
-        <button class="nav-btn" onclick="changeDate(-1)">前一天</button>
-        <input type="date" id="date-select" class="date-picker">
-        <button class="nav-btn" onclick="changeDate(1)">隔天</button>
-      </div>
-
-      <div class="tabs">
-        <button class="tab-btn active" onclick="switchTab('ALL', this)">全部賽事</button>
-        <button class="tab-btn" onclick="switchTab('A', this)">一軍例行賽</button>
-        <button class="tab-btn" onclick="switchTab('D', this)">二軍聯賽</button>
-      </div>
+    <div class="container">
+        <h1>CPBL 賽事歷史對戰數據</h1>
+        <div id="content"></div>
     </div>
-
-    <div class="info" id="update-info">載入資料中...</div>
-    <div id="game-list"></div>
-  </div>
-
-  <div id="toast" class="toast">已複製 API 網址！</div>
-
-  <script>
-    let currentGamesData = [];
-    let currentFilter = 'ALL';
-    // 保留原始的時間定義邏輯
-    const todayStr = new Date().toISOString().split('T')[0];
-
-    const dateInput = document.getElementById('date-select');
-    dateInput.value = todayStr;
-    dateInput.addEventListener('change', () => loadDataForDate(dateInput.value));
-
-    // 切換日期 (前一天 -1 / 隔天 +1)
-    function changeDate(offset) {
-      const current = new Date(dateInput.value);
-      current.setDate(current.getDate() + offset);
-      const year = current.getFullYear();
-      const month = String(current.getMonth() + 1).padStart(2, '0');
-      const day = String(current.getDate()).padStart(2, '0');
-      const newDateStr = `${year}-${month}-${day}`;
-      
-      dateInput.value = newDateStr;
-      loadDataForDate(newDateStr);
-    }
-
-    function copyUrl(url) {
-      navigator.clipboard.writeText(url).then(() => {
-        const toast = document.getElementById('toast');
-        toast.style.display = 'block';
-        setTimeout(() => { toast.style.display = 'none'; }, 2000);
-      });
-    }
-
-    function switchTab(filter, btn) {
-      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentFilter = filter;
-      renderGames();
-    }
-
-    async function loadDataForDate(selectedDate) {
-      const infoElem = document.getElementById('update-info');
-      const listElem = document.getElementById('game-list');
-      infoElem.innerText = '讀取賽事資料中...';
-      listElem.innerHTML = '';
-
-      // 讀取當天或歷史清單 (統一使用 schedule 資料夾內的檔案)
-      const scheduleUrl = `./schedule/${selectedDate}.json`;
-
-      try {
-        const res = await fetch(scheduleUrl + '?t=' + Date.now());
-        if (!res.ok) throw new Error(`找不到 ${selectedDate} 的賽事紀錄`);
-        
-        const json = await res.json();
-        currentGamesData = json.Data?.Games || [];
-        renderGames();
-
-      } catch (err) {
-        infoElem.innerText = err.message;
-        listElem.innerHTML = `<div style="text-align:center; color:#888; padding:30px 0;">無賽事數據</div>`;
-      }
-    }
-
-    function renderGames() {
-      const infoElem = document.getElementById('update-info');
-      const listElem = document.getElementById('game-list');
-      const selectedDate = dateInput.value;
-
-      const filtered = currentGamesData.filter(g => {
-        if (currentFilter === 'ALL') return true;
-        return g.KindCode === currentFilter;
-      });
-
-      infoElem.innerText = `日期: ${selectedDate} | 共有 ${filtered.length} 場符合條件的賽事`;
-      listElem.innerHTML = '';
-
-      if (filtered.length === 0) {
-        listElem.innerHTML = `<div style="text-align:center; color:#888; padding:30px 0;">沒有符合條件的比賽</div>`;
-        return;
-      }
-
-      filtered.forEach(g => {
-        const kindCode = g.KindCode;
-        const gameSno = g.GameSno;
-        const year = (g.PreExeDate || selectedDate).substring(0, 4);
-
-        const visiting = g.Visiting.Team.Name;
-        const visitingScore = g.Visiting.Score;
-        const home = g.Home.Team.Name;
-        const homeScore = g.Home.Score;
-        const stadium = g.Field.Abbe || '未定';
-        const status = g.GameStatus;
-
-        // 移除 today 判斷，全數導向 history 資料夾
-        const jsonRelativePath = `./history/${kindCode}/${year}/${gameSno}.json`;
-        const jsonAbsoluteUrl = new URL(jsonRelativePath, window.location.href).href;
-
-        const card = document.createElement('div');
-        card.className = 'game-card';
-        card.innerHTML = `
-          <div>
-            <div class="teams">
-              ${visiting} <span class="score">${visitingScore}</span> 
-              vs 
-              <span class="score">${homeScore}</span> ${home}
-              <span class="badge status-${status}">${status}</span>
-              <span class="badge">${kindCode === 'A' ? '一軍' : '二軍'}</span>
-            </div>
-            <div style="font-size: 12px; color: #888; margin-top: 6px;">
-              編號: ${gameSno} | 球場: ${stadium}
-            </div>
-          </div>
-          <div class="btn-group">
-            <button class="btn btn-outline" onclick="copyUrl('${jsonAbsoluteUrl}')">複製 API 網址</button>
-            <a class="btn btn-primary" href="${jsonRelativePath}" target="_blank">檢視 JSON</a>
-          </div>
-        `;
-        listElem.appendChild(card);
-      });
-    }
-
-    // 頁面初始化載入當天賽事
-    loadDataForDate(todayStr);
-  </script>
 </body>
 </html>
