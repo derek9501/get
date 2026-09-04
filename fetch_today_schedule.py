@@ -3,10 +3,10 @@ import requests
 from datetime import datetime, timezone, timedelta
 
 # 1. 設定目標日期 (預設為 2026-09-03，亦可動態改為今天日期)
-TARGET_DATE = "2026-09-03"
+# TARGET_DATE = "2026-09-03"
 
 # 若需要自動改為當天日期 (UTC+8)，取消下一行的註解即可：
-# TARGET_DATE = (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d")
+ TARGET_DATE = (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d")
 
 def fetch_today_schedule(target_date):
     url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/{target_date}"
