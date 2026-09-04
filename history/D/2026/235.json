@@ -1,15 +1,15 @@
 {
   "Data": {
     "Game": {
-      "GameId": "2026-A-310",
+      "GameId": "2026-D-235",
       "SkipTrackman": false,
       "GameStatus": "SCHEDULED",
       "Visiting": {
         "Team": {
-          "Code": "AKP011",
-          "Name": "台鋼雄鷹",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+          "Code": "AAA022",
+          "Name": "味全龍二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
         },
         "Score": 0,
         "AccumulationScore": {
@@ -25,8 +25,8 @@
       },
       "Home": {
         "Team": {
-          "Code": "ADD011",
-          "Name": "統一7-ELEVEn獅",
+          "Code": "ADD022",
+          "Name": "統一7-ELEVEn獅二軍",
           "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
           "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
         },
@@ -43,12 +43,12 @@
         "InningScore": []
       },
       "Field": {
-        "No": "F31",
-        "Abbe": "亞太主"
+        "No": "F09",
+        "Abbe": "澄清湖"
       },
-      "KindCode": "A",
-      "GameSno": 310,
-      "PreExeDate": "2026-09-05T16:05:00",
+      "KindCode": "D",
+      "GameSno": 235,
+      "PreExeDate": "2026-09-05T14:05:00",
       "Week": 36,
       "InningSeq": 1,
       "VisitingHomeType": 1,
