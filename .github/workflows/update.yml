@@ -34,3 +34,6 @@ jobs:
           git add today/ schedule/ history/
           git commit -m "Auto update CPBL today & history data" || exit 0
           git push origin main
+          concurrency:
+  group: cpbl-update
+  cancel-in-progress: true
