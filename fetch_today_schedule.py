@@ -24,7 +24,7 @@ def fetch_today_schedule(target_date):
             data = res.json()
             
             # 將抓取到的資料存成 today-schedule.json
-            output_filename = "today-schedule.json"
+            output_filename = "schedule.json"
             with open(output_filename, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             
