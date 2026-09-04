@@ -10032,7 +10032,52 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P072577613903855323/85黃子豪2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.599026488,
+                "RelSpeed": 144.46265150592,
+                "SpinRate": 2465.9868,
+                "Extension": 1.596606408,
+                "RelHeight": 1.959095904
+              },
+              "Location": {
+                "ZoneTime": 0.434953,
+                "ZoneSpeed": 129.58972190208,
+                "PlateLocSide": -0.014237208,
+                "PlateLocHeight": 0.290209224
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.842489048,
+                      -39.85131984,
+                      4.897916544
+                    ],
+                    "Y": [
+                      1.95777612,
+                      -3.121920096,
+                      -1.628982264
+                    ],
+                    "Z": [
+                      -0.597877392,
+                      1.955895504,
+                      -1.2682728
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10073,7 +10118,65 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P072577613903855323/85黃子豪2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "FoulBallNotFieldable",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.6479377439999999,
+                "RelSpeed": 134.7341992128,
+                "SpinRate": 2507.397,
+                "Extension": 1.580369712,
+                "RelHeight": 1.922248632
+              },
+              "Location": {
+                "ZoneTime": 0.461079,
+                "ZoneSpeed": 123.409325952,
+                "PlateLocSide": -0.02764536,
+                "PlateLocHeight": 0.783445728
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.85943288,
+                      -37.322205264,
+                      3.683495808
+                    ],
+                    "Y": [
+                      1.922727168,
+                      -0.794452056,
+                      -3.637876392
+                    ],
+                    "Z": [
+                      -0.64834008,
+                      1.286859504,
+                      0.390290304
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 48.80326,
+                "Direction": -38.437107,
+                "ExitSpeed": 91.39590104832,
+                "HitSpinRate": 4301.9663
+              },
+              "LandingFlat": {
+                "Bearing": -49.991028,
+                "Distance": 48.315655464,
+                "HangTime": 3.751691,
+                "Confidence": "Medium"
+              }
+            }
+          }
         },
         {
           "Year": "2026",
@@ -10114,7 +10217,65 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P072577613903855323/85黃子豪2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "FoulBallNotFieldable",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.5821649520000001,
+                "RelSpeed": 130.55857917696,
+                "SpinRate": 1346.8214,
+                "Extension": 1.664973048,
+                "RelHeight": 1.952195232
+              },
+              "Location": {
+                "ZoneTime": 0.472434,
+                "ZoneSpeed": 120.01100297472,
+                "PlateLocSide": 0.365022384,
+                "PlateLocHeight": 0.736256592
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.775198352,
+                      -36.16872014400001,
+                      3.340906704
+                    ],
+                    "Y": [
+                      1.952588424,
+                      -0.91153488,
+                      -3.521686632
+                    ],
+                    "Z": [
+                      -0.580470264,
+                      1.293123144,
+                      -1.777828296
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 39.204395,
+                "Direction": -155.99934,
+                "ExitSpeed": 98.05269500928001,
+                "HitSpinRate": 4166.6924
+              },
+              "LandingFlat": {
+                "Bearing": -159.47551,
+                "Distance": 48.523516872,
+                "HangTime": 2.710033,
+                "Confidence": "Medium"
+              }
+            }
+          }
         },
         {
           "Year": "2026",
@@ -10155,7 +10316,60 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P072577613903855323/85黃子豪2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "FoulBallNotFieldable",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.645959592,
+                "RelSpeed": 144.39721557888,
+                "SpinRate": 2471.1267,
+                "Extension": 1.573792128,
+                "RelHeight": 1.972403472
+              },
+              "Location": {
+                "ZoneTime": 0.434223,
+                "ZoneSpeed": 129.49971129216,
+                "PlateLocSide": 0.4595469600000001,
+                "PlateLocHeight": 0.904582392
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.864983288,
+                      -39.947249544,
+                      4.852086816
+                    ],
+                    "Y": [
+                      1.971129408,
+                      -1.611303864,
+                      -1.94212464
+                    ],
+                    "Z": [
+                      -0.6438564720000001,
+                      1.26935484,
+                      -1.951978824
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 27.900204,
+                "Direction": -82.471664,
+                "ExitSpeed": 124.7320457856,
+                "HitSpinRate": 3432.183
+              },
+              "LandingFlat": null
+            }
+          }
         },
         {
           "Year": "2026",
@@ -10196,7 +10410,52 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P072577613903855323/85黃子豪2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.6165524880000001,
+                "RelSpeed": 144.50998231296,
+                "SpinRate": 2464.3467,
+                "Extension": 1.635166656,
+                "RelHeight": 1.961162448
+              },
+              "Location": {
+                "ZoneTime": 0.431042,
+                "ZoneSpeed": 130.5172351296,
+                "PlateLocSide": -0.248287032,
+                "PlateLocHeight": 1.063102776
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.80383736,
+                      -39.923316648,
+                      4.508805816
+                    ],
+                    "Y": [
+                      1.960266336,
+                      -1.085581776,
+                      -2.308637496
+                    ],
+                    "Z": [
+                      -0.614543856,
+                      2.834466264,
+                      -1.935467808
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10237,7 +10496,52 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P072577613903855323/85黃子豪2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.67110864,
+                "RelSpeed": 142.7978173248,
+                "SpinRate": 2432.0461,
+                "Extension": 1.564529256,
+                "RelHeight": 1.950271944
+              },
+              "Location": {
+                "ZoneTime": 0.439817,
+                "ZoneSpeed": 127.59159257856,
+                "PlateLocSide": 0.896916672,
+                "PlateLocHeight": 1.156200888
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.873417104,
+                      -39.5324076,
+                      4.891482216
+                    ],
+                    "Y": [
+                      1.94925696,
+                      -0.755117616,
+                      -2.381938848
+                    ],
+                    "Z": [
+                      -0.668786064,
+                      0.248189496,
+                      -1.745778576
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10278,7 +10582,65 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P072577613903855323/85黃子豪2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "InPlay",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.6440911680000001,
+                "RelSpeed": 141.58499959296,
+                "SpinRate": 2436.9011,
+                "Extension": 1.598224896,
+                "RelHeight": 1.945642032
+              },
+              "Location": {
+                "ZoneTime": 0.441859,
+                "ZoneSpeed": 127.80727686144,
+                "PlateLocSide": -0.07750759200000001,
+                "PlateLocHeight": 0.563602632
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.84128204,
+                      -39.11352096,
+                      4.490917104
+                    ],
+                    "Y": [
+                      1.945078152,
+                      -2.041178544,
+                      -2.45281704
+                    ],
+                    "Z": [
+                      -0.6426708,
+                      2.346722256,
+                      -1.631377992
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 24.0164,
+                "Direction": 26.895844,
+                "ExitSpeed": 115.44843226752,
+                "HitSpinRate": 1564.5626
+              },
+              "LandingFlat": {
+                "Bearing": 27.731306,
+                "Distance": 65.306911296,
+                "HangTime": 2.844095,
+                "Confidence": "High"
+              }
+            }
+          }
         },
         {
           "Year": "2026",
@@ -10360,7 +10722,52 @@
           "DefendStationCode": "3B",
           "HitterDefendStation": "5",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.5521208160000001,
+                "RelSpeed": 126.94616516736,
+                "SpinRate": 1271.1594,
+                "Extension": 1.50658068,
+                "RelHeight": 1.789291824
+              },
+              "Location": {
+                "ZoneTime": 0.493269,
+                "ZoneSpeed": 115.20696629376,
+                "PlateLocSide": 0.472644216,
+                "PlateLocHeight": 1.112919288
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.932783,
+                      -35.16494364,
+                      3.475628304
+                    ],
+                    "Y": [
+                      1.791498576,
+                      0.989133912,
+                      -4.796857056
+                    ],
+                    "Z": [
+                      -0.550919904,
+                      0.5845515360000001,
+                      -0.8647938000000001
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10411,35 +10818,35 @@
             },
             "Pitch": {
               "Release": {
-                "RelSide": 0.599026488,
-                "RelSpeed": 144.46265150592,
-                "SpinRate": 2465.9868,
-                "Extension": 1.596606408,
-                "RelHeight": 1.959095904
+                "RelSide": 0.491133384,
+                "RelSpeed": 136.65899073024,
+                "SpinRate": 2209.103,
+                "Extension": 1.60010856,
+                "RelHeight": 1.805394408
               },
               "Location": {
-                "ZoneTime": 0.434953,
-                "ZoneSpeed": 129.58972190208,
-                "PlateLocSide": -0.014237208,
-                "PlateLocHeight": 0.290209224
+                "ZoneTime": 0.458353,
+                "ZoneSpeed": 122.29170091776,
+                "PlateLocSide": -0.053833776,
+                "PlateLocHeight": 1.103781384
               },
               "Flight": {
                 "PolyFit": {
                   "PitchTrajectory": {
                     "X": [
-                      16.842489048,
-                      -39.85131984,
-                      4.897916544
+                      16.837993248,
+                      -37.796748384,
+                      4.376065416
                     ],
                     "Y": [
-                      1.95777612,
-                      -3.121920096,
-                      -1.628982264
+                      1.804330656,
+                      -0.436635144,
+                      -2.380439232
                     ],
                     "Z": [
-                      -0.597877392,
-                      1.955895504,
-                      -1.2682728
+                      -0.489438696,
+                      1.779343152,
+                      -1.298512008
                     ]
                   }
                 }
@@ -10487,7 +10894,52 @@
           "DefendStationCode": "3B",
           "HitterDefendStation": "5",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "StrikeCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.481748592,
+                "RelSpeed": 136.57276207872,
+                "SpinRate": 2237.9626,
+                "Extension": 1.628061768,
+                "RelHeight": 1.8001488
+              },
+              "Location": {
+                "ZoneTime": 0.456582,
+                "ZoneSpeed": 123.014634336,
+                "PlateLocSide": -0.06038088,
+                "PlateLocHeight": 0.9225473040000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.81046676,
+                      -37.777899552,
+                      4.17938712
+                    ],
+                    "Y": [
+                      1.799155152,
+                      -0.8433937920000001,
+                      -2.35634784
+                    ],
+                    "Z": [
+                      -0.480209352,
+                      1.759784136,
+                      -1.263417336
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10528,7 +10980,52 @@
           "DefendStationCode": "3B",
           "HitterDefendStation": "5",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.471918792,
+                "RelSpeed": 137.6710106112,
+                "SpinRate": 2208.7751,
+                "Extension": 1.633478064,
+                "RelHeight": 1.78336956
+              },
+              "Location": {
+                "ZoneTime": 0.455121,
+                "ZoneSpeed": 122.55877155456,
+                "PlateLocSide": 0.02569464,
+                "PlateLocHeight": 1.145039112
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.804184832,
+                      -38.08436376,
+                      4.644295512
+                    ],
+                    "Y": [
+                      1.78250088,
+                      -0.236954568,
+                      -2.5556718
+                    ],
+                    "Z": [
+                      -0.470711784,
+                      1.387321584,
+                      -0.9015282960000001
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10569,7 +11066,52 @@
           "DefendStationCode": "3B",
           "HitterDefendStation": "5",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "StrikeCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.488658408,
+                "RelSpeed": 138.28684218624,
+                "SpinRate": 2205.9287,
+                "Extension": 1.621724976,
+                "RelHeight": 1.79582064
+              },
+              "Location": {
+                "ZoneTime": 0.450916,
+                "ZoneSpeed": 124.64745866496,
+                "PlateLocSide": 0.246473472,
+                "PlateLocHeight": 0.828693288
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.817047392,
+                      -38.27890236,
+                      4.313151648
+                    ],
+                    "Y": [
+                      1.795220184,
+                      -0.9617842080000001,
+                      -2.619347568
+                    ],
+                    "Z": [
+                      -0.487021632,
+                      1.174458408,
+                      -1.425180792
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10610,7 +11152,52 @@
           "DefendStationCode": "3B",
           "HitterDefendStation": "5",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.531138384,
+                "RelSpeed": 139.59092581632,
+                "SpinRate": 2271.3237,
+                "Extension": 1.63904676,
+                "RelHeight": 1.775761752
+              },
+              "Location": {
+                "ZoneTime": 0.446442,
+                "ZoneSpeed": 125.50062019968,
+                "PlateLocSide": 0.195715128,
+                "PlateLocHeight": 1.099690968
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.79961588,
+                      -38.640370776,
+                      4.437226584
+                    ],
+                    "Y": [
+                      1.775240544,
+                      -0.291187632,
+                      -2.736168264
+                    ],
+                    "Z": [
+                      -0.529397976,
+                      1.417475448,
+                      -1.50440136
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10651,7 +11238,52 @@
           "DefendStationCode": "1B",
           "HitterDefendStation": "3",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "StrikeCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.527925792,
+                "RelSpeed": 127.321641216,
+                "SpinRate": 2252.622,
+                "Extension": 1.506894624,
+                "RelHeight": 1.760625384
+              },
+              "Location": {
+                "ZoneTime": 0.491437,
+                "ZoneSpeed": 115.92277031808,
+                "PlateLocSide": -0.06231636,
+                "PlateLocHeight": 0.923876232
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.932484296,
+                      -35.26508568000001,
+                      3.440862816
+                    ],
+                    "Y": [
+                      1.76247552,
+                      0.5527212720000001,
+                      -4.599898344000001
+                    ],
+                    "Z": [
+                      -0.528053808,
+                      1.173608016,
+                      0.056580024
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10692,7 +11324,52 @@
           "DefendStationCode": "1B",
           "HitterDefendStation": "3",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "StrikeCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.39774876,
+                "RelSpeed": 139.28355720576,
+                "SpinRate": 2238.696,
+                "Extension": 1.633036104,
+                "RelHeight": 1.808792928
+              },
+              "Location": {
+                "ZoneTime": 0.448965,
+                "ZoneSpeed": 124.68053068416,
+                "PlateLocSide": -0.190167768,
+                "PlateLocHeight": 0.943922928
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.805297352,
+                      -38.511589728,
+                      4.556756952
+                    ],
+                    "Y": [
+                      1.807680408,
+                      -0.9127571280000001,
+                      -2.249920824
+                    ],
+                    "Z": [
+                      -0.395999208,
+                      1.958023008,
+                      -1.456712352
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10733,7 +11410,52 @@
           "DefendStationCode": "1B",
           "HitterDefendStation": "3",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N062485347606397008/56黃紹睿2025.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.406392888,
+                "RelSpeed": 112.1615402688,
+                "SpinRate": 2632.4614,
+                "Extension": 1.547999952,
+                "RelHeight": 1.81868064
+              },
+              "Location": {
+                "ZoneTime": 0.562064,
+                "ZoneSpeed": 101.230151616,
+                "PlateLocSide": -0.381374904,
+                "PlateLocHeight": 0.670715448
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.892607312,
+                      -31.066682088,
+                      3.170017536
+                    ],
+                    "Y": [
+                      1.824298104,
+                      1.381877856,
+                      -6.11823516
+                    ],
+                    "Z": [
+                      -0.408331416,
+                      0.9030980160000001,
+                      0.8957431920000001
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -10777,61 +11499,48 @@
           "Trackman": {
             "Play": {
               "PitchTag": {
-                "PitchCall": "FoulBallNotFieldable",
+                "PitchCall": "BallCalled",
                 "AutoPitchType": "breakingball",
-                "TaggedPitchType": "breakingball"
+                "TaggedPitchType": "fastball"
               }
             },
             "Pitch": {
               "Release": {
-                "RelSide": 0.5821649520000001,
-                "RelSpeed": 130.55857917696,
-                "SpinRate": 1346.8214,
-                "Extension": 1.664973048,
-                "RelHeight": 1.952195232
+                "RelSide": 0.41964864,
+                "RelSpeed": 141.92759674368,
+                "SpinRate": 2359.1943,
+                "Extension": 1.664229336,
+                "RelHeight": 1.810646112
               },
               "Location": {
-                "ZoneTime": 0.472434,
-                "ZoneSpeed": 120.01100297472,
-                "PlateLocSide": 0.365022384,
-                "PlateLocHeight": 0.736256592
+                "ZoneTime": 0.439545,
+                "ZoneSpeed": 126.95171740416,
+                "PlateLocSide": -0.09780422400000001,
+                "PlateLocHeight": 1.196029104
               },
               "Flight": {
                 "PolyFit": {
                   "PitchTrajectory": {
                     "X": [
-                      16.775198352,
-                      -36.16872014400001,
-                      3.340906704
+                      16.774000488,
+                      -39.26154708,
+                      4.743050712000001
                     ],
                     "Y": [
-                      1.952588424,
-                      -0.91153488,
-                      -3.521686632
+                      1.80976524,
+                      -0.312523632,
+                      -2.464234848
                     ],
                     "Z": [
-                      -0.580470264,
-                      1.293123144,
-                      -1.777828296
+                      -0.4180088160000001,
+                      1.7793462,
+                      -1.381051848
                     ]
                   }
                 }
               }
             },
-            "Hit": {
-              "Launch": {
-                "Angle": 39.204395,
-                "Direction": -155.99934,
-                "ExitSpeed": 98.05269500928001,
-                "HitSpinRate": 4166.6924
-              },
-              "LandingFlat": {
-                "Bearing": -159.47551,
-                "Distance": 48.523516872,
-                "HangTime": 2.710033,
-                "Confidence": "Medium"
-              }
-            }
+            "Hit": null
           }
         },
         {
@@ -10878,40 +11587,40 @@
               "PitchTag": {
                 "PitchCall": "BallCalled",
                 "AutoPitchType": "breakingball",
-                "TaggedPitchType": "fastball"
+                "TaggedPitchType": "breakingball"
               }
             },
             "Pitch": {
               "Release": {
-                "RelSide": 0.67110864,
-                "RelSpeed": 142.7978173248,
-                "SpinRate": 2432.0461,
-                "Extension": 1.564529256,
-                "RelHeight": 1.950271944
+                "RelSide": 0.53024532,
+                "RelSpeed": 128.1073229568,
+                "SpinRate": 2303.8347,
+                "Extension": 1.521582936,
+                "RelHeight": 1.754617776
               },
               "Location": {
-                "ZoneTime": 0.439817,
-                "ZoneSpeed": 127.59159257856,
-                "PlateLocSide": 0.896916672,
-                "PlateLocHeight": 1.156200888
+                "ZoneTime": 0.487599,
+                "ZoneSpeed": 117.32042120832,
+                "PlateLocSide": -0.15462504,
+                "PlateLocHeight": 0.4389577200000001
               },
               "Flight": {
                 "PolyFit": {
                   "PitchTrajectory": {
                     "X": [
-                      16.873417104,
-                      -39.5324076,
-                      4.891482216
+                      16.918253184,
+                      -35.484654456,
+                      3.438137904
                     ],
                     "Y": [
-                      1.94925696,
-                      -0.755117616,
-                      -2.381938848
+                      1.75636428,
+                      -0.436705248,
+                      -4.650156816
                     ],
                     "Z": [
-                      -0.668786064,
-                      0.248189496,
-                      -1.745778576
+                      -0.530144736,
+                      1.471373232,
+                      -0.137665968
                     ]
                   }
                 }
@@ -10962,61 +11671,48 @@
           "Trackman": {
             "Play": {
               "PitchTag": {
-                "PitchCall": "InPlay",
+                "PitchCall": "StrikeCalled",
                 "AutoPitchType": "breakingball",
                 "TaggedPitchType": "fastball"
               }
             },
             "Pitch": {
               "Release": {
-                "RelSide": 0.6440911680000001,
-                "RelSpeed": 141.58499959296,
-                "SpinRate": 2436.9011,
-                "Extension": 1.598224896,
-                "RelHeight": 1.945642032
+                "RelSide": 0.41885616,
+                "RelSpeed": 137.45774034432,
+                "SpinRate": 2213.128,
+                "Extension": 1.643579136,
+                "RelHeight": 1.821503088
               },
               "Location": {
-                "ZoneTime": 0.441859,
-                "ZoneSpeed": 127.80727686144,
-                "PlateLocSide": -0.07750759200000001,
-                "PlateLocHeight": 0.563602632
+                "ZoneTime": 0.454488,
+                "ZoneSpeed": 123.24720063744,
+                "PlateLocSide": 0.201984864,
+                "PlateLocHeight": 0.720218016
               },
               "Flight": {
                 "PolyFit": {
                   "PitchTrajectory": {
                     "X": [
-                      16.84128204,
-                      -39.11352096,
-                      4.490917104
+                      16.794644592,
+                      -38.031423048,
+                      4.47109596
                     ],
                     "Y": [
-                      1.945078152,
-                      -2.041178544,
-                      -2.45281704
+                      1.820759376,
+                      -1.269784608,
+                      -2.53276608
                     ],
                     "Z": [
-                      -0.6426708,
-                      2.346722256,
-                      -1.631377992
+                      -0.41746932,
+                      0.974073744,
+                      -1.10255304
                     ]
                   }
                 }
               }
             },
-            "Hit": {
-              "Launch": {
-                "Angle": 24.0164,
-                "Direction": 26.895844,
-                "ExitSpeed": 115.44843226752,
-                "HitSpinRate": 1564.5626
-              },
-              "LandingFlat": {
-                "Bearing": 27.731306,
-                "Distance": 65.306911296,
-                "HangTime": 2.844095,
-                "Confidence": "High"
-              }
-            }
+            "Hit": null
           }
         },
         {

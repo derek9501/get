@@ -3,7 +3,7 @@
     "Game": {
       "GameId": "2026-A-308",
       "SkipTrackman": false,
-      "GameStatus": "SCHEDULED",
+      "GameStatus": "START",
       "Visiting": {
         "Team": {
           "Code": "AKP011",
@@ -13,15 +13,295 @@
         },
         "Score": 0,
         "AccumulationScore": {
-          "W": 0,
-          "L": 0,
+          "W": 16,
+          "L": 18,
           "T": 0
         },
-        "HittingCnt": 0,
-        "ErrorCnt": 0,
-        "Hitters": [],
-        "Pitchers": [],
-        "InningScore": []
+        "HittingCnt": 2,
+        "ErrorCnt": 1,
+        "Hitters": [
+          {
+            "Avg": 0.318,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 1,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000005340",
+            "HitterName": "王博玄",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "1B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.35,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 2,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000007833",
+            "HitterName": "永田颯太郎",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "2B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.283,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 3,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000003649",
+            "HitterName": "吳念庭",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "3B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.286,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 4,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000007239",
+            "HitterName": "魔鷹",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "DH",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 1,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.256,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 5,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000000935",
+            "HitterName": "王柏融",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "LF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.354,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 6,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000003533",
+            "HitterName": "藍寅倫",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "RF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.295,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 7,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000006927",
+            "HitterName": "曾子祐",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "SS",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.244,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 8,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000006929",
+            "HitterName": "紀慶然",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "CF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.238,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 9,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000001258",
+            "HitterName": "劉時豪",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "C",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          }
+        ],
+        "Pitchers": [
+          {
+            "Era": 1.82,
+            "Whip": 1.01,
+            "RunCnt": 2,
+            "TotalL": 0,
+            "TotalS": 0,
+            "TotalW": 0,
+            "BalkCnt": 0,
+            "ErrorCnt": 0,
+            "IsSaveOK": "0",
+            "PitchCnt": 15,
+            "RoleType": "先發",
+            "StrikeCnt": 7,
+            "HittingCnt": 3,
+            "HomeRunCnt": 0,
+            "IsSaveFail": "0",
+            "PitcherAcnt": "0000007053",
+            "PitcherName": "艾速特",
+            "EarnedRunCnt": 1,
+            "StrikeOutCnt": 0,
+            "WildPitchCnt": 0,
+            "HitBYPitchCnt": 0,
+            "ReliefPointCnt": 0,
+            "BasesONBallsCnt": 0,
+            "InningPitchedCnt": 0,
+            "PlateAppearances": 5,
+            "InningPitchedDiv3Cnt": 2,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": true
+          }
+        ],
+        "InningScore": [
+          {
+            "Seq": 1,
+            "Score": "0"
+          }
+        ]
       },
       "Home": {
         "Team": {
@@ -30,17 +310,297 @@
           "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
           "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
         },
-        "Score": 0,
+        "Score": 2,
         "AccumulationScore": {
-          "W": 0,
-          "L": 0,
+          "W": 19,
+          "L": 19,
           "T": 0
         },
-        "HittingCnt": 0,
+        "HittingCnt": 3,
         "ErrorCnt": 0,
-        "Hitters": [],
-        "Pitchers": [],
-        "InningScore": []
+        "Hitters": [
+          {
+            "Avg": 0.264,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 1,
+            "ScoreCnt": 1,
+            "HitterAcnt": "0000005531",
+            "HitterName": "邱智呈",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "CF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 1,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.178,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 2,
+            "ScoreCnt": 1,
+            "HitterAcnt": "0000001339",
+            "HitterName": "林祖傑",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "2B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 1,
+            "StealBaseOKCnt": 1,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.313,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 3,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000001804",
+            "HitterName": "陳傑憲",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "LF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.274,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 4,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000006223",
+            "HitterName": "林子豪",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "1B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.29,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 5,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000002707",
+            "HitterName": "潘傑楷",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "3B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.237,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 6,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000004641",
+            "HitterName": "李丞齡",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "RF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": true
+          },
+          {
+            "Avg": 0.222,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 7,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000006851",
+            "HitterName": "林培緯",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "DH",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.227,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 8,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000007268",
+            "HitterName": "陳聖平",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "SS",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.222,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 9,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000006716",
+            "HitterName": "張翔",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "C",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          }
+        ],
+        "Pitchers": [
+          {
+            "Era": 1.8,
+            "Whip": 0.99,
+            "RunCnt": 0,
+            "TotalL": 0,
+            "TotalS": 0,
+            "TotalW": 0,
+            "BalkCnt": 0,
+            "ErrorCnt": 0,
+            "IsSaveOK": "0",
+            "PitchCnt": 9,
+            "RoleType": "先發",
+            "StrikeCnt": 6,
+            "HittingCnt": 2,
+            "HomeRunCnt": 0,
+            "IsSaveFail": "0",
+            "PitcherAcnt": "0000005731",
+            "PitcherName": "布雷克",
+            "EarnedRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "WildPitchCnt": 0,
+            "HitBYPitchCnt": 0,
+            "ReliefPointCnt": 0,
+            "BasesONBallsCnt": 0,
+            "InningPitchedCnt": 1,
+            "PlateAppearances": 4,
+            "InningPitchedDiv3Cnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          }
+        ],
+        "InningScore": [
+          {
+            "Seq": 1,
+            "Score": "2"
+          }
+        ]
       },
       "Field": {
         "No": "F31",
@@ -51,13 +611,2146 @@
       "PreExeDate": "2026-09-04T18:35:00",
       "Week": 36,
       "InningSeq": 1,
-      "VisitingHomeType": 1,
-      "WinningPitcher": null,
-      "LoserPitcher": null,
+      "VisitingHomeType": 2,
+      "LiveLog": [
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "擊出中外野平飛球，一壘安打 。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 1,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000005340",
+          "HitterName": "王博玄",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110001000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0N062494325095917865/6王博玄2025.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "6",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.395328648,
+                "RelSpeed": 140.879559744,
+                "SpinRate": 2252.3423,
+                "Extension": 1.863312504,
+                "RelHeight": 2.125230192
+              },
+              "Location": {
+                "ZoneTime": 0.435224,
+                "ZoneSpeed": 127.73147675904,
+                "PlateLocSide": 0.204036168,
+                "PlateLocHeight": 0.8441984640000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.79387082672,
+                      -39.0198864,
+                      4.3278933
+                    ],
+                    "Y": [
+                      2.1360553176192,
+                      -2.13947203296,
+                      -1.789727688
+                    ],
+                    "Z": [
+                      -0.3995357560704,
+                      0.94342683552,
+                      -1.138513344
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 9.812381,
+                "Direction": -1.652353,
+                "ExitSpeed": 150.77354916096,
+                "HitSpinRate": 3046.8901
+              },
+              "LandingFlat": {
+                "Bearing": -1.340406,
+                "Distance": 50.391053904,
+                "HangTime": 1.441289,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 2,
+          "FirstBase": "1",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000007833",
+          "HitterName": "永田颯太郎",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110002000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/theme/client/images/player_no_img.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "95",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": null
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "投手牽制一壘跑者",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 2,
+          "FirstBase": "1",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000007833",
+          "HitterName": "永田颯太郎",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110003000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/theme/client/images/player_no_img.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "3",
+          "HitterUniformNo": "95",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": null
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 3,
+          "FirstBase": "1",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000007833",
+          "HitterName": "永田颯太郎",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110004000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/theme/client/images/player_no_img.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "95",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": null
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "揮棒落空。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 4,
+          "FirstBase": "1",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000007833",
+          "HitterName": "永田颯太郎",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110005000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/theme/client/images/player_no_img.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "95",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": null
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "擊出左外野滾地球，一壘安打 。 一壘跑者王博玄 上二壘。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 5,
+          "FirstBase": "1",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000007833",
+          "HitterName": "永田颯太郎",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110006000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/theme/client/images/player_no_img.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "95",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": null
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 6,
+          "FirstBase": "2",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "趁傳",
+          "HitterAcnt": "0000003649",
+          "HitterName": "吳念庭",
+          "IsScoreCnt": "0",
+          "SecondBase": "1",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110007000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0O194044076909723984/39吳念庭2025.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "39",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.482272848,
+                "RelSpeed": 141.881376384,
+                "SpinRate": 2077.3367,
+                "Extension": 1.891274856,
+                "RelHeight": 2.06786988
+              },
+              "Location": {
+                "ZoneTime": 0.431192,
+                "ZoneSpeed": 128.73636724608,
+                "PlateLocSide": 0.243074952,
+                "PlateLocHeight": 0.8318662560000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8052067434944,
+                      -39.304086918719996,
+                      4.347958284000001
+                    ],
+                    "Y": [
+                      2.0797428690048,
+                      -1.9639906262399998,
+                      -2.023457472
+                    ],
+                    "Z": [
+                      -0.4884870982080001,
+                      1.1742444384,
+                      -1.40443458
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "擊出內野滾地球，趁傳上壘。(統一7-ELEVEn獅重播輔助判決-原判) 一壘跑者永田颯太郎-游擊手  傳二壘手封殺出局 1人出局。 二壘跑者王博玄 上三壘。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 7,
+          "FirstBase": "2",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "趁傳",
+          "HitterAcnt": "0000003649",
+          "HitterName": "吳念庭",
+          "IsScoreCnt": "0",
+          "SecondBase": "1",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110008000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0O194044076909723984/39吳念庭2025.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "39",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.321140328,
+                "RelSpeed": 131.4971646912,
+                "SpinRate": 1089.4536,
+                "Extension": 1.986979008,
+                "RelHeight": 2.115443064
+              },
+              "Location": {
+                "ZoneTime": 0.462998,
+                "ZoneSpeed": 119.1487486464,
+                "PlateLocSide": 0.132667248,
+                "PlateLocHeight": 0.9595530720000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.692408437011203,
+                      -36.467481202559995,
+                      3.931756932
+                    ],
+                    "Y": [
+                      2.1219299736576,
+                      -0.9375543148799999,
+                      -3.275435664
+                    ],
+                    "Z": [
+                      -0.32623225827839997,
+                      0.96226591392,
+                      -1.176491424
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 6.648207,
+                "Direction": -10.182817,
+                "ExitSpeed": 145.76869853568,
+                "HitSpinRate": 1114.303
+              },
+              "LandingFlat": {
+                "Bearing": -13.863672,
+                "Distance": 39.333674952,
+                "HangTime": 1.097029,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 8,
+          "FirstBase": "3",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "1",
+          "ActionName": "雙殺打 刺殺",
+          "HitterAcnt": "0000007239",
+          "HitterName": "魔鷹",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110009000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 4,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0O086380552430643341/94魔鷹2025.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "94",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "雙殺",
+          "DefendStationCode": "DH",
+          "HitterDefendStation": "0",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.364461552,
+                "RelSpeed": 130.38885775872,
+                "SpinRate": 918.64355,
+                "Extension": 1.791855192,
+                "RelHeight": 2.127949008
+              },
+              "Location": {
+                "ZoneTime": 0.471658,
+                "ZoneSpeed": 119.33948809728,
+                "PlateLocSide": 0.331518768,
+                "PlateLocHeight": 0.532357584
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.679304638784,
+                      -36.1306914672,
+                      3.7018874400000006
+                    ],
+                    "Y": [
+                      2.1307888052159996,
+                      -1.2044190287999998,
+                      -4.61327754
+                    ],
+                    "Z": [
+                      -0.3635644012416,
+                      0.69310288608,
+                      -1.326221376
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "擊出內野滾地球， 一壘跑者吳念庭-二壘手  傳游擊手封殺出局 2人出局。 打者出局-雙殺打。 3人出局。三壘殘壘。\r\n",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 9,
+          "FirstBase": "3",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "1",
+          "ActionName": "雙殺打 刺殺",
+          "HitterAcnt": "0000007239",
+          "HitterName": "魔鷹",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000006716",
+          "CatcherName": "張翔",
+          "MainEventNo": "0110010000",
+          "PitcherAcnt": "0000005731",
+          "PitcherName": "布雷克",
+          "BattingOrder": 4,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0O086380552430643341/94魔鷹2025.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "94",
+          "CatcherUniformNo": "4",
+          "PitcherUniformNo": "50",
+          "VisitingHomeType": "1",
+          "BattingActionName": "雙殺",
+          "DefendStationCode": "DH",
+          "HitterDefendStation": "0",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L088851516909723984/50布雷克.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.343884504,
+                "RelSpeed": 129.2274263808,
+                "SpinRate": 876.99536,
+                "Extension": 1.867146888,
+                "RelHeight": 2.12149944
+              },
+              "Location": {
+                "ZoneTime": 0.473223,
+                "ZoneSpeed": 118.19308799232,
+                "PlateLocSide": 0.32817816,
+                "PlateLocHeight": 0.8026267920000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.6681109904576,
+                      -35.848593458879996,
+                      3.6454674360000006
+                    ],
+                    "Y": [
+                      2.1244375461888,
+                      -0.46907586143999996,
+                      -4.859834832000001
+                    ],
+                    "Z": [
+                      -0.3444253313664,
+                      0.72614893632,
+                      -1.461281304
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 1.551894,
+                "Direction": 24.985146,
+                "ExitSpeed": 153.20951661312,
+                "HitSpinRate": 1950.6456
+              },
+              "LandingFlat": {
+                "Bearing": 25.127556,
+                "Distance": 28.776570336,
+                "HangTime": 0.727826,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 1,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000005531",
+          "HitterName": "邱智呈",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120001000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853811359500564/14邱智呈2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "14",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.6687159600000001,
+                "RelSpeed": 143.40827369088,
+                "SpinRate": 2441.7222,
+                "Extension": 1.695261024,
+                "RelHeight": 1.845271392
+              },
+              "Location": {
+                "ZoneTime": 0.433231,
+                "ZoneSpeed": 128.90042377344,
+                "PlateLocSide": 0.039691056,
+                "PlateLocHeight": 1.270714248
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.819336856966398,
+                      -39.66837534432001,
+                      4.623848004
+                    ],
+                    "Y": [
+                      1.844924749056,
+                      -0.2829903408000001,
+                      -2.38027464
+                    ],
+                    "Z": [
+                      0.6713864786112,
+                      -2.47000995456,
+                      1.9253347320000005
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "擊出右外野滾地球，一壘安打 。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 2,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000005531",
+          "HitterName": "邱智呈",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120002000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853811359500564/14邱智呈2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "14",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.7527676080000001,
+                "RelSpeed": 136.89276403968,
+                "SpinRate": 2462.0933,
+                "Extension": 1.737865968,
+                "RelHeight": 1.759211112
+              },
+              "Location": {
+                "ZoneTime": 0.448131,
+                "ZoneSpeed": 125.92315346688,
+                "PlateLocSide": -0.0630174,
+                "PlateLocHeight": 0.759040392
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.750914126451203,
+                      -37.91614073856001,
+                      3.5821894320000003
+                    ],
+                    "Y": [
+                      1.7602973655552,
+                      -0.74935421376,
+                      -3.290578128
+                    ],
+                    "Z": [
+                      0.7546296409536001,
+                      -1.85565031968,
+                      0.707637396
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 8.458257,
+                "Direction": 22.675934,
+                "ExitSpeed": 153.13904343936,
+                "HitSpinRate": 1298.6504
+              },
+              "LandingFlat": {
+                "Bearing": 24.741098,
+                "Distance": 40.4970996,
+                "HangTime": 1.069336,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 3,
+          "FirstBase": "1",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000001339",
+          "HitterName": "林祖傑",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120003000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782021106572224/39林祖傑2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "39",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.771332976,
+                "RelSpeed": 137.06977578624,
+                "SpinRate": 2507.484,
+                "Extension": 1.669874232,
+                "RelHeight": 1.750646232
+              },
+              "Location": {
+                "ZoneTime": 0.449936,
+                "ZoneSpeed": 125.48732701824,
+                "PlateLocSide": -0.144469104,
+                "PlateLocHeight": 1.055726616
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.752908115859203,
+                      -37.970809056960015,
+                      3.702654012
+                    ],
+                    "Y": [
+                      1.7504797039103999,
+                      -0.15996586751999994,
+                      -3.0824332560000003
+                    ],
+                    "Z": [
+                      0.7711384843392001,
+                      -1.2495200409599998,
+                      -0.32249668800000003
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "好球沒揮棒。 一壘跑者邱智呈 盜壘上二壘。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 4,
+          "FirstBase": "1",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000001339",
+          "HitterName": "林祖傑",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120004000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782021106572224/39林祖傑2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "2",
+          "HitterUniformNo": "39",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.7303891920000001,
+                "RelSpeed": 136.87718558976,
+                "SpinRate": 2579.155,
+                "Extension": 1.665262608,
+                "RelHeight": 1.790337288
+              },
+              "Location": {
+                "ZoneTime": 0.449033,
+                "ZoneSpeed": 126.67136967936,
+                "PlateLocSide": 0.009101328,
+                "PlateLocHeight": 0.67610736
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.7506068148992,
+                      -37.89991257696,
+                      3.3685551120000006
+                    ],
+                    "Y": [
+                      1.789716824928,
+                      -1.0540617983999998,
+                      -3.18821562
+                    ],
+                    "Z": [
+                      0.7291014900288001,
+                      -1.75764834144,
+                      0.249032268
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "擊出右外野滾地球，一壘安打 。1分打點。 二壘跑者邱智呈回本壘得分。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 5,
+          "FirstBase": "",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000001339",
+          "HitterName": "林祖傑",
+          "IsScoreCnt": "1",
+          "SecondBase": "1",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120005000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782021106572224/39林祖傑2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "39",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.7231837200000001,
+                "RelSpeed": 138.84715139328,
+                "SpinRate": 984.45746,
+                "Extension": 1.729203552,
+                "RelHeight": 1.796741136
+              },
+              "Location": {
+                "ZoneTime": 0.44607,
+                "ZoneSpeed": 125.93298655872,
+                "PlateLocSide": -0.071070216,
+                "PlateLocHeight": 0.524716248
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.7702141356032,
+                      -38.42809562016,
+                      4.318555752
+                    ],
+                    "Y": [
+                      1.7993921010816,
+                      -0.7291515820799999,
+                      -4.741203624000001
+                    ],
+                    "Z": [
+                      0.7250245364352002,
+                      -2.42833586976,
+                      2.171666472
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": -8.383919,
+                "Direction": 25.80346,
+                "ExitSpeed": 139.99453319808
+              },
+              "LandingFlat": {
+                "Bearing": 25.269026,
+                "Distance": 3.707047704,
+                "HangTime": 0.089977,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 6,
+          "FirstBase": "2",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "飛球接殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120006000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "中飛",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.807061632,
+                "RelSpeed": 127.5285223872,
+                "SpinRate": 2623.1414,
+                "Extension": 1.541925288,
+                "RelHeight": 1.711259976
+              },
+              "Location": {
+                "ZoneTime": 0.490586,
+                "ZoneSpeed": 116.3871143424,
+                "PlateLocSide": 0.412875984,
+                "PlateLocHeight": 0.5978652
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.644614302272,
+                      -35.2579814016,
+                      3.5655961200000004
+                    ],
+                    "Y": [
+                      1.7128444531968,
+                      -0.05560490784000005,
+                      -4.6617605520000005
+                    ],
+                    "Z": [
+                      0.7948705366464002,
+                      -1.91799923232,
+                      -1.205299596
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 7,
+          "FirstBase": "2",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "飛球接殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120007000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "中飛",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.756160032,
+                "RelSpeed": 140.7232119744,
+                "SpinRate": 2475.9797,
+                "Extension": 1.673464776,
+                "RelHeight": 1.765334544
+              },
+              "Location": {
+                "ZoneTime": 0.43839,
+                "ZoneSpeed": 129.97042831872,
+                "PlateLocSide": 0.544869624,
+                "PlateLocHeight": 0.407118312
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.7887225572096,
+                      -38.864474244480014,
+                      3.6602578560000003
+                    ],
+                    "Y": [
+                      1.7664034995456002,
+                      -1.66851592128,
+                      -3.2540691840000004
+                    ],
+                    "Z": [
+                      0.757662244896,
+                      -3.1871978928,
+                      0.50271426
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "擊出中外野高飛球， 打者-中外野手 飛球接殺出局。 1人出局。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 8,
+          "FirstBase": "2",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "飛球接殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120008000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "中飛",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.782415504,
+                "RelSpeed": 138.18223482624,
+                "SpinRate": 2461.7896,
+                "Extension": 1.69170096,
+                "RelHeight": 1.751484432
+              },
+              "Location": {
+                "ZoneTime": 0.444765,
+                "ZoneSpeed": 127.49969903616,
+                "PlateLocSide": 0.109411008,
+                "PlateLocHeight": 0.7960400639999999
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.764958313145602,
+                      -38.26624511328,
+                      3.5571821160000003
+                    ],
+                    "Y": [
+                      1.752161307456,
+                      -0.46427928479999997,
+                      -3.7836500400000004
+                    ],
+                    "Z": [
+                      0.783221687808,
+                      -2.0860780223999997,
+                      0.18260568
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 27.594757,
+                "Direction": -4.9679,
+                "ExitSpeed": 148.88530584576,
+                "HitSpinRate": 2808.3164
+              },
+              "LandingFlat": {
+                "Bearing": -11.470988,
+                "Distance": 106.97690568,
+                "HangTime": 4.537531,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 9,
+          "FirstBase": "2",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 內野安打",
+          "HitterAcnt": "0000006223",
+          "HitterName": "林子豪",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120009000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 4,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853140534315264/2林子豪2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "內安",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.8180191920000001,
+                "RelSpeed": 126.24465211776,
+                "SpinRate": 2702.1997,
+                "Extension": 1.496839272,
+                "RelHeight": 1.675909272
+              },
+              "Location": {
+                "ZoneTime": 0.497604,
+                "ZoneSpeed": 114.276701088,
+                "PlateLocSide": 0.061990224,
+                "PlateLocHeight": 0.973202016
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.6307628150144,
+                      -34.91387268672001,
+                      3.620057784
+                    ],
+                    "Y": [
+                      1.6833051903551999,
+                      0.63157876224,
+                      -4.2689480280000005
+                    ],
+                    "Z": [
+                      0.8136820367424,
+                      -0.8189837011200001,
+                      -1.996880436
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 10,
+          "FirstBase": "2",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 內野安打",
+          "HitterAcnt": "0000006223",
+          "HitterName": "林子豪",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120010000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 4,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853140534315264/2林子豪2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "內安",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.8378952000000001,
+                "RelSpeed": 129.01954741632,
+                "SpinRate": 2716.789,
+                "Extension": 1.728913992,
+                "RelHeight": 1.690749984
+              },
+              "Location": {
+                "ZoneTime": 0.480786,
+                "ZoneSpeed": 117.8689982976,
+                "PlateLocSide": 0.8107253280000001,
+                "PlateLocHeight": 0.348672912
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.659892624166403,
+                      -35.64722514432,
+                      3.7477385040000004
+                    ],
+                    "Y": [
+                      1.6918596827712002,
+                      -0.5556586905600001,
+                      -4.690044468
+                    ],
+                    "Z": [
+                      0.8355840747264002,
+                      -2.82451405632,
+                      -1.275670296
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 1,
+          "BallCnt": 2,
+          "Content": "壞球。 一壘跑者林祖傑 盜壘上二壘。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 11,
+          "FirstBase": "2",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 內野安打",
+          "HitterAcnt": "0000006223",
+          "HitterName": "林子豪",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120011000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 4,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853140534315264/2林子豪2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "2",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "內安",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.7803489600000001,
+                "RelSpeed": 128.13873735168,
+                "SpinRate": 2691.9854,
+                "Extension": 1.652177544,
+                "RelHeight": 1.703365656
+              },
+              "Location": {
+                "ZoneTime": 0.487281,
+                "ZoneSpeed": 115.96234408704,
+                "PlateLocSide": 0.488283504,
+                "PlateLocHeight": 0.5930981280000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.651571788992,
+                      -35.44649105760001,
+                      3.92990832
+                    ],
+                    "Y": [
+                      1.7057788502592,
+                      0.02096255904000005,
+                      -4.807895388
+                    ],
+                    "Z": [
+                      0.7761245514816,
+                      -1.77809639808,
+                      -1.736294724
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 2,
+          "Content": "擊出內野滾地球，擊出一壘方向內野安打。 二壘跑者林祖傑 上三壘。 三壘跑者林祖傑 因一壘手  傳投手失誤回本壘得分。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 12,
+          "FirstBase": "",
+          "HomeScore": 2,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 內野安打",
+          "HitterAcnt": "0000006223",
+          "HitterName": "林子豪",
+          "IsScoreCnt": "1",
+          "SecondBase": "2",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120012000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 4,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853140534315264/2林子豪2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "內安",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.767763768,
+                "RelSpeed": 136.89649771776,
+                "SpinRate": 2505.8696,
+                "Extension": 1.595594472,
+                "RelHeight": 1.757754168
+              },
+              "Location": {
+                "ZoneTime": 0.45179,
+                "ZoneSpeed": 125.85894064128,
+                "PlateLocSide": -0.056104536,
+                "PlateLocHeight": 1.046780736
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.7510001532032,
+                      -37.917863468160014,
+                      3.571490952
+                    ],
+                    "Y": [
+                      1.7581396595328,
+                      0.026110143360000004,
+                      -3.583545792
+                    ],
+                    "Z": [
+                      0.7643688812160002,
+                      -1.4665683648,
+                      -0.24553164
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 5.539211,
+                "Direction": 37.05047,
+                "ExitSpeed": 138.8041497216,
+                "HitSpinRate": 2241.2278
+              },
+              "LandingFlat": {
+                "Bearing": 38.67551,
+                "Distance": 34.466308512,
+                "HangTime": 0.997433,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 13,
+          "FirstBase": "4",
+          "HomeScore": 2,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "飛球接殺",
+          "HitterAcnt": "0000002707",
+          "HitterName": "潘傑楷",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120013000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 5,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782080976485061/35潘傑楷2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "35",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "左飛",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.753810024,
+                "RelSpeed": 138.13001161344,
+                "SpinRate": 2397.6963,
+                "Extension": 1.654597656,
+                "RelHeight": 1.761140496
+              },
+              "Location": {
+                "ZoneTime": 0.448691,
+                "ZoneSpeed": 126.31237331328,
+                "PlateLocSide": 0.403893528,
+                "PlateLocHeight": 0.608164392
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.760796149664003,
+                      -38.1748509552,
+                      3.8736803400000004
+                    ],
+                    "Y": [
+                      1.760421753216,
+                      -1.1684709168,
+                      -3.13168284
+                    ],
+                    "Z": [
+                      0.7521026709504,
+                      -2.63687125152,
+                      0.127186944
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 1,
+          "BallCnt": 2,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 14,
+          "FirstBase": "4",
+          "HomeScore": 2,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "飛球接殺",
+          "HitterAcnt": "0000002707",
+          "HitterName": "潘傑楷",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120014000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 5,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782080976485061/35潘傑楷2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "35",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "左飛",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.762371856,
+                "RelSpeed": 138.12622965504,
+                "SpinRate": 2452.431,
+                "Extension": 1.686708336,
+                "RelHeight": 1.727417424
+              },
+              "Location": {
+                "ZoneTime": 0.447914,
+                "ZoneSpeed": 126.15369199488,
+                "PlateLocSide": 0.473698824,
+                "PlateLocHeight": 0.747205008
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.7603609025792,
+                      -38.16336950496,
+                      3.858673512
+                    ],
+                    "Y": [
+                      1.7274286845312,
+                      -0.85639265856,
+                      -2.9697913680000005
+                    ],
+                    "Z": [
+                      0.7626593067840001,
+                      -2.9354934432,
+                      0.39476934
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 2,
+          "Content": "擊出左外野高飛球， 打者-左外野手 飛球接殺出局。 2人出局。",
+          "GameSno": 308,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 15,
+          "FirstBase": "4",
+          "HomeScore": 2,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "飛球接殺",
+          "HitterAcnt": "0000002707",
+          "HitterName": "潘傑楷",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120015000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 5,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782080976485061/35潘傑楷2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "35",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "左飛",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.672599112,
+                "RelSpeed": 146.62308317184,
+                "SpinRate": 2383.3523,
+                "Extension": 1.73935644,
+                "RelHeight": 1.829784504
+              },
+              "Location": {
+                "ZoneTime": 0.423034,
+                "ZoneSpeed": 131.68373594112,
+                "PlateLocSide": 0.013295376,
+                "PlateLocHeight": 0.9541276320000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8549881181504,
+                      -40.57198054752,
+                      4.931939844
+                    ],
+                    "Y": [
+                      1.8334458591360001,
+                      -1.2292449887999999,
+                      -1.94006724
+                    ],
+                    "Z": [
+                      0.6803510123712,
+                      -2.49337592256,
+                      2.044435332
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 2,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 308,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 16,
+          "FirstBase": "4",
+          "HomeScore": 2,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "",
+          "HitterAcnt": "0000004641",
+          "HitterName": "李丞齡",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000001258",
+          "CatcherName": "劉時豪",
+          "MainEventNo": "0120016000",
+          "PitcherAcnt": "0000007053",
+          "PitcherName": "艾速特",
+          "BattingOrder": 6,
+          "HitterLineup": 6,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088852107098961110/6李丞齡2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "6",
+          "CatcherUniformNo": "60",
+          "PitcherUniformNo": "30",
+          "VisitingHomeType": "2",
+          "BattingActionName": "",
+          "DefendStationCode": "RF",
+          "HitterDefendStation": "9",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0N235644011761778473/30艾速特2025.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.742837224,
+                "RelSpeed": 138.62477223936,
+                "SpinRate": 1098.8696,
+                "Extension": 1.736274912,
+                "RelHeight": 1.747522032
+              },
+              "Location": {
+                "ZoneTime": 0.447696,
+                "ZoneSpeed": 124.39855752192,
+                "PlateLocSide": -0.213774528,
+                "PlateLocHeight": 1.027148568
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.767487984896,
+                      -38.3669974848,
+                      4.49494656
+                    ],
+                    "Y": [
+                      1.748086472832,
+                      0.05630509440000003,
+                      -3.69588288
+                    ],
+                    "Z": [
+                      0.7441760909184,
+                      -1.85257756992,
+                      1.498817424
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        }
+      ],
+      "WinningPitcher": {
+        "Acnt": "",
+        "Name": ""
+      },
+      "LoserPitcher": {
+        "Acnt": "",
+        "Name": ""
+      },
       "Closer": null,
-      "Referee": [],
-      "LiveLog": [],
-      "MVP": null
+      "MVP": null,
+      "Referee": [
+        {
+          "Job": "主審",
+          "Name": "邱景彥"
+        },
+        {
+          "Job": "一壘審",
+          "Name": "蔡豐澤"
+        },
+        {
+          "Job": "二壘審",
+          "Name": "陳均瑋"
+        },
+        {
+          "Job": "三壘審",
+          "Name": "紀華文"
+        },
+        {
+          "Job": "左線審",
+          "Name": ""
+        },
+        {
+          "Job": "右線審",
+          "Name": ""
+        }
+      ]
     }
   }
 }
