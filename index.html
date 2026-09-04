@@ -3,257 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPBL 賽程查詢</title>
+    <title>CPBL 賽事資訊與對戰歷史</title>
     <style>
+        :root {
+            --primary-color: #003865;
+            --secondary-color: #05549e;
+            --bg-color: #f4f6f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
             margin: 0;
             padding: 20px;
-            background-color: #f4f6f9;
-            color: #333;
         }
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            background: #fff;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
         h1 {
             text-align: center;
-            color: #1a365d;
-            margin-bottom: 25px;
-        }
-        .filter-section {
-            display: flex;
-            gap: 12px;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 25px;
-            flex-wrap: wrap;
-        }
-        select, button {
-            padding: 10px 16px;
-            font-size: 16px;
-            border-radius: 6px;
-            border: 1px solid #cbd5e1;
-            outline: none;
-        }
-        button {
-            background-color: #2563eb;
-            color: white;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-        button:hover {
-            background-color: #1d4ed8;
-        }
-        button.btn-today {
-            background-color: #059669;
-        }
-        button.btn-today:hover {
-            background-color: #047857;
+            color: var(--primary-color);
         }
         .game-card {
-            border: 1px solid #e2e8f0;
+            background: var(--card-bg);
             border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 15px;
-            background-color: #fafafa;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .game-header {
             display: flex;
             justify-content: space-between;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
             font-weight: bold;
-            color: #64748b;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 8px;
         }
-        .teams-container {
+        .team-vs {
             display: flex;
-            justify-content: space-around;
             align-items: center;
-            font-size: 18px;
-            font-weight: 600;
+            justify-content: space-around;
+            font-size: 1.2em;
+            margin-bottom: 15px;
         }
-        .team {
-            flex: 1;
+        .history-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .history-table th, .history-table td {
+            border: 1px solid var(--border-color);
+            padding: 8px;
             text-align: center;
+            font-size: 0.9em;
         }
-        .vs {
-            color: #94a3b8;
-            font-size: 14px;
-        }
-        .no-data {
-            text-align: center;
-            color: #94a3b8;
-            padding: 30px 0;
-        }
-        .loading {
-            text-align: center;
-            color: #2563eb;
-            padding: 20px 0;
+        .history-table th {
+            background-color: #f0f4f8;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>CPBL 賽程查詢</h1>
-        
-        <div class="filter-section">
-            <button class="btn-today" onclick="loadTodaySchedule()">查看今日賽程</button>
-
-            <span style="color: #cbd5e1;">|</span>
-
-            <label for="yearSelect">年份：</label>
-            <select id="yearSelect"></select>
-            
-            <label for="monthSelect">月份：</label>
-            <select id="monthSelect"></select>
-            
-            <button onclick="loadMonthlySchedule()">查詢整月歷史賽程</button>
-        </div>
-
-        <div id="scheduleContainer">
-            <div class="loading">載入賽程資料中...</div>
-        </div>
+        <h1>CPBL 賽事歷史對戰數據</h1>
+        <div id="content"></div>
     </div>
-
-    <script>
-        const today = new Date();
-        const currentYear = today.getFullYear();
-        const currentMonth = today.getMonth() + 1;
-        const currentDayStr = today.toISOString().split('T')[0]; // YYYY-MM-DD
-
-        function initSelects() {
-            const yearSelect = document.getElementById('yearSelect');
-            const monthSelect = document.getElementById('monthSelect');
-
-            for (let y = currentYear; y >= currentYear - 2; y--) {
-                const opt = document.createElement('option');
-                opt.value = y;
-                opt.textContent = `${y} 年`;
-                yearSelect.appendChild(opt);
-            }
-
-            for (let m = 1; m <= 12; m++) {
-                const opt = document.createElement('option');
-                opt.value = m;
-                opt.textContent = `${m} 月`;
-                if (m === currentMonth) opt.selected = true;
-                monthSelect.appendChild(opt);
-            }
-        }
-
-        // 1. 查看該日 (今日) 賽程：從 schedule/{year}/{month}.json 讀取
-        async function loadTodaySchedule() {
-            const container = document.getElementById('scheduleContainer');
-            container.innerHTML = `<div class="loading">讀取今日賽程 (${currentDayStr})...</div>`;
-
-            const schedulePath = `schedule/${currentYear}/${currentMonth}.json`;
-
-            try {
-                const response = await fetch(schedulePath);
-                if (!response.ok) {
-                    throw new Error('找不到該月份的賽程資料');
-                }
-                const data = await response.json();
-                
-                if (data[currentDayStr]) {
-                    const todayData = {};
-                    todayData[currentDayStr] = data[currentDayStr];
-                    renderSchedule(todayData);
-                } else {
-                    container.innerHTML = `<div class="no-data">今日 (${currentDayStr}) 無賽程資料</div>`;
-                }
-            } catch (error) {
-                container.innerHTML = `<div class="no-data">無法取得今日賽程 (${error.message})</div>`;
-            }
-        }
-
-        // 2. 其他月份與歷史查詢：維持原狀，從 history/A/{year}/{month}.json 讀取
-        async function loadMonthlySchedule() {
-            const year = document.getElementById('yearSelect').value;
-            const month = document.getElementById('monthSelect').value;
-            const container = document.getElementById('scheduleContainer');
-
-            container.innerHTML = `<div class="loading">讀取 ${year} 年 ${month} 月歷史賽程中...</div>`;
-
-            const historyPath = `history/A/${year}/${month}.json`;
-
-            try {
-                const response = await fetch(historyPath);
-                if (!response.ok) {
-                    throw new Error('找不到歷史賽程資料');
-                }
-                const data = await response.json();
-                renderSchedule(data);
-            } catch (error) {
-                container.innerHTML = `<div class="no-data">尚未有 ${year} 年 ${month} 月的歷史賽程資料 (${error.message})</div>`;
-            }
-        }
-
-        function renderSchedule(data) {
-            const container = document.getElementById('scheduleContainer');
-            container.innerHTML = '';
-
-            const dates = Object.keys(data).sort();
-            if (dates.length === 0) {
-                container.innerHTML = '<div class="no-data">無賽程資料</div>';
-                return;
-            }
-
-            dates.forEach(date => {
-                const dayData = data[date];
-                const games = dayData.games || [];
-
-                const dateHeader = document.createElement('h3');
-                dateHeader.textContent = `📅 ${date}`;
-                dateHeader.style.marginTop = '20px';
-                dateHeader.style.color = '#0f172a';
-                container.appendChild(dateHeader);
-
-                if (games.length === 0) {
-                    const emptyCard = document.createElement('div');
-                    emptyCard.className = 'game-card';
-                    emptyCard.textContent = '本日無比賽安排';
-                    container.appendChild(emptyCard);
-                    return;
-                }
-
-                games.forEach(game => {
-                    const card = document.createElement('div');
-                    card.className = 'game-card';
-                    
-                    const location = game.LocationName || game.Location || '未定';
-                    const time = game.GameTime || game.Time || '';
-                    const homeTeam = game.HomeTeamName || game.HomeTeam || '主隊';
-                    const awayTeam = game.AwayTeamName || game.AwayTeam || '客隊';
-                    const homeScore = game.HomeScore !== undefined ? game.HomeScore : '';
-                    const awayScore = game.AwayScore !== undefined ? game.AwayScore : '';
-
-                    card.innerHTML = `
-                        <div class="game-header">
-                            <span>場次 #${game.GameSno || ''} | ${location}</span>
-                            <span>${time}</span>
-                        </div>
-                        <div class="teams-container">
-                            <div class="team">${awayTeam} ${awayScore}</div>
-                            <div class="vs">VS</div>
-                            <div class="team">${homeTeam} ${homeScore}</div>
-                        </div>
-                    `;
-                    container.appendChild(card);
-                });
-            });
-        }
-
-        // 初始化選單並預設載入當日賽程 (從 schedule/ 讀取)
-        initSelects();
-        loadTodaySchedule();
-    </script>
 </body>
 </html>
