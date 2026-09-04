@@ -13,7 +13,7 @@ def fetch_today_schedule(target_date):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
-        "Referer": "https://www.cpbl.com.tw/"
+        "Referer": "https://stats.cpbl.com.tw/"
     }
 
     try:
