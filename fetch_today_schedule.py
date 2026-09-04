@@ -15,10 +15,11 @@ def fetch_today_schedule():
 
     print(f"Fetching schedule for date: {date_str}")
 
-    # CPBL API URL (抓取當天賽程)
-    url = f"https://www.cpbl.com.tw/api/getschedule?date={date_str}"
+    # 還原原本的 CPBL API URL 與 Headers
+    url = f"https://www.cpbl.com.tw/schedule/getgames?date={date_str}"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+        "Referer": "https://www.cpbl.com.tw/schedule",
     }
 
     try:
@@ -29,7 +30,7 @@ def fetch_today_schedule():
         print(f"Error fetching data from API: {e}")
         data = []
 
-    # 1. 寫入 today_schedule.json (供首頁或當日即時資訊使用)
+    # 1. 寫入 today_schedule.json
     today_file = "today_schedule.json"
     with open(today_file, "w", encoding="utf-8") as f:
         json.dump(
@@ -58,7 +59,6 @@ def fetch_today_schedule():
             print(f"Error reading existing schedule file {schedule_file_path}: {e}")
             schedule_data = {}
 
-    # 以日期為 key 儲存或更新當日賽程資料
     schedule_data[date_str] = {
         "updated_at": today.strftime("%Y-%m-%d %H:%M:%S"),
         "games": data,
@@ -68,7 +68,7 @@ def fetch_today_schedule():
         json.dump(schedule_data, f, ensure_ascii=False, indent=2)
     print(f"Successfully saved schedule data to {schedule_file_path}")
 
-    # 3. 同步寫入 history 資料夾 (保持歷史檔案備份)
+    # 3. 同步寫入 history 資料夾 (history/A/{year}/{month}.json)
     history_dir = os.path.join("history", "A", year_str)
     os.makedirs(history_dir, exist_ok=True)
     history_file_path = os.path.join(history_dir, f"{month_str}.json")
