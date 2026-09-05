@@ -1,15 +1,15 @@
 {
   "Data": {
     "Game": {
-      "GameId": "2026-A-313",
+      "GameId": "2026-D-236",
       "SkipTrackman": false,
       "GameStatus": "SCHEDULED",
       "Visiting": {
         "Team": {
-          "Code": "AJL011",
-          "Name": "樂天桃猿",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
+          "Code": "AAA022",
+          "Name": "味全龍二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
         },
         "Score": 0,
         "AccumulationScore": {
@@ -25,10 +25,10 @@
       },
       "Home": {
         "Team": {
-          "Code": "AEO011",
-          "Name": "富邦悍將",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
+          "Code": "ADD022",
+          "Name": "統一7-ELEVEn獅二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
         },
         "Score": 0,
         "AccumulationScore": {
@@ -43,12 +43,12 @@
         "InningScore": []
       },
       "Field": {
-        "No": "F29",
-        "Abbe": "大巨蛋"
+        "No": "F13",
+        "Abbe": "斗六"
       },
-      "KindCode": "A",
-      "GameSno": 313,
-      "PreExeDate": "2026-09-06T16:05:00",
+      "KindCode": "D",
+      "GameSno": 236,
+      "PreExeDate": "2026-09-06T14:05:00",
       "Week": 36,
       "InningSeq": 1,
       "VisitingHomeType": 1,
