@@ -1,42 +1,56 @@
-name: Update CPBL Live Score
+name: CPBL 自動更新
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 每 5 分鐘自動執行一次
-  workflow_dispatch:        # 支援在 GitHub 頁面手動觸發
-  push:
-    branches: [ main ]     # 變更推送到 main 分支時觸發
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 concurrency:
-  group: cpbl-update
-  cancel-in-progress: true
+  group: cpbl-auto-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
 
-      - name: Set up Python
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 設定 Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install requests
+      - name: 安裝 requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-      - name: Run Fetch Script
+      - name: 抓取 CPBL 最新資料
         run: python fetch_cpbl.py
 
-      - name: Commit and Push Changes
+      - name: 提交並推送更新
         run: |
-         git config --local user.email "action@github.com"
-         git config --local user.name "GitHub Action"
-         git add .
-         # 允許在沒有新更動時不報錯
-         git commit -m "Auto update CPBL today & history data" || echo "No changes to commit"
-         git pull origin main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          git add schedule.json
+          git add today-schedule.json
+          git add live_score.json
+          git add schedule/
+          git add today/
+          git add history/
+
+          if git diff --cached --quiet; then
+            echo "沒有新的資料需要提交"
+            exit 0
+          fi
+
+          git commit -m "auto: update CPBL data"
+          git push
