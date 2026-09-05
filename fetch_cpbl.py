@@ -1,207 +1,668 @@
 import os
 import json
 import re
+import time
 import requests
 from datetime import datetime, timezone, timedelta
 
-# ==========================================
-# 1. 工具函式與基礎設定
-# ==========================================
 
-def get_tz():
-    """取得 UTC+8 時區"""
-    return timezone(timedelta(hours=8))
+# ============================================================
+# CPBL 自動資料更新程式
+# ============================================================
+#
+# 功能：
+# 1. 自動取得台灣今天的 CPBL 賽程
+# 2. 儲存 schedule/YYYY-MM-DD.json
+# 3. 取得今天每一場比賽的詳細資料
+# 4. 儲存到 today/
+# 5. 自動備份到 history/
+# 6. 更新 live_score.json
+# 7. API 失敗時自動重試
+# 8. 不會修改 index.html
+#
+# ============================================================
 
-def format_date(date_str):
-    """將 YYYY-MM-DD 轉成 M/D (星期X) 格式"""
-    if not date_str:
-        return ""
-    try:
-        dt = datetime.strptime(date_str, "%Y-%m-%d")
-        weekdays = ["一", "二", "三", "四", "五", "六", "日"]
-        return f"{dt.month}/{dt.day} ({weekdays[dt.weekday()]})"
-    except Exception:
-        return date_str
 
-def save_to_history(game_id, game_data):
+# ------------------------------------------------------------
+# 基本設定
+# ------------------------------------------------------------
+
+BASE_URL = "https://stats.cpbl.com.tw/api/proxy/v1"
+
+# 台灣時區 UTC+8
+TAIPEI_TZ = timezone(timedelta(hours=8))
+
+# API 重試次數
+MAX_RETRIES = 3
+
+# 每次重試等待秒數
+RETRY_DELAY = 3
+
+# HTTP Timeout
+REQUEST_TIMEOUT = 20
+
+
+# ------------------------------------------------------------
+# HTTP Headers
+# ------------------------------------------------------------
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/123.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/plain, */*",
+    "Referer": "https://www.cpbl.com.tw/",
+}
+
+
+# ============================================================
+# 工具函式
+# ============================================================
+
+def get_today_tw():
     """
-    解析 GameId (例如 "2026-A-301")
-    自動寫入歷史目錄: history/{KindCode}/{Year}/{GameSno}.json
+    取得台灣時間今天的日期。
+
+    回傳格式：
+    YYYY-MM-DD
     """
-    try:
-        # 使用正規表達式拆解 GameId 格式 (年份-類別代碼-場次)
-        match = re.match(r"^(\d{4})-([A-Z]+)-(\d+)$", game_id)
-        if match:
-            year, kind_code, game_sno = match.groups()
-            history_dir = os.path.join("history", kind_code, year)
-            os.makedirs(history_dir, exist_ok=True)
-            
-            # 歷史目錄檔名以場次編號命名 (例: 301.json)
-            history_filepath = os.path.join(history_dir, f"{int(game_sno)}.json")
-            with open(history_filepath, "w", encoding="utf-8") as f:
-                json.dump(game_data, f, ensure_ascii=False, indent=2)
-            print(f"📁 [歷史歸檔] 已備份至: {history_filepath}")
-    except Exception as e:
-        print(f"⚠️ 歸檔歷史資料時發生錯誤 ({game_id}): {e}")
+    return datetime.now(TAIPEI_TZ).strftime("%Y-%m-%d")
 
-# ==========================================
-# 2. 舊版資料抓取與整合核心 (API Fetcher)
-# ==========================================
 
-def fetch_cpbl_data():
-    """從 CPBL 官方 API 取得當日賽事清單與單場數據，並同步歸檔至歷史目錄"""
-    today_str = datetime.now(get_tz()).strftime("%Y-%m-%d")
-    list_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/{today_str}"
+def save_json(file_path, data):
+    """
+    儲存 JSON 檔案。
+    """
 
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/plain, */*",
-        "Referer": "https://www.cpbl.com.tw/"
-    }
+    directory = os.path.dirname(file_path)
 
-    try:
-        print(f"🚀 開始抓取今日 ({today_str}) CPBL 賽事資訊...")
-        res = requests.get(list_url, headers=headers, timeout=15)
-        
-        if res.status_code == 200:
-            data = res.json()
-            games_list = data.get("Data", {}).get("Games", [])
-            
-            # 1. 儲存當日總清單
-            with open("schedule.json", "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            print(f"✅ 已更新賽事總清單 (schedule.json)")
+    if directory:
+        os.makedirs(directory, exist_ok=True)
 
-            if not games_list:
-                print("ℹ️ 今日無排定賽事。")
-                return
+    with open(file_path, "w", encoding="utf-8") as file:
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=2
+        )
 
-            # 2. 遍歷每場賽事，下載詳細數據
-            for g in games_list:
-                game_id = g.get("GameId") # 例如 2026-A-301
-                if game_id:
-                    detail_url = f"https://stats.cpbl.com.tw/api/proxy/v1/games/{game_id}"
-                    detail_res = requests.get(detail_url, headers=headers, timeout=15)
-                    
-                    if detail_res.status_code == 200:
-                        game_data = detail_res.json()
-                        filename = f"{game_id}.json"
-                        
-                        # 儲存根目錄 JSON
-                        with open(filename, "w", encoding="utf-8") as f:
-                            json.dump(game_data, f, ensure_ascii=False, indent=2)
-                        print(f"✅ 已成功產出比賽 JSON: {filename}")
 
-                        # 新版功能：同步歸檔至 history/ 結構
-                        save_to_history(game_id, game_data)
+def request_json(url):
+    """
+    從 API 取得 JSON。
 
-            # 3. 將今日第一場比賽複製給預設 live_score.json
-            first_game_id = games_list[0].get("GameId")
-            if first_game_id and os.path.exists(f"{first_game_id}.json"):
-                with open(f"{first_game_id}.json", "r", encoding="utf-8") as src, \
-                     open("live_score.json", "w", encoding="utf-8") as dst:
-                    dst.write(src.read())
-                print(f"✅ 已更新 live_score.json (來源: {first_game_id}.json)")
+    如果失敗會自動重試 MAX_RETRIES 次。
+    """
 
-        else:
-            print(f"❌ 取得賽事清單失敗，HTTP Status: {res.status_code}")
+    last_error = None
 
-    except Exception as e:
-        print(f"❌ 執行 API 抓取時發生異常：{e}")
+    for attempt in range(1, MAX_RETRIES + 1):
 
-# ==========================================
-# 3. HTML 網頁生成 (新版模組)
-# ==========================================
+        try:
 
-def generate_html():
-    """產生前端網頁 index.html"""
-    html_content = """<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPBL 賽事資訊與對戰歷史</title>
-    <style>
-        :root {
-            --primary-color: #003865;
-            --secondary-color: #05549e;
-            --bg-color: #f4f6f9;
-            --card-bg: #ffffff;
-            --text-color: #333333;
-            --border-color: #e0e0e0;
+            print(
+                f"🌐 API 請求 "
+                f"(第 {attempt}/{MAX_RETRIES} 次)：{url}"
+            )
+
+            response = requests.get(
+                url,
+                headers=HEADERS,
+                timeout=REQUEST_TIMEOUT
+            )
+
+            # HTTP 錯誤直接觸發 exception
+            response.raise_for_status()
+
+            # 解析 JSON
+            return response.json()
+
+        except Exception as error:
+
+            last_error = error
+
+            print(
+                f"⚠️ API 請求失敗：{error}"
+            )
+
+            if attempt < MAX_RETRIES:
+
+                print(
+                    f"⏳ {RETRY_DELAY} 秒後重新嘗試..."
+                )
+
+                time.sleep(RETRY_DELAY)
+
+    # 三次全部失敗
+    raise RuntimeError(
+        f"API 請求失敗，已重試 {MAX_RETRIES} 次："
+        f"{url}\n最後錯誤：{last_error}"
+    )
+
+
+# ============================================================
+# GameId → history 路徑
+# ============================================================
+
+def get_history_path(game_id):
+    """
+    將 GameId 轉成歷史資料路徑。
+
+    例如：
+
+    2026-A-301
+
+    →
+
+    history/A/2026/301.json
+    """
+
+    if not game_id:
+        return None
+
+    match = re.match(
+        r"^(\d{4})-([A-Z]+)-(\d+)$",
+        game_id
+    )
+
+    if not match:
+        print(
+            f"⚠️ 無法解析 GameId：{game_id}"
+        )
+        return None
+
+    year, kind_code, game_sno = match.groups()
+
+    return os.path.join(
+        "history",
+        kind_code,
+        year,
+        f"{int(game_sno)}.json"
+    )
+
+
+# ============================================================
+# 清理 today/
+# ============================================================
+
+def clean_today_directory():
+    """
+    清除 today/ 裡面的舊比賽 JSON。
+
+    避免昨天的比賽一直留在 today/。
+
+    schedule.json 會在後面重新產生。
+    """
+
+    today_dir = "today"
+
+    os.makedirs(today_dir, exist_ok=True)
+
+    for filename in os.listdir(today_dir):
+
+        file_path = os.path.join(
+            today_dir,
+            filename
+        )
+
+        # 只刪除 JSON
+        if (
+            os.path.isfile(file_path)
+            and filename.lower().endswith(".json")
+        ):
+
+            try:
+
+                os.remove(file_path)
+
+                print(
+                    f"🧹 清除舊 today 資料：{filename}"
+                )
+
+            except Exception as error:
+
+                print(
+                    f"⚠️ 無法刪除 {filename}：{error}"
+                )
+
+
+# ============================================================
+# 抓取 CPBL 今日賽程
+# ============================================================
+
+def fetch_today_schedule(date_str):
+    """
+    取得指定日期的 CPBL 賽程。
+    """
+
+    url = (
+        f"{BASE_URL}/games/schedule/"
+        f"{date_str}"
+    )
+
+    print("")
+    print("=" * 60)
+    print(
+        f"📅 開始抓取 CPBL 賽程：{date_str}"
+    )
+    print("=" * 60)
+
+    data = request_json(url)
+
+    games = (
+        data
+        .get("Data", {})
+        .get("Games", [])
+        or []
+    )
+
+    print(
+        f"📊 今日共有 {len(games)} 場比賽"
+    )
+
+    return data, games
+
+
+# ============================================================
+# 儲存今日賽程
+# ============================================================
+
+def save_schedule(date_str, schedule_data):
+    """
+    儲存：
+
+    schedule/YYYY-MM-DD.json
+
+    同時保留：
+
+    schedule.json
+    today-schedule.json
+    today/schedule.json
+    """
+
+    # 給 index.html 使用
+    schedule_path = os.path.join(
+        "schedule",
+        f"{date_str}.json"
+    )
+
+    save_json(
+        schedule_path,
+        schedule_data
+    )
+
+    print(
+        f"✅ 已更新：{schedule_path}"
+    )
+
+    # 舊版相容
+    save_json(
+        "schedule.json",
+        schedule_data
+    )
+
+    print(
+        "✅ 已更新：schedule.json"
+    )
+
+    # 舊版相容
+    save_json(
+        "today-schedule.json",
+        schedule_data
+    )
+
+    print(
+        "✅ 已更新：today-schedule.json"
+    )
+
+    # today 資料夾
+    save_json(
+        os.path.join(
+            "today",
+            "schedule.json"
+        ),
+        schedule_data
+    )
+
+    print(
+        "✅ 已更新：today/schedule.json"
+    )
+
+
+# ============================================================
+# 抓取單場比賽
+# ============================================================
+
+def fetch_game_detail(game_id):
+    """
+    取得單場比賽詳細資料。
+    """
+
+    url = (
+        f"{BASE_URL}/games/"
+        f"{game_id}"
+    )
+
+    return request_json(url)
+
+
+# ============================================================
+# 儲存單場比賽
+# ============================================================
+
+def save_game(game_id, game_data):
+    """
+    將單場比賽同時儲存到：
+
+    today/GameId.json
+
+    history/A/年份/GameSno.json
+    """
+
+    # --------------------------------------------------------
+    # today/
+    # --------------------------------------------------------
+
+    today_path = os.path.join(
+        "today",
+        f"{game_id}.json"
+    )
+
+    save_json(
+        today_path,
+        game_data
+    )
+
+    print(
+        f"✅ 今日資料：{today_path}"
+    )
+
+    # --------------------------------------------------------
+    # history/
+    # --------------------------------------------------------
+
+    history_path = get_history_path(
+        game_id
+    )
+
+    if history_path:
+
+        save_json(
+            history_path,
+            game_data
+        )
+
+        print(
+            f"📁 歷史資料：{history_path}"
+        )
+
+
+# ============================================================
+# 更新 live_score.json
+# ============================================================
+
+def update_live_score(games_data):
+    """
+    更新 live_score.json。
+
+    為了保持你原本專案的相容性：
+
+    - 如果今天有比賽
+      → 使用第一場比賽詳細資料
+
+    - 如果今天沒有比賽
+      → 儲存空資料結構
+    """
+
+    if games_data:
+
+        first_game = games_data[0]
+
+        save_json(
+            "live_score.json",
+            first_game
+        )
+
+        print(
+            "⚾ live_score.json 已更新"
+        )
+
+    else:
+
+        empty_data = {
+            "Data": {
+                "Games": []
+            }
         }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        h1 {
-            text-align: center;
-            color: var(--primary-color);
-        }
-        .game-card {
-            background: var(--card-bg);
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .game-header {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 10px;
-            margin-bottom: 15px;
-            font-weight: bold;
-        }
-        .team-vs {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            font-size: 1.2em;
-            margin-bottom: 15px;
-        }
-        .history-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        .history-table th, .history-table td {
-            border: 1px solid var(--border-color);
-            padding: 8px;
-            text-align: center;
-            font-size: 0.9em;
-        }
-        .history-table th {
-            background-color: #f0f4f8;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>CPBL 賽事歷史對戰數據</h1>
-        <div id="content"></div>
-    </div>
-</body>
-</html>
-"""
-    with open("index.html", "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print("✅ 已成功生成 index.html")
 
-# ==========================================
-# 主程式進入點
-# ==========================================
+        save_json(
+            "live_score.json",
+            empty_data
+        )
+
+        print(
+            "ℹ️ 今日無比賽，live_score.json 已清空"
+        )
+
+
+# ============================================================
+# 主更新流程
+# ============================================================
+
+def update_cpbl():
+    """
+    CPBL 完整自動更新流程。
+    """
+
+    today = get_today_tw()
+
+    print("")
+    print("🏟️ CPBL 自動更新程式")
+    print(
+        f"🇹🇼 台灣日期：{today}"
+    )
+    print("")
+
+
+    # --------------------------------------------------------
+    # 1. 清除舊 today 資料
+    # --------------------------------------------------------
+
+    clean_today_directory()
+
+
+    # --------------------------------------------------------
+    # 2. 抓取今日賽程
+    # --------------------------------------------------------
+
+    schedule_data, games = fetch_today_schedule(
+        today
+    )
+
+
+    # --------------------------------------------------------
+    # 3. 儲存賽程
+    # --------------------------------------------------------
+
+    save_schedule(
+        today,
+        schedule_data
+    )
+
+
+    # --------------------------------------------------------
+    # 4. 沒有比賽
+    # --------------------------------------------------------
+
+    if not games:
+
+        print("")
+        print(
+            "ℹ️ 今天沒有排定的 CPBL 比賽"
+        )
+
+        update_live_score([])
+
+        print("")
+        print("🎉 更新完成")
+        return
+
+
+    # --------------------------------------------------------
+    # 5. 抓取每一場比賽
+    # --------------------------------------------------------
+
+    successful_games = []
+
+    failed_games = []
+
+    for index, game in enumerate(
+        games,
+        start=1
+    ):
+
+        game_id = game.get(
+            "GameId"
+        )
+
+        if not game_id:
+
+            print(
+                f"⚠️ 第 {index} 場沒有 GameId，跳過"
+            )
+
+            failed_games.append(
+                f"第 {index} 場（無 GameId）"
+            )
+
+            continue
+
+
+        print("")
+        print(
+            "-" * 60
+        )
+        print(
+            f"⚾ 比賽 {index}/{len(games)}："
+            f"{game_id}"
+        )
+        print(
+            "-" * 60
+        )
+
+
+        try:
+
+            # 取得詳細資料
+            game_data = fetch_game_detail(
+                game_id
+            )
+
+            # 儲存 today + history
+            save_game(
+                game_id,
+                game_data
+            )
+
+            successful_games.append(
+                game_data
+            )
+
+        except Exception as error:
+
+            print(
+                f"❌ {game_id} 更新失敗："
+                f"{error}"
+            )
+
+            failed_games.append(
+                game_id
+            )
+
+
+    # --------------------------------------------------------
+    # 6. 更新 live_score.json
+    # --------------------------------------------------------
+
+    update_live_score(
+        successful_games
+    )
+
+
+    # --------------------------------------------------------
+    # 7. 結果統計
+    # --------------------------------------------------------
+
+    print("")
+    print("=" * 60)
+    print("📊 CPBL 更新結果")
+    print("=" * 60)
+
+    print(
+        f"📅 日期：{today}"
+    )
+
+    print(
+        f"🏟️ 賽程：{len(games)} 場"
+    )
+
+    print(
+        f"✅ 成功：{len(successful_games)} 場"
+    )
+
+    print(
+        f"❌ 失敗：{len(failed_games)} 場"
+    )
+
+
+    # --------------------------------------------------------
+    # 8. 如果有任何比賽失敗，讓 GitHub Actions 顯示失敗
+    # --------------------------------------------------------
+
+    if failed_games:
+
+        print("")
+        print(
+            "❌ 以下比賽更新失敗："
+        )
+
+        for game_id in failed_games:
+
+            print(
+                f"   - {game_id}"
+            )
+
+        raise RuntimeError(
+            "部分 CPBL 比賽資料更新失敗"
+        )
+
+
+    print("")
+    print(
+        "🎉 CPBL 資料更新完成！"
+    )
+
+
+# ============================================================
+# 程式入口
+# ============================================================
 
 if __name__ == "__main__":
-    # 執行資料抓取與歷史歸檔
-    fetch_cpbl_data()
-    
-    # 生成 HTML 頁面
-    generate_html()
+
+    try:
+
+        update_cpbl()
+
+    except Exception as error:
+
+        print("")
+        print("=" * 60)
+        print("❌ CPBL 自動更新失敗")
+        print("=" * 60)
+        print(error)
+
+        # 讓 GitHub Actions 判定這次執行失敗
+        raise
