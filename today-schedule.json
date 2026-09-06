@@ -14,7 +14,7 @@
           },
           "Score": 3,
           "AccumulationScore": {
-            "W": 19,
+            "W": 20,
             "L": 16,
             "T": 0
           }
@@ -29,7 +29,7 @@
           "Score": 2,
           "AccumulationScore": {
             "W": 16,
-            "L": 21,
+            "L": 22,
             "T": 0
           }
         },
@@ -93,7 +93,7 @@
           "Score": 2,
           "AccumulationScore": {
             "W": 16,
-            "L": 20,
+            "L": 21,
             "T": 0
           }
         },
@@ -106,7 +106,7 @@
           },
           "Score": 9,
           "AccumulationScore": {
-            "W": 21,
+            "W": 22,
             "L": 19,
             "T": 0
           }
@@ -170,7 +170,7 @@
           },
           "Score": 4,
           "AccumulationScore": {
-            "W": 19,
+            "W": 20,
             "L": 18,
             "T": 0
           }
@@ -185,7 +185,7 @@
           "Score": 3,
           "AccumulationScore": {
             "W": 21,
-            "L": 18,
+            "L": 19,
             "T": 0
           }
         },
@@ -323,7 +323,7 @@
           },
           "Score": 13,
           "AccumulationScore": {
-            "W": 28,
+            "W": 29,
             "L": 40,
             "T": 2
           }
@@ -338,7 +338,7 @@
           "Score": 6,
           "AccumulationScore": {
             "W": 32,
-            "L": 35,
+            "L": 36,
             "T": 1
           }
         },

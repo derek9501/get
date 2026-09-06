@@ -13,7 +13,7 @@
         },
         "Score": 13,
         "AccumulationScore": {
-          "W": 28,
+          "W": 29,
           "L": 40,
           "T": 2
         },
@@ -21,7 +21,7 @@
         "ErrorCnt": 1,
         "Hitters": [
           {
-            "Avg": 0,
+            "Avg": 0.319,
             "Rboe": 0,
             "HitCnt": 6,
             "Lineup": 1,
@@ -48,7 +48,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.212,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 2,
@@ -75,7 +75,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.252,
             "Rboe": 1,
             "HitCnt": 3,
             "Lineup": 3,
@@ -102,7 +102,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.286,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 3,
@@ -129,7 +129,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.238,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 4,
@@ -156,7 +156,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.25,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 5,
@@ -183,7 +183,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.328,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 6,
@@ -210,7 +210,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.176,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 7,
@@ -237,7 +237,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.171,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 8,
@@ -264,7 +264,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.298,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 9,
@@ -291,7 +291,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.258,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 9,
@@ -318,7 +318,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.267,
             "Rboe": 0,
             "HitCnt": 0,
             "Lineup": 9,
@@ -347,12 +347,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 5.57,
+            "Whip": 1.72,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 8,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 2,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -377,12 +377,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 1.39,
+            "Whip": 1.08,
             "RunCnt": 1,
-            "TotalL": 0,
+            "TotalL": 3,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 4,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -407,10 +407,10 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 3.06,
+            "Whip": 1.7,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
             "TotalW": 0,
             "BalkCnt": 0,
@@ -437,12 +437,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 6.75,
+            "Whip": 2.04,
             "RunCnt": 1,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -467,8 +467,8 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 5.06,
+            "Whip": 1.69,
             "RunCnt": 0,
             "TotalL": 0,
             "TotalS": 0,
@@ -497,12 +497,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 9.69,
+            "Whip": 2.38,
             "RunCnt": 4,
             "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalS": 1,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -527,12 +527,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 2.7,
+            "Whip": 1.13,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -606,14 +606,14 @@
         "Score": 6,
         "AccumulationScore": {
           "W": 32,
-          "L": 35,
+          "L": 36,
           "T": 1
         },
         "HittingCnt": 9,
         "ErrorCnt": 3,
         "Hitters": [
           {
-            "Avg": 0,
+            "Avg": 0.324,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 1,
@@ -667,7 +667,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.276,
             "Rboe": 0,
             "HitCnt": 0,
             "Lineup": 1,
@@ -694,7 +694,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.331,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 2,
@@ -721,7 +721,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.32,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 3,
@@ -748,7 +748,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.274,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 4,
@@ -775,7 +775,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.286,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 5,
@@ -802,7 +802,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.254,
             "Rboe": 0,
             "HitCnt": 0,
             "Lineup": 5,
@@ -829,7 +829,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.254,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 5,
@@ -856,7 +856,7 @@
             "IsCurrent": true
           },
           {
-            "Avg": 0,
+            "Avg": 0.318,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 6,
@@ -883,7 +883,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.22,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 6,
@@ -910,7 +910,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.244,
             "Rboe": 1,
             "HitCnt": 3,
             "Lineup": 7,
@@ -937,7 +937,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.24,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 7,
@@ -964,7 +964,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.167,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 8,
@@ -991,7 +991,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.268,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 8,
@@ -1018,7 +1018,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0,
+            "Avg": 0.303,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 9,
@@ -1047,12 +1047,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 2.79,
+            "Whip": 1.34,
             "RunCnt": 3,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -1077,12 +1077,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 3.57,
+            "Whip": 1.08,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 4,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -1107,12 +1107,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 3.74,
+            "Whip": 1.29,
             "RunCnt": 5,
             "TotalL": 0,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 1,
             "IsSaveOK": "0",
@@ -1137,12 +1137,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 4.55,
+            "Whip": 1.77,
             "RunCnt": 2,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 2,
+            "TotalS": 1,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -1167,8 +1167,8 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 5.5,
+            "Whip": 1.67,
             "RunCnt": 0,
             "TotalL": 0,
             "TotalS": 0,
@@ -1197,12 +1197,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 6.06,
+            "Whip": 1.53,
             "RunCnt": 3,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",

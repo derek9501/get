@@ -13,7 +13,7 @@
         },
         "Score": 4,
         "AccumulationScore": {
-          "W": 19,
+          "W": 20,
           "L": 18,
           "T": 0
         },
@@ -21,7 +21,7 @@
         "ErrorCnt": 2,
         "Hitters": [
           {
-            "Avg": 0.272,
+            "Avg": 0.274,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 1,
@@ -48,7 +48,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.25,
+            "Avg": 0.256,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 2,
@@ -75,7 +75,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.264,
+            "Avg": 0.267,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 3,
@@ -102,7 +102,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.238,
+            "Avg": 0.235,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 4,
@@ -183,7 +183,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.181,
+            "Avg": 0.184,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 7,
@@ -210,7 +210,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.24,
+            "Avg": 0.245,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 8,
@@ -264,7 +264,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.143,
+            "Avg": 0.1,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 9,
@@ -291,7 +291,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.267,
+            "Avg": 0.261,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 9,
@@ -348,13 +348,13 @@
         "Pitchers": [
           {
             "Era": 1.35,
-            "Whip": 0.93,
+            "Whip": 0.95,
             "RunCnt": 3,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 8,
             "BalkCnt": 0,
-            "ErrorCnt": 0,
+            "ErrorCnt": 1,
             "IsSaveOK": "0",
             "PitchCnt": 99,
             "RoleType": "先發",
@@ -377,12 +377,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.37,
-            "Whip": 1.24,
+            "Era": 2.27,
+            "Whip": 1.18,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 4,
+            "TotalS": 2,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -407,12 +407,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.09,
+            "Era": 2.01,
             "Whip": 1.05,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 2,
+            "TotalS": 5,
+            "TotalW": 4,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -437,12 +437,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.8,
-            "Whip": 1.2,
+            "Era": 2.74,
+            "Whip": 1.17,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 2,
+            "TotalS": 25,
+            "TotalW": 8,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "1",
@@ -516,14 +516,14 @@
         "Score": 3,
         "AccumulationScore": {
           "W": 21,
-          "L": 18,
+          "L": 19,
           "T": 0
         },
         "HittingCnt": 8,
         "ErrorCnt": 0,
         "Hitters": [
           {
-            "Avg": 0.309,
+            "Avg": 0.307,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 1,
@@ -550,8 +550,8 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.324,
-            "Rboe": 0,
+            "Avg": 0.321,
+            "Rboe": 1,
             "HitCnt": 5,
             "Lineup": 2,
             "ScoreCnt": 1,
@@ -577,7 +577,7 @@
             "IsCurrent": true
           },
           {
-            "Avg": 0.287,
+            "Avg": 0.288,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 3,
@@ -631,7 +631,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.266,
+            "Avg": 0.268,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 4,
@@ -658,7 +658,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.259,
+            "Avg": 0.263,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 5,
@@ -685,8 +685,8 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.27,
-            "Rboe": 0,
+            "Avg": 0.271,
+            "Rboe": 1,
             "HitCnt": 3,
             "Lineup": 6,
             "ScoreCnt": 0,
@@ -739,7 +739,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.269,
+            "Avg": 0.233,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 8,
@@ -766,7 +766,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.234,
+            "Avg": 0.231,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 9,
@@ -795,12 +795,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 3.32,
+            "Era": 3.26,
             "Whip": 1.17,
             "RunCnt": 1,
-            "TotalL": 0,
+            "TotalL": 9,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 9,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -825,8 +825,8 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.86,
-            "Whip": 1.41,
+            "Era": 3,
+            "Whip": 1.44,
             "RunCnt": 1,
             "TotalL": 0,
             "TotalS": 0,
@@ -855,12 +855,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.89,
-            "Whip": 1.25,
+            "Era": 2.83,
+            "Whip": 1.26,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 2,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -885,10 +885,10 @@
             "IsCurrent": false
           },
           {
-            "Era": 1.41,
-            "Whip": 1.16,
+            "Era": 1.35,
+            "Whip": 1.14,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
             "TotalW": 0,
             "BalkCnt": 0,
@@ -915,11 +915,11 @@
             "IsCurrent": false
           },
           {
-            "Era": 4.35,
-            "Whip": 1.29,
+            "Era": 4.22,
+            "Whip": 1.25,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
+            "TotalL": 5,
+            "TotalS": 15,
             "TotalW": 0,
             "BalkCnt": 0,
             "ErrorCnt": 0,
@@ -945,12 +945,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.03,
-            "Whip": 0.85,
+            "Era": 2.4,
+            "Whip": 0.9,
             "RunCnt": 2,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 2,
+            "TotalS": 3,
+            "TotalW": 5,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -1510,42 +1510,42 @@
           "Trackman": {
             "Play": {
               "PitchTag": {
-                "PitchCall": "BallCalled",
+                "PitchCall": "FoulBallNotFieldable",
                 "AutoPitchType": "breakingball",
-                "TaggedPitchType": "breakingball"
+                "TaggedPitchType": "fastball"
               }
             },
             "Pitch": {
               "Release": {
-                "RelSide": 0.263566656,
-                "RelSpeed": 133.62299546112,
-                "SpinRate": 998.0149,
-                "Extension": 1.469888856,
-                "RelHeight": 2.030845824
+                "RelSide": 0.295710864,
+                "RelSpeed": 151.0803062208,
+                "SpinRate": 2320.374,
+                "Extension": 1.648117608,
+                "RelHeight": 2.03015088
               },
               "Location": {
-                "ZoneTime": 0.466947,
-                "ZoneSpeed": 122.68949856768,
-                "PlateLocSide": 0.121246392,
-                "PlateLocHeight": 1.071945024
+                "ZoneTime": 0.410986,
+                "ZoneSpeed": 136.87279208064,
+                "PlateLocSide": -0.11184636,
+                "PlateLocHeight": 0.9821478960000001
               },
               "Flight": {
                 "PolyFit": {
                   "PitchTrajectory": {
                     "X": [
-                      16.969819248,
-                      -37.04124367200001,
-                      3.481248816
+                      16.79106624,
+                      -41.79983004,
+                      4.863276024
                     ],
                     "Y": [
-                      2.03219304,
-                      -0.011881104,
-                      -4.380414912
+                      2.028904248,
+                      -1.836438288,
+                      -1.725131424
                     ],
                     "Z": [
-                      -0.26267664,
-                      0.683937672,
-                      -0.817266336
+                      -0.29461968,
+                      1.50254208,
+                      -1.252764576
                     ]
                   }
                 }
@@ -1593,7 +1593,52 @@
           "DefendStationCode": "C",
           "HitterDefendStation": "2",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P114643464410450989/羅戈.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.263566656,
+                "RelSpeed": 133.62299546112,
+                "SpinRate": 998.0149,
+                "Extension": 1.469888856,
+                "RelHeight": 2.030845824
+              },
+              "Location": {
+                "ZoneTime": 0.466947,
+                "ZoneSpeed": 122.68949856768,
+                "PlateLocSide": 0.121246392,
+                "PlateLocHeight": 1.071945024
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.969819248,
+                      -37.04124367200001,
+                      3.481248816
+                    ],
+                    "Y": [
+                      2.03219304,
+                      -0.011881104,
+                      -4.380414912
+                    ],
+                    "Z": [
+                      -0.26267664,
+                      0.683937672,
+                      -0.817266336
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -1634,7 +1679,52 @@
           "DefendStationCode": "C",
           "HitterDefendStation": "2",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0P114643464410450989/羅戈.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "StrikeSwinging",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.267745464,
+                "RelSpeed": 133.2022646592,
+                "SpinRate": 1205.7819,
+                "Extension": 1.675598376,
+                "RelHeight": 2.010936288
+              },
+              "Location": {
+                "ZoneTime": 0.466598,
+                "ZoneSpeed": 121.22740954368,
+                "PlateLocSide": -0.136087104,
+                "PlateLocHeight": 0.262167624
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.763594616,
+                      -36.823957848,
+                      3.91245852
+                    ],
+                    "Y": [
+                      2.011570272,
+                      -2.079854616,
+                      -3.579382224
+                    ],
+                    "Z": [
+                      -0.266133072,
+                      1.53117804,
+                      -1.437912288
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -2913,6 +3003,92 @@
           "Trackman": {
             "Play": {
               "PitchTag": {
+                "PitchCall": "BallinDirt",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.553443648,
+                "RelSpeed": 138.7634333184,
+                "SpinRate": 2930.4358,
+                "Extension": 1.742489784,
+                "RelHeight": 1.907081784
+              },
+              "Location": {
+                "ZoneTime": 0.441323,
+                "ZoneSpeed": 129.2705568,
+                "PlateLocSide": -0.096962976,
+                "PlateLocHeight": 0.05076444
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.698373512,
+                      -38.398670472,
+                      3.502109328
+                    ],
+                    "Y": [
+                      1.90788036,
+                      -2.290797552,
+                      -4.35143148
+                    ],
+                    "Z": [
+                      -0.553266864,
+                      1.624017072,
+                      -0.342921336
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "好球沒揮棒。",
+          "GameSno": 315,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 13,
+          "FirstBase": "4",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "雙殺打 刺殺",
+          "HitterAcnt": "0000005298",
+          "HitterName": "黃韋盛",
+          "IsScoreCnt": "0",
+          "SecondBase": "2",
+          "CatcherAcnt": "0000006217",
+          "CatcherName": "林辰勳",
+          "MainEventNo": "0120013000",
+          "PitcherAcnt": "0000007779",
+          "PitcherName": "蔣銲",
+          "BattingOrder": 5,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L090371185823444267/黃韋盛2024.png",
+          "VisitingScore": 1,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "66",
+          "CatcherUniformNo": "9",
+          "PitcherUniformNo": "33",
+          "VisitingHomeType": "2",
+          "BattingActionName": "雙殺",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585498425854837/蔣銲2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
                 "PitchCall": "StrikeCalled",
                 "AutoPitchType": "breakingball",
                 "TaggedPitchType": "fastball"
@@ -2962,47 +3138,6 @@
           "IsBall": "0",
           "OutCnt": 1,
           "BallCnt": 1,
-          "Content": "好球沒揮棒。",
-          "GameSno": 315,
-          "IsStrike": "1",
-          "KindCode": "A",
-          "PitchCnt": 13,
-          "FirstBase": "4",
-          "HomeScore": 1,
-          "InningSeq": 1,
-          "StrikeCnt": 1,
-          "ThirdBase": "",
-          "ActionName": "雙殺打 刺殺",
-          "HitterAcnt": "0000005298",
-          "HitterName": "黃韋盛",
-          "IsScoreCnt": "0",
-          "SecondBase": "2",
-          "CatcherAcnt": "0000006217",
-          "CatcherName": "林辰勳",
-          "MainEventNo": "0120013000",
-          "PitcherAcnt": "0000007779",
-          "PitcherName": "蔣銲",
-          "BattingOrder": 5,
-          "HitterLineup": 5,
-          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L090371185823444267/黃韋盛2024.png",
-          "VisitingScore": 1,
-          "IsChangePlayer": "0",
-          "IsSpecialEvent": "0",
-          "HitterUniformNo": "66",
-          "CatcherUniformNo": "9",
-          "PitcherUniformNo": "33",
-          "VisitingHomeType": "2",
-          "BattingActionName": "雙殺",
-          "DefendStationCode": "1B",
-          "HitterDefendStation": "3",
-          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585498425854837/蔣銲2026.jpg",
-          "Trackman": null
-        },
-        {
-          "Year": "2026",
-          "IsBall": "0",
-          "OutCnt": 1,
-          "BallCnt": 1,
           "Content": "擊出界外球。",
           "GameSno": 315,
           "IsStrike": "1",
@@ -3037,7 +3172,64 @@
           "DefendStationCode": "1B",
           "HitterDefendStation": "3",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585498425854837/蔣銲2026.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "FoulBallNotFieldable",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.621429288,
+                "RelSpeed": 150.0188633856,
+                "SpinRate": 2570.1523,
+                "Extension": 1.62743388,
+                "RelHeight": 1.847258688
+              },
+              "Location": {
+                "ZoneTime": 0.415129,
+                "ZoneSpeed": 135.78104529792,
+                "PlateLocSide": -0.11768328,
+                "PlateLocHeight": 0.7796326800000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8122346,
+                      -41.456966616,
+                      4.824788928
+                    ],
+                    "Y": [
+                      1.847081904,
+                      -1.363879416,
+                      -2.908035840000001
+                    ],
+                    "Z": [
+                      -0.619039656,
+                      2.9445966,
+                      -2.82819348
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": -25.633516,
+                "Direction": 60.64244,
+                "ExitSpeed": 139.66044947712
+              },
+              "LandingFlat": {
+                "Bearing": 58.227276,
+                "Distance": 1.74941484,
+                "HangTime": 0.044669,
+                "Confidence": "Estimated"
+              }
+            }
+          }
         },
         {
           "Year": "2026",
@@ -3062,6 +3254,92 @@
           "CatcherAcnt": "0000006217",
           "CatcherName": "林辰勳",
           "MainEventNo": "0120015000",
+          "PitcherAcnt": "0000007779",
+          "PitcherName": "蔣銲",
+          "BattingOrder": 5,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L090371185823444267/黃韋盛2024.png",
+          "VisitingScore": 1,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "66",
+          "CatcherUniformNo": "9",
+          "PitcherUniformNo": "33",
+          "VisitingHomeType": "2",
+          "BattingActionName": "雙殺",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585498425854837/蔣銲2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "FoulBallNotFieldable",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.589458816,
+                "RelSpeed": 138.36734157312,
+                "SpinRate": 2845.8757,
+                "Extension": 1.666064232,
+                "RelHeight": 1.878765864
+              },
+              "Location": {
+                "ZoneTime": 0.44647,
+                "ZoneSpeed": 126.68677110144,
+                "PlateLocSide": -0.09267139199999999,
+                "PlateLocHeight": 0.9808494480000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.774177272,
+                      -38.339901984,
+                      3.901235784
+                    ],
+                    "Y": [
+                      1.88006736,
+                      0.114937032,
+                      -4.776258672
+                    ],
+                    "Z": [
+                      -0.589407,
+                      1.581872376,
+                      -0.121627392
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "擊出內野滾地球， 一壘跑者王威晨-三壘手  傳二壘手封殺出局 2人出局。 打者出局-雙殺打。 3人出局。二壘殘壘。\r\n",
+          "GameSno": 315,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 16,
+          "FirstBase": "4",
+          "HomeScore": 1,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "雙殺打 刺殺",
+          "HitterAcnt": "0000005298",
+          "HitterName": "黃韋盛",
+          "IsScoreCnt": "0",
+          "SecondBase": "2",
+          "CatcherAcnt": "0000006217",
+          "CatcherName": "林辰勳",
+          "MainEventNo": "0120016000",
           "PitcherAcnt": "0000007779",
           "PitcherName": "蔣銲",
           "BattingOrder": 5,
@@ -3136,47 +3414,6 @@
               }
             }
           }
-        },
-        {
-          "Year": "2026",
-          "IsBall": "0",
-          "OutCnt": 1,
-          "BallCnt": 1,
-          "Content": "擊出內野滾地球， 一壘跑者王威晨-三壘手  傳二壘手封殺出局 2人出局。 打者出局-雙殺打。 3人出局。二壘殘壘。\r\n",
-          "GameSno": 315,
-          "IsStrike": "1",
-          "KindCode": "A",
-          "PitchCnt": 16,
-          "FirstBase": "4",
-          "HomeScore": 1,
-          "InningSeq": 1,
-          "StrikeCnt": 2,
-          "ThirdBase": "",
-          "ActionName": "雙殺打 刺殺",
-          "HitterAcnt": "0000005298",
-          "HitterName": "黃韋盛",
-          "IsScoreCnt": "0",
-          "SecondBase": "2",
-          "CatcherAcnt": "0000006217",
-          "CatcherName": "林辰勳",
-          "MainEventNo": "0120016000",
-          "PitcherAcnt": "0000007779",
-          "PitcherName": "蔣銲",
-          "BattingOrder": 5,
-          "HitterLineup": 5,
-          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L090371185823444267/黃韋盛2024.png",
-          "VisitingScore": 1,
-          "IsChangePlayer": "0",
-          "IsSpecialEvent": "0",
-          "HitterUniformNo": "66",
-          "CatcherUniformNo": "9",
-          "PitcherUniformNo": "33",
-          "VisitingHomeType": "2",
-          "BattingActionName": "雙殺",
-          "DefendStationCode": "1B",
-          "HitterDefendStation": "3",
-          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585498425854837/蔣銲2026.jpg",
-          "Trackman": null
         },
         {
           "Year": "2026",
@@ -8559,7 +8796,52 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585498425854837/蔣銲2026.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "FoulBallNotFieldable",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.62419992,
+                "RelSpeed": 139.24874709504,
+                "SpinRate": 2989.2864,
+                "Extension": 1.756888536,
+                "RelHeight": 1.8907506
+              },
+              "Location": {
+                "ZoneTime": 0.438891,
+                "ZoneSpeed": 129.0676185216,
+                "PlateLocSide": 0.024100536,
+                "PlateLocHeight": 0.6135075360000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.683740064,
+                      -38.5815078,
+                      3.548118888
+                    ],
+                    "Y": [
+                      1.891399824,
+                      -1.113117408,
+                      -4.102626288000001
+                    ],
+                    "Z": [
+                      -0.6239652240000001,
+                      1.53896568,
+                      -0.394008864
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -20985,7 +21267,52 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027366118278/71林子昱.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "BallCalled",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.571051944,
+                "RelSpeed": 127.20163243392,
+                "SpinRate": 1529.5254,
+                "Extension": 1.791529056,
+                "RelHeight": 1.873014288
+              },
+              "Location": {
+                "ZoneTime": 0.479735,
+                "ZoneSpeed": 117.67256176896,
+                "PlateLocSide": 0.345847416,
+                "PlateLocHeight": 0.6528511200000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.648697208,
+                      -35.254405488,
+                      3.030498384
+                    ],
+                    "Y": [
+                      1.873657416,
+                      -0.720275928,
+                      -3.805315224
+                    ],
+                    "Z": [
+                      -0.569982096,
+                      1.022003544,
+                      -1.160020032
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
         },
         {
           "Year": "2026",
@@ -21026,7 +21353,64 @@
           "DefendStationCode": "CF",
           "HitterDefendStation": "8",
           "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027366118278/71林子昱.jpg",
-          "Trackman": null
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": "InPlay",
+                "AutoPitchType": "breakingball",
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.566671968,
+                "RelSpeed": 140.8375558656,
+                "SpinRate": 1160.5494,
+                "Extension": 1.759293408,
+                "RelHeight": 1.821496992
+              },
+              "Location": {
+                "ZoneTime": 0.43721,
+                "ZoneSpeed": 128.51662741632,
+                "PlateLocSide": -0.120194832,
+                "PlateLocHeight": 0.5248107359999999
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.680664632,
+                      -38.924051184,
+                      4.03645116
+                    ],
+                    "Y": [
+                      1.82090568,
+                      -1.927171152,
+                      -2.369390232
+                    ],
+                    "Z": [
+                      -0.565120536,
+                      2.408112024,
+                      -1.931218896
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 66.32155,
+                "Direction": -9.061956,
+                "ExitSpeed": 128.95887514752
+              },
+              "LandingFlat": {
+                "Bearing": -30.173355,
+                "Distance": 37.58405894400001,
+                "HangTime": 5.675506,
+                "Confidence": "Low"
+              }
+            }
+          }
         },
         {
           "Year": "2026",
@@ -27332,12 +27716,12 @@
         }
       ],
       "WinningPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000005555",
+        "Name": "陳冠偉"
       },
       "LoserPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000003639",
+        "Name": "呂彥青"
       },
       "Closer": {
         "Acnt": "0000005788",
