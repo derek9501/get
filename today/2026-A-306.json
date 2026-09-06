@@ -1,15 +1,15 @@
 {
   "Data": {
     "Game": {
-      "GameId": "2026-A-304",
+      "GameId": "2026-A-306",
       "SkipTrackman": false,
       "GameStatus": "SCHEDULED",
       "Visiting": {
         "Team": {
-          "Code": "ACN011",
-          "Name": "中信兄弟",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          "Code": "AAA011",
+          "Name": "味全龍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
         },
         "Score": 0,
         "AccumulationScore": {
@@ -25,10 +25,10 @@
       },
       "Home": {
         "Team": {
-          "Code": "AKP011",
-          "Name": "台鋼雄鷹",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+          "Code": "AJL011",
+          "Name": "樂天桃猿",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
         },
         "Score": 0,
         "AccumulationScore": {
@@ -43,11 +43,11 @@
         "InningScore": []
       },
       "Field": {
-        "No": "F09",
-        "Abbe": "澄清湖"
+        "No": "F23",
+        "Abbe": "樂天桃園"
       },
       "KindCode": "A",
-      "GameSno": 304,
+      "GameSno": 306,
       "PreExeDate": "2026-09-07T18:35:00",
       "Week": 37,
       "InningSeq": 1,
