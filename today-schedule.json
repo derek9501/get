@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-304",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -12,9 +12,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 1,
+          "Score": 6,
           "AccumulationScore": {
-            "W": 21,
+            "W": 22,
             "L": 19,
             "T": 0
           }
@@ -26,10 +26,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
           },
-          "Score": 1,
+          "Score": 4,
           "AccumulationScore": {
             "W": 16,
-            "L": 21,
+            "L": 22,
             "T": 0
           }
         },
@@ -41,11 +41,20 @@
         "GameSno": 304,
         "PreExeDate": "2026-09-07T18:35:00",
         "Week": 37,
-        "InningSeq": 3,
-        "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000006006",
+          "Name": "德保拉"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000006918",
+          "Name": "李欣穎"
+        },
+        "Closer": {
+          "Acnt": "0000003639",
+          "Name": "呂彥青"
+        },
         "Referee": [
           {
             "Job": "主審",
@@ -76,7 +85,7 @@
       {
         "GameId": "2026-A-306",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AAA011",
@@ -86,7 +95,7 @@
           },
           "Score": 2,
           "AccumulationScore": {
-            "W": 20,
+            "W": 21,
             "L": 18,
             "T": 0
           }
@@ -101,7 +110,7 @@
           "Score": 0,
           "AccumulationScore": {
             "W": 20,
-            "L": 16,
+            "L": 17,
             "T": 0
           }
         },
@@ -113,11 +122,20 @@
         "GameSno": 306,
         "PreExeDate": "2026-09-07T18:35:00",
         "Week": 37,
-        "InningSeq": 3,
+        "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000006555",
+          "Name": "梅賽鍶"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000006720",
+          "Name": "邱駿威"
+        },
+        "Closer": {
+          "Acnt": "0000005788",
+          "Name": "林凱威"
+        },
         "Referee": [
           {
             "Job": "主審",
