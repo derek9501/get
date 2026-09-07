@@ -1,0 +1,106 @@
+name: CPBL 自動更新
+
+on:
+  schedule:
+    # GitHub 每 5 分鐘嘗試執行一次
+    - cron: "*/5 * * * *"
+
+  # 可以在 GitHub Actions 頁面手動執行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cpbl-update
+  cancel-in-progress: true
+
+jobs:
+
+  update:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ==========================================
+      # 下載 GitHub 專案
+      # ==========================================
+
+      - name: 📥 下載專案
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ==========================================
+      # 設定 Python
+      # ==========================================
+
+      - name: 🐍 設定 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ==========================================
+      # 安裝 requests
+      # ==========================================
+
+      - name: 📦 安裝 Python 套件
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # ==========================================
+      # 執行 CPBL 更新程式
+      # ==========================================
+
+      - name: ⚾ 執行 CPBL 更新程式
+        run: |
+          echo "=========================================="
+          echo "⚾ 開始執行 CPBL 自動更新"
+          echo "=========================================="
+
+          python fetch_cpbl.py
+
+      # ==========================================
+      # 提交並推送
+      # ==========================================
+
+      - name: 📤 提交並推送更新資料
+        run: |
+
+          echo "=========================================="
+          echo "📤 檢查是否有新的資料"
+          echo "=========================================="
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 只加入 CPBL 資料
+          git add \
+            today/ \
+            schedule/ \
+            history/ \
+            schedule.json \
+            today-schedule.json \
+            live_score.json
+
+          # 判斷是否有變更
+          if git diff --cached --quiet; then
+
+            echo "ℹ️ 沒有新的資料需要提交"
+            echo "✅ 本次更新完成，但資料沒有變化"
+
+          else
+
+            echo "📝 發現新的資料"
+
+            git commit -m "Auto update CPBL data"
+
+            echo "🚀 正在推送到 GitHub..."
+
+            git push origin main
+
+            echo "✅ GitHub 資料推送完成"
+
+          fi
