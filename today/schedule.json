@@ -2,101 +2,67 @@
   "Data": {
     "Games": [
       {
-        "GameId": "2026-A-304",
+        "GameId": "2026-A-316",
         "SkipTrackman": false,
-        "GameStatus": "FINISHED",
+        "GameStatus": "SCHEDULED",
         "Visiting": {
           "Team": {
-            "Code": "ACN011",
-            "Name": "中信兄弟",
-            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
-            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+            "Code": "AEO011",
+            "Name": "富邦悍將",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 6,
+          "Score": 0,
           "AccumulationScore": {
-            "W": 22,
-            "L": 19,
+            "W": 0,
+            "L": 0,
             "T": 0
           }
         },
         "Home": {
-          "Team": {
-            "Code": "AKP011",
-            "Name": "台鋼雄鷹",
-            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
-            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
-          },
-          "Score": 4,
-          "AccumulationScore": {
-            "W": 16,
-            "L": 22,
-            "T": 0
-          }
-        },
-        "Field": {
-          "No": "F09",
-          "Abbe": "澄清湖"
-        },
-        "KindCode": "A",
-        "GameSno": 304,
-        "PreExeDate": "2026-09-07T18:35:00",
-        "Week": 37,
-        "InningSeq": 9,
-        "VisitingHomeType": 2,
-        "WinningPitcher": {
-          "Acnt": "0000006006",
-          "Name": "德保拉"
-        },
-        "LoserPitcher": {
-          "Acnt": "0000006918",
-          "Name": "李欣穎"
-        },
-        "Closer": {
-          "Acnt": "0000003639",
-          "Name": "呂彥青"
-        },
-        "Referee": [
-          {
-            "Job": "主審",
-            "Name": "蔡豐澤"
-          },
-          {
-            "Job": "一壘審",
-            "Name": "葉詩維"
-          },
-          {
-            "Job": "二壘審",
-            "Name": "林金達"
-          },
-          {
-            "Job": "三壘審",
-            "Name": "范元淦"
-          },
-          {
-            "Job": "左線審",
-            "Name": ""
-          },
-          {
-            "Job": "右線審",
-            "Name": ""
-          }
-        ]
-      },
-      {
-        "GameId": "2026-A-306",
-        "SkipTrackman": false,
-        "GameStatus": "FINISHED",
-        "Visiting": {
           "Team": {
             "Code": "AAA011",
             "Name": "味全龍",
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 2,
+          "Score": 0,
           "AccumulationScore": {
-            "W": 21,
-            "L": 18,
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F29",
+          "Abbe": "大巨蛋"
+        },
+        "KindCode": "A",
+        "GameSno": 316,
+        "PreExeDate": "2026-09-08T18:35:00",
+        "Week": 37,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
+      },
+      {
+        "GameId": "2026-A-317",
+        "SkipTrackman": false,
+        "GameStatus": "SCHEDULED",
+        "Visiting": {
+          "Team": {
+            "Code": "AKP011",
+            "Name": "台鋼雄鷹",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
             "T": 0
           }
         },
@@ -109,8 +75,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 20,
-            "L": 17,
+            "W": 0,
+            "L": 0,
             "T": 0
           }
         },
@@ -119,49 +85,109 @@
           "Abbe": "樂天桃園"
         },
         "KindCode": "A",
-        "GameSno": 306,
-        "PreExeDate": "2026-09-07T18:35:00",
+        "GameSno": 317,
+        "PreExeDate": "2026-09-08T18:35:00",
         "Week": 37,
-        "InningSeq": 9,
-        "VisitingHomeType": 2,
-        "WinningPitcher": {
-          "Acnt": "0000006555",
-          "Name": "梅賽鍶"
-        },
-        "LoserPitcher": {
-          "Acnt": "0000006720",
-          "Name": "邱駿威"
-        },
-        "Closer": {
-          "Acnt": "0000005788",
-          "Name": "林凱威"
-        },
-        "Referee": [
-          {
-            "Job": "主審",
-            "Name": "羅鈞鴻"
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
+      },
+      {
+        "GameId": "2026-D-237",
+        "SkipTrackman": false,
+        "GameStatus": "SCHEDULED",
+        "Visiting": {
+          "Team": {
+            "Code": "AJL022",
+            "Name": "樂天桃猿二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
           },
-          {
-            "Job": "一壘審",
-            "Name": "江春緯"
-          },
-          {
-            "Job": "二壘審",
-            "Name": "紀華文"
-          },
-          {
-            "Job": "三壘審",
-            "Name": "尤志欽"
-          },
-          {
-            "Job": "左線審",
-            "Name": ""
-          },
-          {
-            "Job": "右線審",
-            "Name": ""
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
           }
-        ]
+        },
+        "Home": {
+          "Team": {
+            "Code": "AKP022",
+            "Name": "台鋼雄鷹二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F32",
+          "Abbe": "皇鷹學院"
+        },
+        "KindCode": "D",
+        "GameSno": 237,
+        "PreExeDate": "2026-09-08T14:05:00",
+        "Week": 37,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
+      },
+      {
+        "GameId": "2026-D-238",
+        "SkipTrackman": false,
+        "GameStatus": "SCHEDULED",
+        "Visiting": {
+          "Team": {
+            "Code": "ACN022",
+            "Name": "中信兄弟二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AEO022",
+            "Name": "富邦悍將二軍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F07",
+          "Abbe": "嘉義市"
+        },
+        "KindCode": "D",
+        "GameSno": 238,
+        "PreExeDate": "2026-09-08T14:05:00",
+        "Week": 37,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
       }
     ]
   }
