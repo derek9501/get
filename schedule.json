@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-318",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -12,7 +12,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 4,
           "AccumulationScore": {
             "W": 17,
             "L": 22,
@@ -26,7 +26,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 1,
+          "Score": 2,
           "AccumulationScore": {
             "W": 21,
             "L": 19,
@@ -41,11 +41,20 @@
         "GameSno": 318,
         "PreExeDate": "2026-09-09T18:35:00",
         "Week": 37,
-        "InningSeq": 2,
+        "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000007804",
+          "Name": "瑪帝斯"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000006724",
+          "Name": "曹祐齊"
+        },
+        "Closer": {
+          "Acnt": "0000005790",
+          "Name": "張奕"
+        },
         "Referee": [
           {
             "Job": "主審",
@@ -76,7 +85,7 @@
       {
         "GameId": "2026-A-319",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AKP011",
@@ -98,7 +107,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
           },
-          "Score": 1,
+          "Score": 4,
           "AccumulationScore": {
             "W": 21,
             "L": 17,
@@ -113,10 +122,16 @@
         "GameSno": 319,
         "PreExeDate": "2026-09-09T18:35:00",
         "Week": 37,
-        "InningSeq": 3,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000007062",
+          "Name": "威能帝"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007053",
+          "Name": "艾速特"
+        },
         "Closer": null,
         "Referee": [
           {
@@ -148,7 +163,7 @@
       {
         "GameId": "2026-A-320",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ADD011",
@@ -170,7 +185,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 0,
+          "Score": 5,
           "AccumulationScore": {
             "W": 22,
             "L": 19,
@@ -185,11 +200,20 @@
         "GameSno": 320,
         "PreExeDate": "2026-09-09T18:35:00",
         "Week": 37,
-        "InningSeq": 2,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000000778",
+          "Name": "蔡齊哲"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000006848",
+          "Name": "林詔恩"
+        },
+        "Closer": {
+          "Acnt": "0000003639",
+          "Name": "呂彥青"
+        },
         "Referee": [
           {
             "Job": "主審",
