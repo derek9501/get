@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-321",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ADD011",
@@ -12,9 +12,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
           },
-          "Score": 1,
+          "Score": 6,
           "AccumulationScore": {
-            "W": 22,
+            "W": 23,
             "L": 20,
             "T": 0
           }
@@ -29,7 +29,7 @@
           "Score": 0,
           "AccumulationScore": {
             "W": 23,
-            "L": 19,
+            "L": 20,
             "T": 0
           }
         },
@@ -41,10 +41,16 @@
         "GameSno": 321,
         "PreExeDate": "2026-09-10T18:35:00",
         "Week": 37,
-        "InningSeq": 3,
-        "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000005731",
+          "Name": "布雷克"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007281",
+          "Name": "游竣宥"
+        },
         "Closer": null,
         "Referee": [
           {
@@ -168,7 +174,7 @@
           "Score": 7,
           "AccumulationScore": {
             "W": 29,
-            "L": 40,
+            "L": 41,
             "T": 2
           }
         },
@@ -181,7 +187,7 @@
           },
           "Score": 8,
           "AccumulationScore": {
-            "W": 42,
+            "W": 43,
             "L": 25,
             "T": 4
           }
