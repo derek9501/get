@@ -3,7 +3,7 @@
     "Game": {
       "GameId": "2026-A-322",
       "SkipTrackman": false,
-      "GameStatus": "SCHEDULED",
+      "GameStatus": "START",
       "Visiting": {
         "Team": {
           "Code": "ADD011",
@@ -13,15 +13,299 @@
         },
         "Score": 0,
         "AccumulationScore": {
-          "W": 0,
-          "L": 0,
+          "W": 23,
+          "L": 20,
           "T": 0
         },
-        "HittingCnt": 0,
+        "HittingCnt": 2,
         "ErrorCnt": 0,
-        "Hitters": [],
-        "Pitchers": [],
-        "InningScore": []
+        "Hitters": [
+          {
+            "Avg": 0.262,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 1,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000005531",
+            "HitterName": "邱智呈",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "RF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.321,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 2,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000007037",
+            "HitterName": "張皓崴",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 1,
+            "DefendStation": "CF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.309,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 3,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000001804",
+            "HitterName": "陳傑憲",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "LF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.287,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 4,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000002661",
+            "HitterName": "陳鏞基",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "DH",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.303,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 5,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000002707",
+            "HitterName": "潘傑楷",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "3B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.259,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 6,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000006851",
+            "HitterName": "林培緯",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 1,
+            "DefendStation": "1B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.241,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 7,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000001339",
+            "HitterName": "林祖傑",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "2B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": true
+          },
+          {
+            "Avg": 0.282,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 8,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000002298",
+            "HitterName": "陳重羽",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "C",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.232,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 9,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000007071",
+            "HitterName": "林泓弦",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "SS",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          }
+        ],
+        "Pitchers": [
+          {
+            "Era": 1.5,
+            "Whip": 1.67,
+            "RunCnt": 0,
+            "TotalL": 0,
+            "TotalS": 0,
+            "TotalW": 0,
+            "BalkCnt": 0,
+            "ErrorCnt": 0,
+            "IsSaveOK": "0",
+            "PitchCnt": 14,
+            "RoleType": "先發",
+            "StrikeCnt": 10,
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "IsSaveFail": "0",
+            "PitcherAcnt": "0000001412",
+            "PitcherName": "江少慶",
+            "EarnedRunCnt": 0,
+            "StrikeOutCnt": 1,
+            "WildPitchCnt": 0,
+            "HitBYPitchCnt": 0,
+            "ReliefPointCnt": 0,
+            "BasesONBallsCnt": 0,
+            "InningPitchedCnt": 1,
+            "PlateAppearances": 4,
+            "InningPitchedDiv3Cnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          }
+        ],
+        "InningScore": [
+          {
+            "Seq": 1,
+            "Score": "0"
+          },
+          {
+            "Seq": 2,
+            "Score": "0"
+          }
+        ]
       },
       "Home": {
         "Team": {
@@ -32,15 +316,295 @@
         },
         "Score": 0,
         "AccumulationScore": {
-          "W": 0,
-          "L": 0,
+          "W": 21,
+          "L": 20,
           "T": 0
         },
-        "HittingCnt": 0,
+        "HittingCnt": 1,
         "ErrorCnt": 0,
-        "Hitters": [],
-        "Pitchers": [],
-        "InningScore": []
+        "Hitters": [
+          {
+            "Avg": 0.281,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 1,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000005542",
+            "HitterName": "張政禹",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "SS",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.265,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 2,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000005549",
+            "HitterName": "郭天信",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 1,
+            "DefendStation": "CF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.265,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 3,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000005540",
+            "HitterName": "李凱威",
+            "HittingCnt": 1,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "2B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 1,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.214,
+            "Rboe": 0,
+            "HitCnt": 1,
+            "Lineup": 4,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000003625",
+            "HitterName": "吉力吉撈．鞏冠",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "DH",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 1,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.186,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 5,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000000743",
+            "HitterName": "陳子豪",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "LF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.253,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 6,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000001318",
+            "HitterName": "朱育賢",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "1B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.259,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 7,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000006216",
+            "HitterName": "王順和",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "RF",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.213,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 8,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000005291",
+            "HitterName": "蔣少宏",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "C",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          },
+          {
+            "Avg": 0.255,
+            "Rboe": 0,
+            "HitCnt": 0,
+            "Lineup": 9,
+            "ScoreCnt": 0,
+            "HitterAcnt": "0000005546",
+            "HitterName": "拿莫．伊漾",
+            "HittingCnt": 0,
+            "HomeRunCnt": 0,
+            "StrikeOutCnt": 0,
+            "DefendStation": "3B",
+            "HitBYPitchCnt": 0,
+            "OneBaseHitCnt": 0,
+            "TwoBaseHitCnt": 0,
+            "RunBattedINCnt": 0,
+            "StealBaseOKCnt": 0,
+            "BasesONBallsCnt": 0,
+            "SacrificeFlyCnt": 0,
+            "SacrificeHitCnt": 0,
+            "ThreeBaseHitCnt": 0,
+            "DoublePlayBatCnt": 0,
+            "PlateAppearances": 0,
+            "StealBaseFailCnt": 0,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": false
+          }
+        ],
+        "Pitchers": [
+          {
+            "Era": 2.35,
+            "Whip": 1.25,
+            "RunCnt": 0,
+            "TotalL": 0,
+            "TotalS": 0,
+            "TotalW": 0,
+            "BalkCnt": 0,
+            "ErrorCnt": 0,
+            "IsSaveOK": "0",
+            "PitchCnt": 23,
+            "RoleType": "先發",
+            "StrikeCnt": 16,
+            "HittingCnt": 2,
+            "HomeRunCnt": 0,
+            "IsSaveFail": "0",
+            "PitcherAcnt": "0000007264",
+            "PitcherName": "魔神龍",
+            "EarnedRunCnt": 0,
+            "StrikeOutCnt": 2,
+            "WildPitchCnt": 0,
+            "HitBYPitchCnt": 0,
+            "ReliefPointCnt": 0,
+            "BasesONBallsCnt": 0,
+            "InningPitchedCnt": 1,
+            "PlateAppearances": 6,
+            "InningPitchedDiv3Cnt": 1,
+            "IntentionalBasesONBallsCnt": 0,
+            "IsCurrent": true
+          }
+        ],
+        "InningScore": [
+          {
+            "Seq": 1,
+            "Score": "0"
+          }
+        ]
       },
       "Field": {
         "No": "F10",
@@ -50,14 +614,3442 @@
       "GameSno": 322,
       "PreExeDate": "2026-09-11T18:35:00",
       "Week": 37,
-      "InningSeq": 1,
+      "InningSeq": 2,
       "VisitingHomeType": 1,
-      "WinningPitcher": null,
-      "LoserPitcher": null,
+      "LiveLog": [
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 1,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005531",
+          "HitterName": "邱智呈",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110001000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853811359500564/14邱智呈2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "14",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "二滾",
+          "DefendStationCode": "RF",
+          "HitterDefendStation": "9",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.482699568,
+                "RelSpeed": 142.289747424,
+                "SpinRate": 2377.3655,
+                "Extension": 1.775496576,
+                "RelHeight": 1.939408872
+              },
+              "Location": {
+                "ZoneTime": 0.432908,
+                "ZoneSpeed": 128.96973821952,
+                "PlateLocSide": -0.092945712,
+                "PlateLocHeight": 0.9357847680000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8095133651072,
+                      -39.41221983936,
+                      4.359642792000001
+                    ],
+                    "Y": [
+                      1.9434599468544,
+                      -1.37102283072,
+                      -2.144396016
+                    ],
+                    "Z": [
+                      0.48641024465280003,
+                      -1.18642388064,
+                      0.654279108
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 2,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005531",
+          "HitterName": "邱智呈",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110002000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853811359500564/14邱智呈2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "14",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "二滾",
+          "DefendStationCode": "RF",
+          "HitterDefendStation": "9",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.436729632,
+                "RelSpeed": 144.851823072,
+                "SpinRate": 2462.6013,
+                "Extension": 1.813054032,
+                "RelHeight": 1.952521368
+              },
+              "Location": {
+                "ZoneTime": 0.423243,
+                "ZoneSpeed": 132.194734848,
+                "PlateLocSide": 0.172407072,
+                "PlateLocHeight": 0.754696992
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.836615781209602,
+                      -40.08319266048,
+                      4.194953256
+                    ],
+                    "Y": [
+                      1.961847967584,
+                      -2.0860737551999997,
+                      -1.70804586
+                    ],
+                    "Z": [
+                      0.4448778820992,
+                      -1.66109148096,
+                      0.513950712
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 3,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005531",
+          "HitterName": "邱智呈",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110003000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853811359500564/14邱智呈2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "14",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "二滾",
+          "DefendStationCode": "RF",
+          "HitterDefendStation": "9",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.535058112,
+                "RelSpeed": 128.81681835264,
+                "SpinRate": 1983.5137,
+                "Extension": 1.722571104,
+                "RelHeight": 1.881036624
+              },
+              "Location": {
+                "ZoneTime": 0.47795,
+                "ZoneSpeed": 117.84514781952,
+                "PlateLocSide": -0.379287024,
+                "PlateLocHeight": 0.830013072
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.6621206,
+                      -35.68963245600001,
+                      3.4154364000000004
+                    ],
+                    "Y": [
+                      1.8804711444096,
+                      -0.55381782048,
+                      -3.4680997440000003
+                    ],
+                    "Z": [
+                      0.532451255136,
+                      -0.9337688208000001,
+                      1.29245106
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 4,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005531",
+          "HitterName": "邱智呈",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110004000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853811359500564/14邱智呈2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "14",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "二滾",
+          "DefendStationCode": "RF",
+          "HitterDefendStation": "9",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.5359908,
+                "RelSpeed": 128.23813043712,
+                "SpinRate": 2192.6155,
+                "Extension": 1.736055456,
+                "RelHeight": 1.898678448
+              },
+              "Location": {
+                "ZoneTime": 0.479192,
+                "ZoneSpeed": 117.58512610944,
+                "PlateLocSide": -0.204728064,
+                "PlateLocHeight": 1.13388648
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.6562100110592,
+                      -35.53799908896,
+                      3.318720312
+                    ],
+                    "Y": [
+                      1.9019846843136001,
+                      0.8069605603200001,
+                      -5.055406704
+                    ],
+                    "Z": [
+                      0.5359789128000001,
+                      -0.4620585120000001,
+                      -0.48451770000000005
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "擊出內野滾地球， 打者-二壘手  傳一壘手刺殺出局。 1人出局。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 5,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005531",
+          "HitterName": "邱智呈",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110005000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088853811359500564/14邱智呈2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "14",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "二滾",
+          "DefendStationCode": "RF",
+          "HitterDefendStation": "9",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.402695664,
+                "RelSpeed": 145.25813415168,
+                "SpinRate": 2364.1667,
+                "Extension": 1.838876688,
+                "RelHeight": 1.946781984
+              },
+              "Location": {
+                "ZoneTime": 0.421539,
+                "ZoneSpeed": 132.43365805824,
+                "PlateLocSide": -0.091452192,
+                "PlateLocHeight": 0.6795485520000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.842557493888,
+                      -40.2378361104,
+                      4.347469080000001
+                    ],
+                    "Y": [
+                      1.9591709286911998,
+                      -2.23571933856,
+                      -1.766821968
+                    ],
+                    "Z": [
+                      0.40859597020800004,
+                      -1.1016258384000002,
+                      0.84436458
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": -23.915401,
+                "Direction": 11.797199,
+                "ExitSpeed": 119.21582610432
+              },
+              "LandingFlat": {
+                "Bearing": 12.97544,
+                "Distance": 1.58588964,
+                "HangTime": 0.04468,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 6,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000007037",
+          "HitterName": "張皓崴",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110006000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0O058616030406783989/38張皓崴2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "38",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.388562088,
+                "RelSpeed": 117.4005987264,
+                "SpinRate": 2170.9082,
+                "Extension": 1.65923976,
+                "RelHeight": 2.01561192
+              },
+              "Location": {
+                "ZoneTime": 0.526692,
+                "ZoneSpeed": 107.9767630656,
+                "PlateLocSide": 0.095009208,
+                "PlateLocHeight": 0.9801392640000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.5356880164928,
+                      -32.50671176064,
+                      2.862783708
+                    ],
+                    "Y": [
+                      2.0270312617536,
+                      0.96790715232,
+                      -5.752522404
+                    ],
+                    "Z": [
+                      0.3851231076288,
+                      -0.59386707744,
+                      -0.638545332
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 0,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 7,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000007037",
+          "HitterName": "張皓崴",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110007000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0O058616030406783989/38張皓崴2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "38",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.40213788,
+                "RelSpeed": 145.87848798336,
+                "SpinRate": 2404.5894,
+                "Extension": 1.831296312,
+                "RelHeight": 1.952405544
+              },
+              "Location": {
+                "ZoneTime": 0.42127,
+                "ZoneSpeed": 131.91882891264,
+                "PlateLocSide": -0.164153088,
+                "PlateLocHeight": 0.8658484080000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8493251853056,
+                      -40.42022099328,
+                      4.677284016000001
+                    ],
+                    "Y": [
+                      1.9626492063168002,
+                      -1.96237274784,
+                      -1.409430252
+                    ],
+                    "Z": [
+                      0.4073538638784,
+                      -1.0446685939200002,
+                      1.116864924
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 35.461197,
+                "Direction": -133.50026,
+                "ExitSpeed": 103.43855782656,
+                "HitSpinRate": 3679.9185
+              },
+              "LandingFlat": {
+                "Bearing": -144.52432,
+                "Distance": 57.423926808,
+                "HangTime": 3.232317,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 0,
+          "Content": "揮棒落空。 打者出局-三振出局。 2人出局。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 8,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 3,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000007037",
+          "HitterName": "張皓崴",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110008000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0O058616030406783989/38張皓崴2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "38",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.384075432,
+                "RelSpeed": 144.11060750592,
+                "SpinRate": 2389.7576,
+                "Extension": 1.781001264,
+                "RelHeight": 2.00349612
+              },
+              "Location": {
+                "ZoneTime": 0.426452,
+                "ZoneSpeed": 130.81366020096,
+                "PlateLocSide": -0.018955512,
+                "PlateLocHeight": 1.300386528
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8308639686848,
+                      -39.94610922624,
+                      4.362750228
+                    ],
+                    "Y": [
+                      2.0058858300288,
+                      -0.8763160934399999,
+                      -1.765581432
+                    ],
+                    "Z": [
+                      0.3881654407872,
+                      -1.04703774336,
+                      0.44155309200000004
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 2,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 9,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110009000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.431054256,
+                "RelSpeed": 141.79477758336,
+                "SpinRate": 2298.339,
+                "Extension": 1.826398176,
+                "RelHeight": 1.965758832
+              },
+              "Location": {
+                "ZoneTime": 0.435299,
+                "ZoneSpeed": 127.87406463744,
+                "PlateLocSide": -0.03349752,
+                "PlateLocHeight": 0.428753016
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8007183220928,
+                      -39.20075069664,
+                      4.569816108
+                    ],
+                    "Y": [
+                      1.9776730202111998,
+                      -2.7747093705599997,
+                      -1.688488368
+                    ],
+                    "Z": [
+                      0.43653344321279997,
+                      -1.36739278464,
+                      1.028992608
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 2,
+          "BallCnt": 1,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 10,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110010000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.43389804,
+                "RelSpeed": 142.99481712384,
+                "SpinRate": 2360.6116,
+                "Extension": 1.739673432,
+                "RelHeight": 1.964378088
+              },
+              "Location": {
+                "ZoneTime": 0.431141,
+                "ZoneSpeed": 130.29376162176,
+                "PlateLocSide": 0.066418968,
+                "PlateLocHeight": 0.6817583520000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8161853956544,
+                      -39.573594126719996,
+                      4.223980884
+                    ],
+                    "Y": [
+                      1.9696855484544,
+                      -2.14677540672,
+                      -1.884782616
+                    ],
+                    "Z": [
+                      0.43771205848320005,
+                      -1.54890801216,
+                      0.896413752
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 2,
+          "BallCnt": 1,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 11,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110011000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.42172128,
+                "RelSpeed": 143.27666153856,
+                "SpinRate": 2308.9553,
+                "Extension": 1.788282936,
+                "RelHeight": 1.937269176
+              },
+              "Location": {
+                "ZoneTime": 0.429393,
+                "ZoneSpeed": 130.18075348608,
+                "PlateLocSide": -0.008598408,
+                "PlateLocHeight": 0.7434132960000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8203101272576,
+                      -39.68269704288,
+                      4.373596536
+                    ],
+                    "Y": [
+                      1.9444884956736,
+                      -1.9158544156799997,
+                      -1.964239404
+                    ],
+                    "Z": [
+                      0.426408287136,
+                      -1.2146267808,
+                      0.58150506
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 2,
+          "BallCnt": 2,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 12,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110012000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.373538496,
+                "RelSpeed": 145.15885372032,
+                "SpinRate": 2341.6763,
+                "Extension": 1.849727568,
+                "RelHeight": 1.971473832
+              },
+              "Location": {
+                "ZoneTime": 0.42178,
+                "ZoneSpeed": 131.58765810432,
+                "PlateLocSide": -0.096838008,
+                "PlateLocHeight": 1.299033216
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.843203430924802,
+                      -40.26002274624,
+                      4.498424328
+                    ],
+                    "Y": [
+                      1.9754344812288,
+                      -0.84493083744,
+                      -1.714679832
+                    ],
+                    "Z": [
+                      0.3787226221824,
+                      -0.9178638691200001,
+                      0.606987864
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 2,
+          "BallCnt": 2,
+          "Content": "擊出內野滾地球， 打者-游擊手  傳一壘手刺殺出局。 3人出局。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 13,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000001804",
+          "HitterName": "陳傑憲",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0110013000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782027721249240/24陳傑憲2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "24",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "LF",
+          "HitterDefendStation": "7",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.3202289760000001,
+                "RelSpeed": 118.33244108928,
+                "SpinRate": 2204.2874,
+                "Extension": 1.618058232,
+                "RelHeight": 1.96196712
+              },
+              "Location": {
+                "ZoneTime": 0.521396,
+                "ZoneSpeed": 109.75595723136,
+                "PlateLocSide": -0.02267712,
+                "PlateLocHeight": 0.959650608
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.546996191590402,
+                      -32.781460187520004,
+                      2.663884944
+                    ],
+                    "Y": [
+                      1.9744970676096,
+                      1.08729548352,
+                      -5.987119344
+                    ],
+                    "Z": [
+                      0.31870047471359997,
+                      -0.26642007168000004,
+                      -0.608069904
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": -37.07801,
+                "Direction": -13.78585,
+                "ExitSpeed": 129.0788034624
+              },
+              "LandingFlat": {
+                "Bearing": -9.826274,
+                "Distance": 1.621145856,
+                "HangTime": 0.043505,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 1,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005542",
+          "HitterName": "張政禹",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120001000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847274945283727/25張政禹.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "25",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "SS",
+          "HitterDefendStation": "6",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.7394265120000001,
+                "RelSpeed": 141.91440012288,
+                "SpinRate": 2239.0745,
+                "Extension": 1.61519616,
+                "RelHeight": 1.921995648
+              },
+              "Location": {
+                "ZoneTime": 0.435022,
+                "ZoneSpeed": 130.52701994112,
+                "PlateLocSide": 0.123163584,
+                "PlateLocHeight": 1.141561344
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8053818718208,
+                      -39.28203415104,
+                      3.6871838880000003
+                    ],
+                    "Y": [
+                      1.9213675454208,
+                      -0.58044734304,
+                      -2.793702312
+                    ],
+                    "Z": [
+                      -0.7368689937216,
+                      2.14330166208,
+                      -1.684780476
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 2,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005542",
+          "HitterName": "張政禹",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120002000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847274945283727/25張政禹.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "25",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "SS",
+          "HitterDefendStation": "6",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.7433889120000001,
+                "RelSpeed": 145.60718477184,
+                "SpinRate": 2268.692,
+                "Extension": 1.664262864,
+                "RelHeight": 1.847490336
+              },
+              "Location": {
+                "ZoneTime": 0.422107,
+                "ZoneSpeed": 134.79427602432,
+                "PlateLocSide": 0.063319152,
+                "PlateLocHeight": 0.6008217600000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8452937542016,
+                      -40.27893278208,
+                      3.6647231760000003
+                    ],
+                    "Y": [
+                      1.8502725479616,
+                      -1.8615262540799997,
+                      -2.5628361240000004
+                    ],
+                    "Z": [
+                      -0.7460742877824,
+                      2.44122683712,
+                      -1.962281064
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "擊出內野滾地球， 打者-游擊手  傳一壘手刺殺出局。 1人出局。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 3,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "刺殺",
+          "HitterAcnt": "0000005542",
+          "HitterName": "張政禹",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120003000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 1,
+          "HitterLineup": 1,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847274945283727/25張政禹.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "25",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "SS",
+          "HitterDefendStation": "6",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.7813548,
+                "RelSpeed": 150.15385516032,
+                "SpinRate": 2375.9463,
+                "Extension": 1.703399184,
+                "RelHeight": 1.798100544
+              },
+              "Location": {
+                "ZoneTime": 0.410014,
+                "ZoneSpeed": 138.66597144576,
+                "PlateLocSide": -0.446998344,
+                "PlateLocHeight": 0.358304592
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8891575075712,
+                      -41.38377718656,
+                      3.870987432
+                    ],
+                    "Y": [
+                      1.8067538672063999,
+                      -2.53464620832,
+                      -2.337326796
+                    ],
+                    "Z": [
+                      -0.7937734980480001,
+                      4.0581187824,
+                      -2.55608328
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 4,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000005549",
+          "HitterName": "郭天信",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120004000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847591564374230/2郭天信.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.785033736,
+                "RelSpeed": 149.561568288,
+                "SpinRate": 2478.702,
+                "Extension": 1.643560848,
+                "RelHeight": 1.8117312
+              },
+              "Location": {
+                "ZoneTime": 0.416731,
+                "ZoneSpeed": 134.67412240128,
+                "PlateLocSide": 0.175970184,
+                "PlateLocHeight": 0.844606896
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.886897615520002,
+                      -41.372735136,
+                      5.0073687
+                    ],
+                    "Y": [
+                      1.8139055383488,
+                      -1.2339897494399998,
+                      -2.576082732
+                    ],
+                    "Z": [
+                      -0.7880993144256,
+                      2.36567276928,
+                      -2.163712716
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 0,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 5,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000005549",
+          "HitterName": "郭天信",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120005000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847591564374230/2郭天信.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.743459016,
+                "RelSpeed": 140.81248228608,
+                "SpinRate": 1771.3567,
+                "Extension": 1.652631696,
+                "RelHeight": 1.855247496
+              },
+              "Location": {
+                "ZoneTime": 0.434684,
+                "ZoneSpeed": 131.56337310336,
+                "PlateLocSide": -0.08510016000000001,
+                "PlateLocHeight": 0.8143646400000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.7944312636992,
+                      -38.98596679296001,
+                      3.129630012
+                    ],
+                    "Y": [
+                      1.8555300358464,
+                      -0.91308582432,
+                      -3.407936796
+                    ],
+                    "Z": [
+                      -0.7431759762816001,
+                      2.42211746208,
+                      -1.194776376
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 0,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 6,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000005549",
+          "HitterName": "郭天信",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120006000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847591564374230/2郭天信.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.823030104,
+                "RelSpeed": 155.51684919936,
+                "SpinRate": 2492.7886,
+                "Extension": 1.642670832,
+                "RelHeight": 1.797308064
+              },
+              "Location": {
+                "ZoneTime": 0.398058,
+                "ZoneSpeed": 142.21671539328,
+                "PlateLocSide": 0.252444504,
+                "PlateLocHeight": 0.559472592
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.953919792473602,
+                      -43.03822987968,
+                      4.7558766960000005
+                    ],
+                    "Y": [
+                      1.804338178464,
+                      -1.9917869231999998,
+                      -2.75564346
+                    ],
+                    "Z": [
+                      -0.8302934221631999,
+                      2.54369291616,
+                      -2.7599990520000004
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 27.448387,
+                "Direction": -55.851234,
+                "ExitSpeed": 131.3508753216,
+                "HitSpinRate": 4536.451
+              },
+              "LandingFlat": {
+                "Bearing": -72.636826,
+                "Distance": 81.17025168,
+                "HangTime": 3.785087,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 7,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000005549",
+          "HitterName": "郭天信",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120007000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847591564374230/2郭天信.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.896730744,
+                "RelSpeed": 136.06268049792,
+                "SpinRate": 2461.508,
+                "Extension": 1.71149772,
+                "RelHeight": 1.721833488
+              },
+              "Location": {
+                "ZoneTime": 0.44964,
+                "ZoneSpeed": 126.21270663936,
+                "PlateLocSide": 0.378189744,
+                "PlateLocHeight": 0.8274344640000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.7438615543232,
+                      -37.72832054016,
+                      3.2945420520000006
+                    ],
+                    "Y": [
+                      1.7232419346624,
+                      0.13653077088000007,
+                      -4.727888436000001
+                    ],
+                    "Z": [
+                      -0.8974128815232,
+                      1.03846859616,
+                      0.256416048
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 8,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000005549",
+          "HitterName": "郭天信",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120008000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847591564374230/2郭天信.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.846606384,
+                "RelSpeed": 135.02877353856,
+                "SpinRate": 2710.9424,
+                "Extension": 1.776066552,
+                "RelHeight": 1.752283008
+              },
+              "Location": {
+                "ZoneTime": 0.450812,
+                "ZoneSpeed": 126.12063606912,
+                "PlateLocSide": -0.08346033600000001,
+                "PlateLocHeight": 0.592476336
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.732470873523198,
+                      -37.43779127616001,
+                      3.1504859520000004
+                    ],
+                    "Y": [
+                      1.7539743992832,
+                      -0.2428857321600001,
+                      -5.142436248
+                    ],
+                    "Z": [
+                      -0.8502754054656001,
+                      1.88312864928,
+                      0.399617184
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 42.09198,
+                "Direction": 50.36643,
+                "ExitSpeed": 110.62376379648,
+                "HitSpinRate": 5083.3213
+              },
+              "LandingFlat": {
+                "Bearing": 63.29661,
+                "Distance": 61.94093784,
+                "HangTime": 4.555807,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "揮棒落空。 打者出局-三振出局。 2人出局。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 9,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 3,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000005549",
+          "HitterName": "郭天信",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120009000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 2,
+          "HitterLineup": 2,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088847591564374230/2郭天信.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "2",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "三振",
+          "DefendStationCode": "CF",
+          "HitterDefendStation": "8",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.811450752,
+                "RelSpeed": 125.837021376,
+                "SpinRate": 2735.944,
+                "Extension": 1.950896784,
+                "RelHeight": 1.841010288
+              },
+              "Location": {
+                "ZoneTime": 0.481376,
+                "ZoneSpeed": 116.68609827072,
+                "PlateLocSide": -0.139333224,
+                "PlateLocHeight": 0.476015304
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.6316041873728,
+                      -34.917554792640004,
+                      3.1862527080000005
+                    ],
+                    "Y": [
+                      1.8439349610431999,
+                      -0.13239573216000006,
+                      -5.539857348
+                    ],
+                    "Z": [
+                      -0.8184083703936,
+                      1.43159122368,
+                      1.118990904
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 2,
+          "BallCnt": 0,
+          "Content": "擊出界外球。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 10,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000005540",
+          "HitterName": "李凱威",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120010000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088846283692901115/21李凱威.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "21",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.80575404,
+                "RelSpeed": 150.69620408832,
+                "SpinRate": 2410.7039,
+                "Extension": 1.787380728,
+                "RelHeight": 1.816921944
+              },
+              "Location": {
+                "ZoneTime": 0.407629,
+                "ZoneSpeed": 137.49861768192,
+                "PlateLocSide": -0.044247816,
+                "PlateLocHeight": 0.71385684
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.899916611072,
+                      -41.677980753599996,
+                      4.50163692
+                    ],
+                    "Y": [
+                      1.8274871093568,
+                      -1.9332247238399998,
+                      -1.832340252
+                    ],
+                    "Z": [
+                      -0.8221942253568002,
+                      3.08187266784,
+                      -2.394130848
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 36.865868,
+                "Direction": -58.55067,
+                "ExitSpeed": 138.51812101248,
+                "HitSpinRate": 4306.4805
+              },
+              "LandingFlat": {
+                "Bearing": -77.23202,
+                "Distance": 82.40592002400001,
+                "HangTime": 4.435173,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 2,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 11,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000005540",
+          "HitterName": "李凱威",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120011000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088846283692901115/21李凱威.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "21",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.7625212080000001,
+                "RelSpeed": 151.95400298496,
+                "SpinRate": 2466.636,
+                "Extension": 1.740785952,
+                "RelHeight": 1.815187632
+              },
+              "Location": {
+                "ZoneTime": 0.406192,
+                "ZoneSpeed": 138.9029634432,
+                "PlateLocSide": -0.339599016,
+                "PlateLocHeight": 0.341141304
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.9094085317376,
+                      -41.91484802688,
+                      4.490868336
+                    ],
+                    "Y": [
+                      1.8281590226688,
+                      -2.70171452544,
+                      -2.221486032
+                    ],
+                    "Z": [
+                      -0.7798298075712,
+                      3.8728001385599997,
+                      -2.806968732
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 2,
+          "BallCnt": 2,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 12,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000005540",
+          "HitterName": "李凱威",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120012000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088846283692901115/21李凱威.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "21",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.783713952,
+                "RelSpeed": 150.96525421824,
+                "SpinRate": 2555.6738,
+                "Extension": 1.655341368,
+                "RelHeight": 1.802139144
+              },
+              "Location": {
+                "ZoneTime": 0.410758,
+                "ZoneSpeed": 137.82354423552,
+                "PlateLocSide": -0.357292656,
+                "PlateLocHeight": 0.5803392
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8990325667136,
+                      -41.65309371168,
+                      4.431988596
+                    ],
+                    "Y": [
+                      1.8071277422015999,
+                      -2.10268096608,
+                      -2.086814724
+                    ],
+                    "Z": [
+                      -0.7922634188736,
+                      3.82100681568,
+                      -2.525083596
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 2,
+          "BallCnt": 2,
+          "Content": "擊出中外野滾地球，一壘安打 。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 13,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000005540",
+          "HitterName": "李凱威",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120013000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 3,
+          "HitterLineup": 3,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L088846283692901115/21李凱威.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "21",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "一安",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.822926472,
+                "RelSpeed": 151.7139854208,
+                "SpinRate": 2469.5405,
+                "Extension": 1.73030388,
+                "RelHeight": 1.811219136
+              },
+              "Location": {
+                "ZoneTime": 0.405208,
+                "ZoneSpeed": 139.12429652352,
+                "PlateLocSide": 0.074703432,
+                "PlateLocHeight": 0.700235328
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.912239321504,
+                      -41.9807178672,
+                      4.3683707400000005
+                    ],
+                    "Y": [
+                      1.81930480944,
+                      -1.7797028160000001,
+                      -2.3128605
+                    ],
+                    "Z": [
+                      -0.8351723435712001,
+                      2.90350870656,
+                      -2.568157932
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 1.572556,
+                "Direction": -4.75939,
+                "ExitSpeed": 153.95570505216,
+                "HitSpinRate": 1515.6157
+              },
+              "LandingFlat": {
+                "Bearing": -5.907782,
+                "Distance": 16.121865648,
+                "HangTime": 0.390773,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 2,
+          "BallCnt": 0,
+          "Content": "擊出內野滾地球，趁傳上壘。 一壘跑者李凱威-游擊手  傳二壘手封殺出局 3人出局。一壘殘壘。\r\n",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 14,
+          "FirstBase": "3",
+          "HomeScore": 0,
+          "InningSeq": 1,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "趁傳",
+          "HitterAcnt": "0000003625",
+          "HitterName": "吉力吉撈．鞏冠",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000002298",
+          "CatcherName": "陳重羽",
+          "MainEventNo": "0120014000",
+          "PitcherAcnt": "0000001412",
+          "PitcherName": "江少慶",
+          "BattingOrder": 4,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782153170013481/4吉力吉撈.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "4",
+          "CatcherUniformNo": "65",
+          "PitcherUniformNo": "76",
+          "VisitingHomeType": "2",
+          "BattingActionName": "游滾",
+          "DefendStationCode": "DH",
+          "HitterDefendStation": "0",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0L090428114162413381/76江少慶.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": 0.7937022480000001,
+                "RelSpeed": 151.38336178944,
+                "SpinRate": 2662.1755,
+                "Extension": 1.728091032,
+                "RelHeight": 1.854988416
+              },
+              "Location": {
+                "ZoneTime": 0.407868,
+                "ZoneSpeed": 137.46826545408,
+                "PlateLocSide": 0.156112464,
+                "PlateLocHeight": 0.876586512
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.908414203424,
+                      -41.901183355200004,
+                      4.7707067400000005
+                    ],
+                    "Y": [
+                      1.861074333216,
+                      -1.4127955488,
+                      -2.3566145400000007
+                    ],
+                    "Z": [
+                      -0.8044933067328,
+                      2.78830332864,
+                      -2.9613865080000004
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 6.479074,
+                "Direction": -9.762879,
+                "ExitSpeed": 134.73762711552,
+                "HitSpinRate": 828.5952
+              },
+              "LandingFlat": {
+                "Bearing": -10.557177,
+                "Distance": 26.597286912,
+                "HangTime": 0.772627,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 14,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000002661",
+          "HitterName": "陳鏞基",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210001000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782075805688062/13陳鏞基2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "13",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "DH",
+          "HitterDefendStation": "0",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.4322734560000001,
+                "RelSpeed": 140.55048108288,
+                "SpinRate": 2335.4421,
+                "Extension": 1.682361888,
+                "RelHeight": 2.000542608
+              },
+              "Location": {
+                "ZoneTime": 0.439601,
+                "ZoneSpeed": 127.80812981376,
+                "PlateLocSide": -0.190564008,
+                "PlateLocHeight": 1.200244488
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.790667985881598,
+                      -38.92935763008,
+                      4.066449576
+                    ],
+                    "Y": [
+                      1.9999085167103998,
+                      -1.03800627552,
+                      -1.763716056
+                    ],
+                    "Z": [
+                      0.4323273592704,
+                      -0.81404533152,
+                      0.602598744
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 15,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000002661",
+          "HitterName": "陳鏞基",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210002000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782075805688062/13陳鏞基2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "13",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "DH",
+          "HitterDefendStation": "0",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.49912524,
+                "RelSpeed": 125.91518721408,
+                "SpinRate": 1940.3022,
+                "Extension": 1.643509032,
+                "RelHeight": 1.910660136
+              },
+              "Location": {
+                "ZoneTime": 0.490175,
+                "ZoneSpeed": 115.9944344064,
+                "PlateLocSide": -0.108048552,
+                "PlateLocHeight": 0.668572704
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.628596879392003,
+                      -34.835799873599996,
+                      3.02194722
+                    ],
+                    "Y": [
+                      1.906681191456,
+                      -0.9106162127999999,
+                      -3.37990434
+                    ],
+                    "Z": [
+                      0.4907144034816,
+                      -1.42144382208,
+                      1.306028376
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "擊出中外野高飛球，一壘安打 。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 16,
+          "FirstBase": "",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000002661",
+          "HitterName": "陳鏞基",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210003000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 1,
+          "HitterLineup": 4,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782075805688062/13陳鏞基2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "13",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "DH",
+          "HitterDefendStation": "0",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.371548152,
+                "RelSpeed": 142.22590474752,
+                "SpinRate": 2420.2346,
+                "Extension": 1.772768616,
+                "RelHeight": 1.987865976
+              },
+              "Location": {
+                "ZoneTime": 0.432227,
+                "ZoneSpeed": 129.7494171072,
+                "PlateLocSide": 0.098672904,
+                "PlateLocHeight": 0.719882736
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.8078732314304,
+                      -39.361058915520005,
+                      4.105703244
+                    ],
+                    "Y": [
+                      1.9946354815872,
+                      -2.26470459936,
+                      -1.509586008
+                    ],
+                    "Z": [
+                      0.3760950023424,
+                      -1.4834690371200001,
+                      0.907444464
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 24.909452,
+                "Direction": -13.888986,
+                "ExitSpeed": 125.34171357312,
+                "HitSpinRate": 1687.1155
+              },
+              "LandingFlat": {
+                "Bearing": -11.373303,
+                "Distance": 80.07594043200001,
+                "HangTime": 3.539347,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 17,
+          "FirstBase": "4",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000002707",
+          "HitterName": "潘傑楷",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210004000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 2,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782080976485061/35潘傑楷2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "35",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.4441972320000001,
+                "RelSpeed": 139.74196275072,
+                "SpinRate": 2268.8545,
+                "Extension": 1.77971196,
+                "RelHeight": 1.951049184
+              },
+              "Location": {
+                "ZoneTime": 0.439218,
+                "ZoneSpeed": 127.91531212416,
+                "PlateLocSide": 0.210787488,
+                "PlateLocHeight": 0.695526168
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.780562371142402,
+                      -38.66883434112,
+                      3.8693765640000004
+                    ],
+                    "Y": [
+                      1.9560820611072,
+                      -1.8914312793599999,
+                      -2.164601208
+                    ],
+                    "Z": [
+                      0.4491709657152,
+                      -1.79782354176,
+                      0.692814972
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 18,
+          "FirstBase": "4",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000002707",
+          "HitterName": "潘傑楷",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210005000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 2,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782080976485061/35潘傑楷2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "35",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.4450628640000001,
+                "RelSpeed": 139.15851117696,
+                "SpinRate": 2272.6067,
+                "Extension": 1.824413928,
+                "RelHeight": 1.981791312
+              },
+              "Location": {
+                "ZoneTime": 0.440429,
+                "ZoneSpeed": 126.57229846272,
+                "PlateLocSide": -0.294159432,
+                "PlateLocHeight": 0.991054152
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.776263866963202,
+                      -38.569507580160014,
+                      4.072772652
+                    ],
+                    "Y": [
+                      1.9861397424192,
+                      -1.27601325696,
+                      -2.1623075880000004
+                    ],
+                    "Z": [
+                      0.4465676274624,
+                      -0.37730411712,
+                      0.077740764
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 19,
+          "FirstBase": "4",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000002707",
+          "HitterName": "潘傑楷",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210006000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 2,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782080976485061/35潘傑楷2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "35",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.392545824,
+                "RelSpeed": 141.12657795456,
+                "SpinRate": 2340.6226,
+                "Extension": 1.77078132,
+                "RelHeight": 1.948476672
+              },
+              "Location": {
+                "ZoneTime": 0.435701,
+                "ZoneSpeed": 128.83481081856,
+                "PlateLocSide": 0.30726888,
+                "PlateLocHeight": 0.7099188240000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.794943539840002,
+                      -39.03367250400001,
+                      4.0021002
+                    ],
+                    "Y": [
+                      1.9538127909696001,
+                      -2.03629186848,
+                      -1.814902644
+                    ],
+                    "Z": [
+                      0.39815852092799997,
+                      -2.0056473984,
+                      0.90943938
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 2,
+          "Content": "擊出右外野滾地球，一壘安打 。 一壘跑者陳鏞基 上二壘。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 20,
+          "FirstBase": "4",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "一壘安打 ",
+          "HitterAcnt": "0000002707",
+          "HitterName": "潘傑楷",
+          "IsScoreCnt": "0",
+          "SecondBase": "",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210007000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 2,
+          "HitterLineup": 5,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782080976485061/35潘傑楷2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "35",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "一安",
+          "DefendStationCode": "3B",
+          "HitterDefendStation": "5",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.474658944,
+                "RelSpeed": 125.92460187648,
+                "SpinRate": 2036.5828,
+                "Extension": 1.722001128,
+                "RelHeight": 1.924281648
+              },
+              "Location": {
+                "ZoneTime": 0.485926,
+                "ZoneSpeed": 117.048393792,
+                "PlateLocSide": 0.126077472,
+                "PlateLocHeight": 0.7490734320000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.6313727685824,
+                      -34.899583053120004,
+                      2.881595964
+                    ],
+                    "Y": [
+                      1.9248897630144,
+                      -0.22969618272000003,
+                      -4.5627173160000005
+                    ],
+                    "Z": [
+                      0.4718131312512,
+                      -1.1814740505599999,
+                      -0.115110768
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": {
+              "Launch": {
+                "Angle": 4.001812,
+                "Direction": 30.056347,
+                "ExitSpeed": 138.55066194816,
+                "HitSpinRate": 1923.9032
+              },
+              "LandingFlat": {
+                "Bearing": 31.101631,
+                "Distance": 22.37273148,
+                "HangTime": 0.608677,
+                "Confidence": null
+              }
+            }
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 21,
+          "FirstBase": "5",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 1,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000006851",
+          "HitterName": "林培緯",
+          "IsScoreCnt": "0",
+          "SecondBase": "4",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210008000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 6,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0N066406714406937119/25林培緯2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "25",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "三振",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.382146048,
+                "RelSpeed": 139.46818114944,
+                "SpinRate": 2336.061,
+                "Extension": 1.800599904,
+                "RelHeight": 1.975817232
+              },
+              "Location": {
+                "ZoneTime": 0.441191,
+                "ZoneSpeed": 126.37151670528,
+                "PlateLocSide": 0.03340303200000001,
+                "PlateLocHeight": 0.9025067040000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.777856281152,
+                      -38.6143262256,
+                      4.19797992
+                    ],
+                    "Y": [
+                      1.9801580204736,
+                      -1.57862064768,
+                      -1.896116604
+                    ],
+                    "Z": [
+                      0.3859284794496,
+                      -1.28331699648,
+                      0.766715256
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "好球沒揮棒。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 22,
+          "FirstBase": "5",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 2,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000006851",
+          "HitterName": "林培緯",
+          "IsScoreCnt": "0",
+          "SecondBase": "4",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210009000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 6,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0N066406714406937119/25林培緯2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "25",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "三振",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.3891351120000001,
+                "RelSpeed": 139.6341688896,
+                "SpinRate": 2368.8118,
+                "Extension": 1.766995704,
+                "RelHeight": 1.96897752
+              },
+              "Location": {
+                "ZoneTime": 0.444362,
+                "ZoneSpeed": 124.83909934848,
+                "PlateLocSide": -0.195587112,
+                "PlateLocHeight": 0.96816672
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.778792248800002,
+                      -38.657918112,
+                      4.7027973
+                    ],
+                    "Y": [
+                      1.9713470327616003,
+                      -1.40384467008,
+                      -1.874978724
+                    ],
+                    "Z": [
+                      0.39036050797440003,
+                      -0.6377898547199999,
+                      0.453223884
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "0",
+          "OutCnt": 0,
+          "BallCnt": 0,
+          "Content": "揮棒落空。 打者出局-三振出局。 1人出局。",
+          "GameSno": 322,
+          "IsStrike": "1",
+          "KindCode": "A",
+          "PitchCnt": 23,
+          "FirstBase": "5",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 3,
+          "ThirdBase": "",
+          "ActionName": "三振",
+          "HitterAcnt": "0000006851",
+          "HitterName": "林培緯",
+          "IsScoreCnt": "0",
+          "SecondBase": "4",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210010000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 3,
+          "HitterLineup": 6,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0N066406714406937119/25林培緯2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "25",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "三振",
+          "DefendStationCode": "1B",
+          "HitterDefendStation": "3",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "fastball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.376117104,
+                "RelSpeed": 140.30875761408,
+                "SpinRate": 2335.318,
+                "Extension": 1.743559632,
+                "RelHeight": 1.954786032
+              },
+              "Location": {
+                "ZoneTime": 0.439862,
+                "ZoneSpeed": 127.13931863424,
+                "PlateLocSide": -0.002959608,
+                "PlateLocHeight": 0.9976408800000001
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.787565721728,
+                      -38.8588843344,
+                      4.24353228
+                    ],
+                    "Y": [
+                      1.9565913672768,
+                      -1.23582403584,
+                      -2.107193652
+                    ],
+                    "Z": [
+                      0.37812701859840003,
+                      -1.02298816992,
+                      0.395517624
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        },
+        {
+          "Year": "2026",
+          "IsBall": "1",
+          "OutCnt": 1,
+          "BallCnt": 1,
+          "Content": "壞球。",
+          "GameSno": 322,
+          "IsStrike": "0",
+          "KindCode": "A",
+          "PitchCnt": 24,
+          "FirstBase": "5",
+          "HomeScore": 0,
+          "InningSeq": 2,
+          "StrikeCnt": 0,
+          "ThirdBase": "",
+          "ActionName": "",
+          "HitterAcnt": "0000001339",
+          "HitterName": "林祖傑",
+          "IsScoreCnt": "0",
+          "SecondBase": "4",
+          "CatcherAcnt": "0000005291",
+          "CatcherName": "蔣少宏",
+          "MainEventNo": "0210011000",
+          "PitcherAcnt": "0000007264",
+          "PitcherName": "魔神龍",
+          "BattingOrder": 4,
+          "HitterLineup": 7,
+          "HitterImgPath": "https://www.cpbl.com.tw/files/atts/0L087782021106572224/39林祖傑2026.jpg",
+          "VisitingScore": 0,
+          "IsChangePlayer": "0",
+          "IsSpecialEvent": "0",
+          "HitterUniformNo": "39",
+          "CatcherUniformNo": "63",
+          "PitcherUniformNo": "10",
+          "VisitingHomeType": "1",
+          "BattingActionName": "",
+          "DefendStationCode": "2B",
+          "HitterDefendStation": "4",
+          "PitcherImgPath": "https://www.cpbl.com.tw/files/atts/0Q075585306043575207/魔神龍2026.jpg",
+          "Trackman": {
+            "Play": {
+              "PitchTag": {
+                "PitchCall": null,
+                "AutoPitchType": null,
+                "TaggedPitchType": "breakingball"
+              }
+            },
+            "Pitch": {
+              "Release": {
+                "RelSide": -0.454301352,
+                "RelSpeed": 125.6958819072,
+                "SpinRate": 1865.9272,
+                "Extension": 1.79484528,
+                "RelHeight": 1.935415992
+              },
+              "Location": {
+                "ZoneTime": 0.486827,
+                "ZoneSpeed": 115.32740959872,
+                "PlateLocSide": -0.07874508000000001,
+                "PlateLocHeight": 1.043144472
+              },
+              "Flight": {
+                "PolyFit": {
+                  "PitchTrajectory": {
+                    "X": [
+                      16.6275261145536,
+                      -34.81251303168,
+                      3.109004196
+                    ],
+                    "Y": [
+                      1.9358803999104,
+                      -0.09620475552000007,
+                      -3.5772760560000005
+                    ],
+                    "Z": [
+                      0.45229381728,
+                      -1.31236212,
+                      1.1205972
+                    ]
+                  }
+                }
+              }
+            },
+            "Hit": null
+          }
+        }
+      ],
+      "WinningPitcher": {
+        "Acnt": "",
+        "Name": ""
+      },
+      "LoserPitcher": {
+        "Acnt": "",
+        "Name": ""
+      },
       "Closer": null,
-      "Referee": [],
-      "LiveLog": [],
-      "MVP": null
+      "MVP": null,
+      "Referee": [
+        {
+          "Job": "主審",
+          "Name": "楊崇煇"
+        },
+        {
+          "Job": "一壘審",
+          "Name": "江春緯"
+        },
+        {
+          "Job": "二壘審",
+          "Name": "邱景彥"
+        },
+        {
+          "Job": "三壘審",
+          "Name": "張展榮"
+        },
+        {
+          "Job": "左線審",
+          "Name": ""
+        },
+        {
+          "Job": "右線審",
+          "Name": ""
+        }
+      ]
     }
   }
 }
