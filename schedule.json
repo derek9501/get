@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-322",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ADD011",
@@ -12,9 +12,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
           },
-          "Score": 0,
+          "Score": 3,
           "AccumulationScore": {
-            "W": 23,
+            "W": 24,
             "L": 20,
             "T": 0
           }
@@ -26,10 +26,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 0,
+          "Score": 2,
           "AccumulationScore": {
             "W": 21,
-            "L": 20,
+            "L": 21,
             "T": 0
           }
         },
@@ -41,11 +41,20 @@
         "GameSno": 322,
         "PreExeDate": "2026-09-11T18:35:00",
         "Week": 37,
-        "InningSeq": 2,
-        "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000000998",
+          "Name": "邱浩鈞"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007264",
+          "Name": "魔神龍"
+        },
+        "Closer": {
+          "Acnt": "0000007293",
+          "Name": "鍾允華"
+        },
         "Referee": [
           {
             "Job": "主審",
@@ -76,7 +85,7 @@
       {
         "GameId": "2026-A-323",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -84,10 +93,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 1,
+          "Score": 3,
           "AccumulationScore": {
             "W": 23,
-            "L": 20,
+            "L": 21,
             "T": 0
           }
         },
@@ -98,9 +107,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
           },
-          "Score": 0,
+          "Score": 5,
           "AccumulationScore": {
-            "W": 22,
+            "W": 23,
             "L": 17,
             "T": 0
           }
@@ -113,11 +122,20 @@
         "GameSno": 323,
         "PreExeDate": "2026-09-11T18:35:00",
         "Week": 37,
-        "InningSeq": 2,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000006857",
+          "Name": "舒治浩"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000001232",
+          "Name": "江忠城"
+        },
+        "Closer": {
+          "Acnt": "0000000941",
+          "Name": "陳冠宇"
+        },
         "Referee": [
           {
             "Job": "主審",
@@ -148,7 +166,7 @@
       {
         "GameId": "2026-A-324",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -156,10 +174,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
             "W": 18,
-            "L": 22,
+            "L": 23,
             "T": 0
           }
         },
@@ -170,9 +188,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
           },
-          "Score": 1,
+          "Score": 4,
           "AccumulationScore": {
-            "W": 16,
+            "W": 17,
             "L": 24,
             "T": 0
           }
@@ -185,11 +203,20 @@
         "GameSno": 324,
         "PreExeDate": "2026-09-11T18:35:00",
         "Week": 37,
-        "InningSeq": 2,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000007570",
+          "Name": "坎南"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000005479",
+          "Name": "江國豪"
+        },
+        "Closer": {
+          "Acnt": "0000007069",
+          "Name": "張誠恩"
+        },
         "Referee": [
           {
             "Job": "主審",
@@ -230,7 +257,7 @@
           },
           "Score": 6,
           "AccumulationScore": {
-            "W": 33,
+            "W": 34,
             "L": 34,
             "T": 1
           }
@@ -245,7 +272,7 @@
           "Score": 1,
           "AccumulationScore": {
             "W": 33,
-            "L": 36,
+            "L": 37,
             "T": 1
           }
         },
@@ -259,8 +286,14 @@
         "Week": 37,
         "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000007283",
+          "Name": "陳冠穎"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000005282",
+          "Name": "姚杰宏"
+        },
         "Closer": null,
         "Referee": [
           {
@@ -302,7 +335,7 @@
           },
           "Score": 6,
           "AccumulationScore": {
-            "W": 37,
+            "W": 38,
             "L": 30,
             "T": 4
           }
@@ -317,7 +350,7 @@
           "Score": 2,
           "AccumulationScore": {
             "W": 29,
-            "L": 41,
+            "L": 42,
             "T": 2
           }
         },
@@ -331,8 +364,14 @@
         "Week": 37,
         "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000007303",
+          "Name": "黃子豪"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000006236",
+          "Name": "楊鈺翔"
+        },
         "Closer": null,
         "Referee": [
           {
