@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-325",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -41,10 +41,16 @@
         "GameSno": 325,
         "PreExeDate": "2026-09-12T16:05:00",
         "Week": 37,
-        "InningSeq": 6,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000007836",
+          "Name": "威鳳山"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007832",
+          "Name": "悍里歐"
+        },
         "Closer": null,
         "Referee": [
           {
@@ -113,7 +119,7 @@
         "GameSno": 326,
         "PreExeDate": "2026-09-12T17:05:00",
         "Week": 37,
-        "InningSeq": 2,
+        "InningSeq": 3,
         "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
@@ -148,7 +154,7 @@
       {
         "GameId": "2026-A-327",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -156,7 +162,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 5,
+          "Score": 6,
           "AccumulationScore": {
             "W": 23,
             "L": 21,
@@ -185,8 +191,8 @@
         "GameSno": 327,
         "PreExeDate": "2026-09-12T17:05:00",
         "Week": 37,
-        "InningSeq": 4,
-        "VisitingHomeType": 1,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
