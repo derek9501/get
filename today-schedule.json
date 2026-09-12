@@ -82,7 +82,7 @@
       {
         "GameId": "2026-A-326",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "RESERVED",
         "Visiting": {
           "Team": {
             "Code": "ADD011",
@@ -193,8 +193,14 @@
         "Week": 37,
         "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000002345",
+          "Name": "鄭浩均"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000004624",
+          "Name": "陳克羿"
+        },
         "Closer": null,
         "Referee": [
           {
