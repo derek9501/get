@@ -1,15 +1,15 @@
 {
   "Data": {
     "Game": {
-      "GameId": "2026-A-328",
+      "GameId": "2026-D-175",
       "SkipTrackman": false,
       "GameStatus": "SCHEDULED",
       "Visiting": {
         "Team": {
-          "Code": "AEO011",
-          "Name": "富邦悍將",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
+          "Code": "AAA022",
+          "Name": "味全龍二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
         },
         "Score": 0,
         "AccumulationScore": {
@@ -25,10 +25,10 @@
       },
       "Home": {
         "Team": {
-          "Code": "AKP011",
-          "Name": "台鋼雄鷹",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+          "Code": "AEO022",
+          "Name": "富邦悍將二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
         },
         "Score": 0,
         "AccumulationScore": {
@@ -43,12 +43,12 @@
         "InningScore": []
       },
       "Field": {
-        "No": "F09",
-        "Abbe": "澄清湖"
+        "No": "F07",
+        "Abbe": "嘉義市"
       },
-      "KindCode": "A",
-      "GameSno": 328,
-      "PreExeDate": "2026-09-13T16:05:00",
+      "KindCode": "D",
+      "GameSno": 175,
+      "PreExeDate": "2026-09-13T14:05:00",
       "Week": 37,
       "InningSeq": 1,
       "VisitingHomeType": 1,
