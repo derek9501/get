@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-333",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -12,10 +12,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 18,
+            "L": 26,
             "T": 0
           }
         },
@@ -28,8 +28,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 22,
+            "L": 22,
             "T": 0
           }
         },
@@ -41,12 +41,37 @@
         "GameSno": 333,
         "PreExeDate": "2026-09-16T18:35:00",
         "Week": 38,
-        "InningSeq": 1,
+        "InningSeq": 4,
         "VisitingHomeType": 1,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "尤志欽"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "張展榮"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "羅鈞鴻"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "邱景彥"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       },
       {
         "GameId": "2026-D-164",
