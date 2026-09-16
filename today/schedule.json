@@ -51,7 +51,7 @@
       {
         "GameId": "2026-D-164",
         "SkipTrackman": false,
-        "GameStatus": "RESERVED",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN022",
@@ -59,10 +59,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
             "W": 35,
-            "L": 35,
+            "L": 36,
             "T": 1
           }
         },
@@ -73,9 +73,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 2,
           "AccumulationScore": {
-            "W": 44,
+            "W": 45,
             "L": 26,
             "T": 4
           }
@@ -86,12 +86,18 @@
         },
         "KindCode": "D",
         "GameSno": 164,
-        "PreExeDate": "2026-09-16T14:05:00",
+        "PreExeDate": "2026-09-16T16:05:00",
         "Week": 38,
-        "InningSeq": 2,
+        "InningSeq": 10,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000000938",
+          "Name": "張瑞麟"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007283",
+          "Name": "陳冠穎"
+        },
         "Closer": null,
         "Referee": [
           {
@@ -123,7 +129,7 @@
       {
         "GameId": "2026-D-213",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AAA022",
@@ -131,9 +137,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 1,
+          "Score": 6,
           "AccumulationScore": {
-            "W": 30,
+            "W": 31,
             "L": 44,
             "T": 2
           }
@@ -145,10 +151,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
             "W": 40,
-            "L": 31,
+            "L": 32,
             "T": 4
           }
         },
@@ -160,10 +166,16 @@
         "GameSno": 213,
         "PreExeDate": "2026-09-16T14:05:00",
         "Week": 38,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000007582",
+          "Name": "吳東霖"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007630",
+          "Name": "邱立璿"
+        },
         "Closer": null,
         "Referee": [
           {
