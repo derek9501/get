@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-333",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -12,9 +12,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 1,
+          "Score": 6,
           "AccumulationScore": {
-            "W": 18,
+            "W": 19,
             "L": 26,
             "T": 0
           }
@@ -29,7 +29,7 @@
           "Score": 0,
           "AccumulationScore": {
             "W": 22,
-            "L": 22,
+            "L": 23,
             "T": 0
           }
         },
@@ -41,10 +41,16 @@
         "GameSno": 333,
         "PreExeDate": "2026-09-16T18:35:00",
         "Week": 38,
-        "InningSeq": 4,
-        "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000007804",
+          "Name": "瑪帝斯"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000000762",
+          "Name": "伍鐸"
+        },
         "Closer": null,
         "Referee": [
           {
