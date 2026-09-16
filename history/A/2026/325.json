@@ -14,15 +14,15 @@
         "Score": 3,
         "AccumulationScore": {
           "W": 18,
-          "L": 23,
+          "L": 24,
           "T": 0
         },
         "HittingCnt": 8,
         "ErrorCnt": 1,
         "Hitters": [
           {
-            "Avg": 0.278,
-            "Rboe": 0,
+            "Avg": 0.272,
+            "Rboe": 1,
             "HitCnt": 4,
             "Lineup": 1,
             "ScoreCnt": 1,
@@ -48,16 +48,16 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.143,
+            "Avg": 0.136,
             "Rboe": 0,
-            "HitCnt": 0,
+            "HitCnt": 1,
             "Lineup": 1,
             "ScoreCnt": 0,
             "HitterAcnt": "0000002305",
             "HitterName": "王正棠",
             "HittingCnt": 0,
             "HomeRunCnt": 0,
-            "StrikeOutCnt": 0,
+            "StrikeOutCnt": 1,
             "DefendStation": "(PH)",
             "HitBYPitchCnt": 0,
             "OneBaseHitCnt": 0,
@@ -69,13 +69,13 @@
             "SacrificeHitCnt": 0,
             "ThreeBaseHitCnt": 0,
             "DoublePlayBatCnt": 0,
-            "PlateAppearances": 0,
+            "PlateAppearances": 1,
             "StealBaseFailCnt": 0,
             "IntentionalBasesONBallsCnt": 0,
             "IsCurrent": true
           },
           {
-            "Avg": 0.328,
+            "Avg": 0.327,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 2,
@@ -102,7 +102,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.29,
+            "Avg": 0.293,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 3,
@@ -183,7 +183,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.25,
+            "Avg": 0.243,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 6,
@@ -210,7 +210,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.247,
+            "Avg": 0.25,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 6,
@@ -237,7 +237,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.21,
+            "Avg": 0.211,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 7,
@@ -264,7 +264,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.215,
+            "Avg": 0.213,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 8,
@@ -291,7 +291,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.188,
+            "Avg": 0.176,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 8,
@@ -318,7 +318,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.214,
+            "Avg": 0.217,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 9,
@@ -347,12 +347,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 3.5,
-            "Whip": 1.44,
+            "Era": 4.95,
+            "Whip": 1.7,
             "RunCnt": 4,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -377,8 +377,8 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.7,
-            "Whip": 1.3,
+            "Era": 2.31,
+            "Whip": 1.29,
             "RunCnt": 1,
             "TotalL": 0,
             "TotalS": 0,
@@ -407,12 +407,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 3.07,
-            "Whip": 1.37,
+            "Era": 3.43,
+            "Whip": 1.38,
             "RunCnt": 2,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -437,8 +437,8 @@
             "IsCurrent": false
           },
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 9,
+            "Whip": 1,
             "RunCnt": 1,
             "TotalL": 0,
             "TotalS": 0,
@@ -467,12 +467,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 6,
-            "Whip": 1.78,
+            "Era": 5.72,
+            "Whip": 1.69,
             "RunCnt": 0,
             "TotalL": 0,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -498,7 +498,7 @@
           },
           {
             "Era": 0,
-            "Whip": 2,
+            "Whip": 1.33,
             "RunCnt": 0,
             "TotalL": 0,
             "TotalS": 0,
@@ -527,10 +527,10 @@
             "IsCurrent": false
           },
           {
-            "Era": 5.87,
-            "Whip": 1.78,
+            "Era": 5.47,
+            "Whip": 1.66,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
             "TotalW": 0,
             "BalkCnt": 0,
@@ -605,7 +605,7 @@
         },
         "Score": 8,
         "AccumulationScore": {
-          "W": 17,
+          "W": 18,
           "L": 24,
           "T": 0
         },
@@ -613,7 +613,7 @@
         "ErrorCnt": 2,
         "Hitters": [
           {
-            "Avg": 0.32,
+            "Avg": 0.322,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 1,
@@ -640,7 +640,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.326,
+            "Avg": 0.32,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 2,
@@ -667,7 +667,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.277,
+            "Avg": 0.279,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 3,
@@ -748,7 +748,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.315,
+            "Avg": 0.304,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 5,
@@ -775,7 +775,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.27,
+            "Avg": 0.271,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 6,
@@ -802,7 +802,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.067,
+            "Avg": 0.063,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 6,
@@ -829,7 +829,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.241,
+            "Avg": 0.242,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 7,
@@ -856,8 +856,8 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.3,
-            "Rboe": 0,
+            "Avg": 0.214,
+            "Rboe": 1,
             "HitCnt": 4,
             "Lineup": 8,
             "ScoreCnt": 0,
@@ -883,7 +883,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.24,
+            "Avg": 0.259,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 9,
@@ -912,12 +912,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 0,
-            "Whip": 0,
+            "Era": 3.6,
+            "Whip": 1.2,
             "RunCnt": 3,
             "TotalL": 0,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -942,10 +942,10 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.67,
-            "Whip": 1.15,
+            "Era": 2.54,
+            "Whip": 1.13,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 3,
             "TotalS": 0,
             "TotalW": 0,
             "BalkCnt": 0,
@@ -972,12 +972,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 5.14,
-            "Whip": 1.62,
+            "Era": 4.87,
+            "Whip": 1.58,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -1011,23 +1011,23 @@
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
-            "PitchCnt": 11,
+            "PitchCnt": 13,
             "RoleType": "最後一任",
-            "StrikeCnt": 8,
+            "StrikeCnt": 10,
             "HittingCnt": 0,
             "HomeRunCnt": 0,
             "IsSaveFail": "0",
             "PitcherAcnt": "0000007628",
             "PitcherName": "許承恩",
             "EarnedRunCnt": 0,
-            "StrikeOutCnt": 1,
+            "StrikeOutCnt": 2,
             "WildPitchCnt": 0,
             "HitBYPitchCnt": 0,
             "ReliefPointCnt": 0,
             "BasesONBallsCnt": 0,
-            "InningPitchedCnt": 0,
-            "PlateAppearances": 2,
-            "InningPitchedDiv3Cnt": 2,
+            "InningPitchedCnt": 1,
+            "PlateAppearances": 3,
+            "InningPitchedDiv3Cnt": 0,
             "IntentionalBasesONBallsCnt": 0,
             "IsCurrent": true
           }
@@ -29644,12 +29644,12 @@
         }
       ],
       "WinningPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000007836",
+        "Name": "威鳳山"
       },
       "LoserPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000007832",
+        "Name": "悍里歐"
       },
       "Closer": null,
       "MVP": {
