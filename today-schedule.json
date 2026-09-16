@@ -61,8 +61,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 21,
-            "L": 20,
+            "W": 35,
+            "L": 35,
             "T": 1
           }
         },
@@ -75,9 +75,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 30,
-            "L": 18,
-            "T": 2
+            "W": 44,
+            "L": 26,
+            "T": 4
           }
         },
         "Field": {
@@ -96,19 +96,19 @@
         "Referee": [
           {
             "Job": "主審",
-            "Name": "陳勛"
-          },
-          {
-            "Job": "一壘審",
-            "Name": "歐銘錦"
-          },
-          {
-            "Job": "二壘審",
             "Name": "葉詩維"
           },
           {
+            "Job": "一壘審",
+            "Name": "鄭惟丞"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "范杞平"
+          },
+          {
             "Job": "三壘審",
-            "Name": "周慶祖"
+            "Name": "杜紹榕"
           },
           {
             "Job": "左線審",
@@ -123,7 +123,7 @@
       {
         "GameId": "2026-D-213",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "AAA022",
@@ -131,11 +131,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 30,
+            "L": 44,
+            "T": 2
           }
         },
         "Home": {
@@ -147,9 +147,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 40,
+            "L": 31,
+            "T": 4
           }
         },
         "Field": {
@@ -165,7 +165,32 @@
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "陳勛"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "曾鈞威"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "林恩鈺"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "林均宥"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
