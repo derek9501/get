@@ -145,7 +145,7 @@
       {
         "GameId": "2026-D-115",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ADD022",
@@ -153,11 +153,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
           },
-          "Score": 0,
+          "Score": 9,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 34,
+            "L": 38,
+            "T": 1
           }
         },
         "Home": {
@@ -167,11 +167,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
           },
-          "Score": 0,
+          "Score": 10,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 32,
+            "L": 41,
+            "T": 2
           }
         },
         "Field": {
@@ -182,17 +182,42 @@
         "GameSno": 115,
         "PreExeDate": "2026-09-17T14:05:00",
         "Week": 38,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
+        "InningSeq": 10,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "黃翊嘉"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "范杞平"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "盧俊翰"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "杜紹榕"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       },
       {
         "GameId": "2026-D-177",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AKP022",
@@ -200,11 +225,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
           },
-          "Score": 0,
+          "Score": 6,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 40,
+            "L": 32,
+            "T": 4
           }
         },
         "Home": {
@@ -214,11 +239,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 6,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 45,
+            "L": 26,
+            "T": 4
           }
         },
         "Field": {
@@ -229,12 +254,37 @@
         "GameSno": 177,
         "PreExeDate": "2026-09-17T14:05:00",
         "Week": 38,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "歐銘錦"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "陳乃瑞"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "林均宥"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "曾鈞威"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
