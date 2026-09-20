@@ -145,7 +145,7 @@
       {
         "GameId": "2026-D-135",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "AEO022",
@@ -155,9 +155,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 46,
+            "L": 26,
+            "T": 5
           }
         },
         "Home": {
@@ -169,9 +169,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 40,
+            "L": 33,
+            "T": 5
           }
         },
         "Field": {
@@ -187,12 +187,37 @@
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "葉詩維"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "盧俊翰"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "陳勛"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "黃翊嘉"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       },
       {
         "GameId": "2026-D-208",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "SCHEDULED",
         "Visiting": {
           "Team": {
             "Code": "AJL022",
@@ -202,9 +227,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 26,
-            "L": 39,
-            "T": 1
+            "W": 33,
+            "L": 42,
+            "T": 2
           }
         },
         "Home": {
@@ -216,8 +241,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 28,
-            "L": 32,
+            "W": 36,
+            "L": 37,
             "T": 1
           }
         },
@@ -237,19 +262,19 @@
         "Referee": [
           {
             "Job": "主審",
-            "Name": "周慶祖"
-          },
-          {
-            "Job": "一壘審",
             "Name": "林柏安"
           },
           {
+            "Job": "一壘審",
+            "Name": "林均宥"
+          },
+          {
             "Job": "二壘審",
-            "Name": "杜紹榕"
+            "Name": "劉世偉"
           },
           {
             "Job": "三壘審",
-            "Name": "歐銘錦"
+            "Name": "周慶祖"
           },
           {
             "Job": "左線審",
