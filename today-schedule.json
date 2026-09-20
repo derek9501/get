@@ -15,7 +15,7 @@
           "Score": 1,
           "AccumulationScore": {
             "W": 23,
-            "L": 25,
+            "L": 26,
             "T": 0
           }
         },
@@ -28,7 +28,7 @@
           },
           "Score": 2,
           "AccumulationScore": {
-            "W": 29,
+            "W": 30,
             "L": 21,
             "T": 0
           }
@@ -82,7 +82,7 @@
       {
         "GameId": "2026-A-344",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -92,7 +92,7 @@
           },
           "Score": 4,
           "AccumulationScore": {
-            "W": 21,
+            "W": 22,
             "L": 27,
             "T": 0
           }
@@ -107,7 +107,7 @@
           "Score": 3,
           "AccumulationScore": {
             "W": 26,
-            "L": 23,
+            "L": 24,
             "T": 0
           }
         },
@@ -121,9 +121,18 @@
         "Week": 38,
         "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000006227",
+          "Name": "曾峻岳"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007061",
+          "Name": "辛俊昇"
+        },
+        "Closer": {
+          "Acnt": "0000005790",
+          "Name": "張奕"
+        },
         "Referee": [
           {
             "Job": "主審",
@@ -154,7 +163,7 @@
       {
         "GameId": "2026-A-345",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AKP011",
@@ -165,7 +174,7 @@
           "Score": 1,
           "AccumulationScore": {
             "W": 21,
-            "L": 27,
+            "L": 28,
             "T": 0
           }
         },
@@ -178,7 +187,7 @@
           },
           "Score": 10,
           "AccumulationScore": {
-            "W": 25,
+            "W": 26,
             "L": 22,
             "T": 0
           }
@@ -191,10 +200,16 @@
         "GameSno": 345,
         "PreExeDate": "2026-09-20T17:05:00",
         "Week": 38,
-        "InningSeq": 8,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000006237",
+          "Name": "林子崴"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007053",
+          "Name": "艾速特"
+        },
         "Closer": null,
         "Referee": [
           {
