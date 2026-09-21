@@ -14,14 +14,14 @@
         "Score": 1,
         "AccumulationScore": {
           "W": 25,
-          "L": 20,
+          "L": 21,
           "T": 0
         },
         "HittingCnt": 7,
         "ErrorCnt": 0,
         "Hitters": [
           {
-            "Avg": 0.248,
+            "Avg": 0.243,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 1,
@@ -48,7 +48,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.218,
+            "Avg": 0.221,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 2,
@@ -102,7 +102,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.27,
+            "Avg": 0.267,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 4,
@@ -156,7 +156,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.259,
+            "Avg": 0.261,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 6,
@@ -183,7 +183,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.181,
+            "Avg": 0.196,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 7,
@@ -210,7 +210,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.132,
+            "Avg": 0.14,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 8,
@@ -237,7 +237,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.216,
+            "Avg": 0.208,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 9,
@@ -266,12 +266,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 3.12,
-            "Whip": 1.2,
+            "Era": 3.05,
+            "Whip": 1.15,
             "RunCnt": 2,
-            "TotalL": 0,
+            "TotalL": 9,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 4,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -297,11 +297,11 @@
           },
           {
             "Era": 1.72,
-            "Whip": 1.04,
+            "Whip": 1.06,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 3,
+            "TotalS": 11,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -374,7 +374,7 @@
         },
         "Score": 2,
         "AccumulationScore": {
-          "W": 20,
+          "W": 21,
           "L": 26,
           "T": 0
         },
@@ -409,7 +409,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.321,
+            "Avg": 0.32,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 2,
@@ -436,7 +436,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.248,
+            "Avg": 0.246,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 3,
@@ -517,7 +517,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.272,
+            "Avg": 0.274,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 4,
@@ -544,7 +544,7 @@
             "IsCurrent": true
           },
           {
-            "Avg": 0.273,
+            "Avg": 0.269,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 5,
@@ -571,7 +571,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.207,
+            "Avg": 0.205,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 6,
@@ -598,7 +598,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.083,
+            "Avg": 0.077,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 7,
@@ -625,7 +625,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.282,
+            "Avg": 0.28,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 8,
@@ -652,7 +652,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.221,
+            "Avg": 0.216,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 9,
@@ -681,12 +681,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 4.95,
-            "Whip": 1.7,
+            "Era": 4.15,
+            "Whip": 1.58,
             "RunCnt": 1,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -711,8 +711,8 @@
             "IsCurrent": false
           },
           {
-            "Era": 3,
-            "Whip": 0.67,
+            "Era": 2.45,
+            "Whip": 1.09,
             "RunCnt": 0,
             "TotalL": 0,
             "TotalS": 0,
@@ -741,12 +741,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 5.4,
-            "Whip": 1.6,
+            "Era": 5.34,
+            "Whip": 1.58,
             "RunCnt": 0,
             "TotalL": 0,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -771,12 +771,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 1.64,
-            "Whip": 1.02,
+            "Era": 1.59,
+            "Whip": 0.99,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 2,
+            "TotalS": 25,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -801,12 +801,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 1.91,
-            "Whip": 1.19,
+            "Era": 1.86,
+            "Whip": 1.2,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 2,
+            "TotalS": 4,
+            "TotalW": 7,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -23452,12 +23452,12 @@
         }
       ],
       "WinningPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000005790",
+        "Name": "張奕"
       },
       "LoserPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000006906",
+        "Name": "艾菩樂"
       },
       "Closer": null,
       "MVP": {
@@ -23469,7 +23469,7 @@
           "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
           "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
         },
-        "YearlyCount": 6
+        "YearlyCount": 7
       },
       "Referee": [
         {
