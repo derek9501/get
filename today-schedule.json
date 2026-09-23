@@ -4,7 +4,7 @@
       {
         "GameId": "2026-D-215",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "ACN022",
@@ -14,9 +14,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 38,
+            "L": 37,
+            "T": 1
           }
         },
         "Home": {
@@ -26,11 +26,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
           },
-          "Score": 0,
+          "Score": 4,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 35,
+            "L": 40,
+            "T": 1
           }
         },
         "Field": {
@@ -42,11 +42,36 @@
         "PreExeDate": "2026-09-23T14:05:00",
         "Week": 39,
         "InningSeq": 1,
-        "VisitingHomeType": 1,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "黃翊嘉"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "曾鈞威"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "盧俊翰"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "杜紹榕"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
