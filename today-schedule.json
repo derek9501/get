@@ -4,7 +4,7 @@
       {
         "GameId": "2026-D-215",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN022",
@@ -12,10 +12,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 0,
+          "Score": 2,
           "AccumulationScore": {
             "W": 38,
-            "L": 37,
+            "L": 38,
             "T": 1
           }
         },
@@ -26,9 +26,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
           },
-          "Score": 4,
+          "Score": 7,
           "AccumulationScore": {
-            "W": 35,
+            "W": 36,
             "L": 40,
             "T": 1
           }
@@ -41,10 +41,16 @@
         "GameSno": 215,
         "PreExeDate": "2026-09-23T14:05:00",
         "Week": 39,
-        "InningSeq": 1,
-        "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 1,
+        "WinningPitcher": {
+          "Acnt": "0000001719",
+          "Name": "胡智爲"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000006876",
+          "Name": "張祖恩"
+        },
         "Closer": null,
         "Referee": [
           {
