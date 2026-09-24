@@ -145,7 +145,7 @@
       {
         "GameId": "2026-D-217",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "ADD022",
@@ -155,9 +155,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 36,
+            "L": 40,
+            "T": 1
           }
         },
         "Home": {
@@ -169,9 +169,9 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 47,
+            "L": 27,
+            "T": 5
           }
         },
         "Field": {
@@ -187,7 +187,32 @@
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "范杞平"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "黃翊嘉"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "葉詩維"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "林恩鈺"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
