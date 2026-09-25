@@ -145,7 +145,7 @@
       {
         "GameId": "2026-D-227",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "ADD022",
@@ -153,11 +153,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 36,
+            "L": 41,
+            "T": 1
           }
         },
         "Home": {
@@ -167,11 +167,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 38,
+            "L": 38,
+            "T": 1
           }
         },
         "Field": {
@@ -182,12 +182,37 @@
         "GameSno": 227,
         "PreExeDate": "2026-09-25T14:05:00",
         "Week": 39,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
+        "InningSeq": 2,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "林柏安"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "歐銘錦"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "林恩鈺"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "曾鈞威"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
