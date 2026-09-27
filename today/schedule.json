@@ -15,7 +15,7 @@
           "Score": 2,
           "AccumulationScore": {
             "W": 29,
-            "L": 25,
+            "L": 26,
             "T": 0
           }
         },
@@ -28,7 +28,7 @@
           },
           "Score": 4,
           "AccumulationScore": {
-            "W": 22,
+            "W": 23,
             "L": 31,
             "T": 0
           }
@@ -85,7 +85,7 @@
       {
         "GameId": "2026-A-356",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AJL011",
@@ -95,7 +95,7 @@
           },
           "Score": 4,
           "AccumulationScore": {
-            "W": 30,
+            "W": 31,
             "L": 22,
             "T": 0
           }
@@ -110,7 +110,7 @@
           "Score": 2,
           "AccumulationScore": {
             "W": 24,
-            "L": 29,
+            "L": 30,
             "T": 0
           }
         },
@@ -122,11 +122,20 @@
         "GameSno": 356,
         "PreExeDate": "2026-09-27T16:05:00",
         "Week": 39,
-        "InningSeq": 8,
-        "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
+        "WinningPitcher": {
+          "Acnt": "0000006237",
+          "Name": "林子崴"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007581",
+          "Name": "黃暐傑"
+        },
+        "Closer": {
+          "Acnt": "0000000941",
+          "Name": "陳冠宇"
+        },
         "Referee": [
           {
             "Job": "主審",
@@ -157,7 +166,7 @@
       {
         "GameId": "2026-A-357",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -168,7 +177,7 @@
           "Score": 1,
           "AccumulationScore": {
             "W": 32,
-            "L": 23,
+            "L": 24,
             "T": 0
           }
         },
@@ -179,9 +188,9 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 2,
           "AccumulationScore": {
-            "W": 23,
+            "W": 24,
             "L": 30,
             "T": 0
           }
@@ -194,11 +203,20 @@
         "GameSno": 357,
         "PreExeDate": "2026-09-27T17:05:00",
         "Week": 39,
-        "InningSeq": 5,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000006227",
+          "Name": "曾峻岳"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000001232",
+          "Name": "江忠城"
+        },
+        "Closer": {
+          "Acnt": "0000003334",
+          "Name": "鄭凱文"
+        },
         "Referee": [
           {
             "Job": "主審",
