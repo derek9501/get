@@ -3,7 +3,7 @@
     "Game": {
       "GameId": "2026-A-254",
       "SkipTrackman": false,
-      "GameStatus": "POSTPONED",
+      "GameStatus": "SCHEDULED",
       "Visiting": {
         "Team": {
           "Code": "AAA011",
@@ -48,8 +48,8 @@
       },
       "KindCode": "A",
       "GameSno": 254,
-      "PreExeDate": "2026-08-09T17:05:00",
-      "Week": 32,
+      "PreExeDate": "2026-09-30T18:35:00",
+      "Week": 40,
       "InningSeq": 1,
       "VisitingHomeType": 1,
       "WinningPitcher": null,
