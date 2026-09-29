@@ -4,7 +4,7 @@
       {
         "GameId": "2026-F-1",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AKP022",
@@ -12,7 +12,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
           },
-          "Score": 0,
+          "Score": 4,
           "AccumulationScore": {
             "W": 0,
             "L": 0,
@@ -26,7 +26,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 9,
           "AccumulationScore": {
             "W": 0,
             "L": 0,
@@ -41,12 +41,37 @@
         "GameSno": 1,
         "PreExeDate": "2026-09-29T17:05:00",
         "Week": 40,
-        "InningSeq": 1,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "范杞平"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "鄭惟丞"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "劉世偉"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "陳乃瑞"
+          },
+          {
+            "Job": "左線審",
+            "Name": "黃翊嘉"
+          },
+          {
+            "Job": "右線審",
+            "Name": "葉詩維"
+          }
+        ]
       }
     ]
   }
