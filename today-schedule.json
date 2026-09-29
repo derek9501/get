@@ -15,7 +15,7 @@
           "Score": 4,
           "AccumulationScore": {
             "W": 0,
-            "L": 0,
+            "L": 1,
             "T": 0
           }
         },
@@ -28,7 +28,7 @@
           },
           "Score": 9,
           "AccumulationScore": {
-            "W": 0,
+            "W": 1,
             "L": 0,
             "T": 0
           }
@@ -43,8 +43,14 @@
         "Week": 40,
         "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000007577",
+          "Name": "李斯特"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000002272",
+          "Name": "賴智垣"
+        },
         "Closer": null,
         "Referee": [
           {
