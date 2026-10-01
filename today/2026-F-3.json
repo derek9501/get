@@ -1,32 +1,13 @@
 {
   "Data": {
     "Game": {
-      "GameId": "2026-A-279",
+      "GameId": "2026-F-3",
       "SkipTrackman": false,
       "GameStatus": "SCHEDULED",
       "Visiting": {
         "Team": {
-          "Code": "AAA011",
-          "Name": "味全龍",
-          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
-          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
-        },
-        "Score": 0,
-        "AccumulationScore": {
-          "W": 0,
-          "L": 0,
-          "T": 0
-        },
-        "HittingCnt": 0,
-        "ErrorCnt": 0,
-        "Hitters": [],
-        "Pitchers": [],
-        "InningScore": []
-      },
-      "Home": {
-        "Team": {
-          "Code": "AEO011",
-          "Name": "富邦悍將",
+          "Code": "AEO022",
+          "Name": "富邦悍將二軍",
           "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
           "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
         },
@@ -42,13 +23,32 @@
         "Pitchers": [],
         "InningScore": []
       },
-      "Field": {
-        "No": "F08",
-        "Abbe": "新莊"
+      "Home": {
+        "Team": {
+          "Code": "AKP022",
+          "Name": "台鋼雄鷹二軍",
+          "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0M259522048557486065/單色T-100x100.png",
+          "BigLogoUrl": "http://cpbl.com.tw/files/atts/0M259522042284091551/TSG-logo0912.png"
+        },
+        "Score": 0,
+        "AccumulationScore": {
+          "W": 0,
+          "L": 0,
+          "T": 0
+        },
+        "HittingCnt": 0,
+        "ErrorCnt": 0,
+        "Hitters": [],
+        "Pitchers": [],
+        "InningScore": []
       },
-      "KindCode": "A",
-      "GameSno": 279,
-      "PreExeDate": "2026-10-02T18:35:00",
+      "Field": {
+        "No": "F07",
+        "Abbe": "嘉義市"
+      },
+      "KindCode": "F",
+      "GameSno": 3,
+      "PreExeDate": "2026-10-02T17:05:00",
       "Week": 40,
       "InningSeq": 1,
       "VisitingHomeType": 1,
