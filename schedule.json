@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-274",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -14,8 +14,8 @@
           },
           "Score": 6,
           "AccumulationScore": {
-            "W": 34,
-            "L": 26,
+            "W": 25,
+            "L": 35,
             "T": 0
           }
         },
@@ -28,9 +28,9 @@
           },
           "Score": 1,
           "AccumulationScore": {
-            "W": 24,
-            "L": 34,
-            "T": 2
+            "W": 33,
+            "L": 27,
+            "T": 0
           }
         },
         "Field": {
@@ -43,8 +43,14 @@
         "Week": 41,
         "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000007568",
+          "Name": "王偉軒"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007616",
+          "Name": "鍾亦恩"
+        },
         "Closer": null,
         "Referee": [
           {
