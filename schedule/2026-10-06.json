@@ -4,7 +4,7 @@
       {
         "GameId": "2026-A-274",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "AEO011",
@@ -12,10 +12,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021495969510091777/logo_fubon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021495963248506263/logo_fubon_large.png"
           },
-          "Score": 0,
+          "Score": 6,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 34,
+            "L": 26,
             "T": 0
           }
         },
@@ -26,11 +26,11 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
-            "T": 0
+            "W": 24,
+            "L": 34,
+            "T": 2
           }
         },
         "Field": {
@@ -41,12 +41,37 @@
         "GameSno": 274,
         "PreExeDate": "2026-10-06T18:35:00",
         "Week": 41,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
+        "InningSeq": 9,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "吳家維"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "羅鈞鴻"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "曾鈞威"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "范元淦"
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
