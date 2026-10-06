@@ -2,78 +2,6 @@
   "Data": {
     "Games": [
       {
-        "GameId": "2026-A-14",
-        "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
-        "Visiting": {
-          "Team": {
-            "Code": "ADD011",
-            "Name": "統一7-ELEVEn獅",
-            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
-            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
-          },
-          "Score": 0,
-          "AccumulationScore": {
-            "W": 28,
-            "L": 28,
-            "T": 1
-          }
-        },
-        "Home": {
-          "Team": {
-            "Code": "ACN011",
-            "Name": "中信兄弟",
-            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
-            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
-          },
-          "Score": 0,
-          "AccumulationScore": {
-            "W": 20,
-            "L": 34,
-            "T": 2
-          }
-        },
-        "Field": {
-          "No": "F19",
-          "Abbe": "洲際"
-        },
-        "KindCode": "A",
-        "GameSno": 14,
-        "PreExeDate": "2026-10-05T18:35:00",
-        "Week": 41,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
-        "Referee": [
-          {
-            "Job": "主審",
-            "Name": "楊崇煇"
-          },
-          {
-            "Job": "一壘審",
-            "Name": "紀華文"
-          },
-          {
-            "Job": "二壘審",
-            "Name": "陳乃瑞"
-          },
-          {
-            "Job": "三壘審",
-            "Name": "邱景彥"
-          },
-          {
-            "Job": "左線審",
-            "Name": ""
-          },
-          {
-            "Job": "右線審",
-            "Name": ""
-          }
-        ]
-      },
-      {
         "GameId": "2026-A-274",
         "SkipTrackman": false,
         "GameStatus": "SCHEDULED",
@@ -111,7 +39,7 @@
         },
         "KindCode": "A",
         "GameSno": 274,
-        "PreExeDate": "2026-10-05T18:35:00",
+        "PreExeDate": "2026-10-06T18:35:00",
         "Week": 41,
         "InningSeq": 1,
         "VisitingHomeType": 1,
