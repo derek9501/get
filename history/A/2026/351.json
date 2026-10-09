@@ -14,14 +14,14 @@
         "Score": 2,
         "AccumulationScore": {
           "W": 24,
-          "L": 27,
+          "L": 28,
           "T": 0
         },
         "HittingCnt": 7,
         "ErrorCnt": 0,
         "Hitters": [
           {
-            "Avg": 0.258,
+            "Avg": 0.257,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 1,
@@ -48,7 +48,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.167,
+            "Avg": 0.182,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 1,
@@ -75,7 +75,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.263,
+            "Avg": 0.262,
             "Rboe": 0,
             "HitCnt": 5,
             "Lineup": 2,
@@ -102,8 +102,8 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.245,
-            "Rboe": 0,
+            "Avg": 0.241,
+            "Rboe": 1,
             "HitCnt": 5,
             "Lineup": 3,
             "ScoreCnt": 1,
@@ -129,7 +129,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.196,
+            "Avg": 0.198,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 4,
@@ -183,7 +183,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.283,
+            "Avg": 0.284,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 6,
@@ -210,7 +210,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.245,
+            "Avg": 0.248,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 7,
@@ -237,7 +237,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.182,
+            "Avg": 0.174,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 8,
@@ -293,12 +293,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 1.44,
+            "Era": 1.36,
             "Whip": 0.97,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 9,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -323,12 +323,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.05,
-            "Whip": 1.16,
+            "Era": 1.97,
+            "Whip": 1.12,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 4,
+            "TotalS": 2,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -353,12 +353,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.06,
-            "Whip": 1.06,
+            "Era": 2.01,
+            "Whip": 1.05,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 3,
+            "TotalS": 5,
+            "TotalW": 4,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -383,12 +383,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.57,
-            "Whip": 1.2,
-            "RunCnt": 2,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "Era": 3.08,
+            "Whip": 1.27,
+            "RunCnt": 3,
+            "TotalL": 4,
+            "TotalS": 28,
+            "TotalW": 8,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -400,7 +400,7 @@
             "IsSaveFail": "1",
             "PitcherAcnt": "0000005788",
             "PitcherName": "林凱威",
-            "EarnedRunCnt": 2,
+            "EarnedRunCnt": 3,
             "StrikeOutCnt": 0,
             "WildPitchCnt": 0,
             "HitBYPitchCnt": 0,
@@ -413,19 +413,19 @@
             "IsCurrent": false
           },
           {
-            "Era": 1.59,
-            "Whip": 1.06,
+            "Era": 1.57,
+            "Whip": 1.08,
             "RunCnt": 0,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 1,
+            "TotalS": 1,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
             "PitchCnt": 5,
             "RoleType": "最後一任",
             "StrikeCnt": 3,
-            "HittingCnt": 0,
+            "HittingCnt": 1,
             "HomeRunCnt": 0,
             "IsSaveFail": "0",
             "PitcherAcnt": "0000006160",
@@ -489,17 +489,17 @@
           "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
           "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
         },
-        "Score": 2,
+        "Score": 3,
         "AccumulationScore": {
-          "W": 27,
+          "W": 28,
           "L": 25,
           "T": 0
         },
-        "HittingCnt": 9,
+        "HittingCnt": 10,
         "ErrorCnt": 1,
         "Hitters": [
           {
-            "Avg": 0.299,
+            "Avg": 0.3,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 1,
@@ -526,7 +526,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.163,
+            "Avg": 0.156,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 2,
@@ -553,7 +553,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.318,
+            "Avg": 0.317,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 3,
@@ -580,7 +580,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.31,
+            "Avg": 0.315,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 4,
@@ -661,7 +661,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.239,
+            "Avg": 0.241,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 6,
@@ -715,11 +715,11 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.237,
+            "Avg": 0.235,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 7,
-            "ScoreCnt": 0,
+            "ScoreCnt": 1,
             "HitterAcnt": "0000007268",
             "HitterName": "陳聖平",
             "HittingCnt": 0,
@@ -742,7 +742,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.069,
+            "Avg": 0.063,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 8,
@@ -769,7 +769,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.253,
+            "Avg": 0.256,
             "Rboe": 0,
             "HitCnt": 1,
             "Lineup": 8,
@@ -796,21 +796,21 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.224,
+            "Avg": 0.23,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 9,
             "ScoreCnt": 0,
             "HitterAcnt": "0000007071",
             "HitterName": "林泓弦",
-            "HittingCnt": 1,
+            "HittingCnt": 2,
             "HomeRunCnt": 0,
             "StrikeOutCnt": 0,
             "DefendStation": "2B",
             "HitBYPitchCnt": 0,
-            "OneBaseHitCnt": 1,
+            "OneBaseHitCnt": 2,
             "TwoBaseHitCnt": 0,
-            "RunBattedINCnt": 0,
+            "RunBattedINCnt": 1,
             "StealBaseOKCnt": 0,
             "BasesONBallsCnt": 0,
             "SacrificeFlyCnt": 0,
@@ -825,12 +825,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 2.77,
+            "Era": 2.71,
             "Whip": 1.24,
             "RunCnt": 2,
-            "TotalL": 0,
+            "TotalL": 8,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 8,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -855,12 +855,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 5.73,
-            "Whip": 1.45,
+            "Era": 5.4,
+            "Whip": 1.41,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 1,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -885,10 +885,10 @@
             "IsCurrent": false
           },
           {
-            "Era": 8,
-            "Whip": 2.11,
+            "Era": 7.45,
+            "Whip": 2.07,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 2,
             "TotalS": 0,
             "TotalW": 0,
             "BalkCnt": 0,
@@ -915,12 +915,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.57,
+            "Era": 2.52,
             "Whip": 1.43,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 3,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -945,12 +945,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.25,
-            "Whip": 1.19,
+            "Era": 2.17,
+            "Whip": 1.18,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -1010,7 +1010,7 @@
           },
           {
             "Seq": 9,
-            "Score": "2"
+            "Score": "3"
           }
         ]
       },
@@ -28679,12 +28679,12 @@
         }
       ],
       "WinningPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000005482",
+        "Name": "吳承諭"
       },
       "LoserPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000005788",
+        "Name": "林凱威"
       },
       "Closer": null,
       "MVP": {
