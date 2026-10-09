@@ -25479,12 +25479,12 @@
         }
       ],
       "WinningPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000005604",
+        "Name": "勝騎士"
       },
       "LoserPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000005731",
+        "Name": "布雷克"
       },
       "Closer": {
         "Acnt": "0000003639",
