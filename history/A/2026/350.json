@@ -14,14 +14,14 @@
         "Score": 0,
         "AccumulationScore": {
           "W": 31,
-          "L": 22,
+          "L": 23,
           "T": 0
         },
         "HittingCnt": 7,
         "ErrorCnt": 1,
         "Hitters": [
           {
-            "Avg": 0.299,
+            "Avg": 0.296,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 1,
@@ -75,7 +75,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.284,
+            "Avg": 0.283,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 3,
@@ -102,7 +102,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.282,
+            "Avg": 0.285,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 4,
@@ -129,7 +129,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.229,
+            "Avg": 0.223,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 5,
@@ -156,7 +156,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.277,
+            "Avg": 0.28,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 6,
@@ -183,7 +183,7 @@
             "IsCurrent": true
           },
           {
-            "Avg": 0.277,
+            "Avg": 0.278,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 7,
@@ -237,7 +237,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.303,
+            "Avg": 0.3,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 8,
@@ -264,7 +264,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.255,
+            "Avg": 0.253,
             "Rboe": 0,
             "HitCnt": 2,
             "Lineup": 9,
@@ -293,12 +293,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 5.59,
-            "Whip": 1.34,
+            "Era": 5.61,
+            "Whip": 1.33,
             "RunCnt": 4,
-            "TotalL": 0,
+            "TotalL": 7,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 5,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -323,12 +323,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 2.73,
-            "Whip": 1.21,
+            "Era": 2.97,
+            "Whip": 1.29,
             "RunCnt": 2,
-            "TotalL": 0,
-            "TotalS": 0,
-            "TotalW": 0,
+            "TotalL": 2,
+            "TotalS": 1,
+            "TotalW": 3,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -353,8 +353,8 @@
             "IsCurrent": false
           },
           {
-            "Era": 1.89,
-            "Whip": 1.74,
+            "Era": 1.8,
+            "Whip": 1.65,
             "RunCnt": 0,
             "TotalL": 0,
             "TotalS": 0,
@@ -461,7 +461,7 @@
         },
         "Score": 6,
         "AccumulationScore": {
-          "W": 28,
+          "W": 29,
           "L": 22,
           "T": 0
         },
@@ -496,7 +496,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.222,
+            "Avg": 0.224,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 2,
@@ -523,7 +523,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.27,
+            "Avg": 0.264,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 3,
@@ -550,7 +550,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.269,
+            "Avg": 0.266,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 4,
@@ -577,7 +577,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.275,
+            "Avg": 0.272,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 5,
@@ -604,7 +604,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.193,
+            "Avg": 0.188,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 6,
@@ -631,7 +631,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.252,
+            "Avg": 0.255,
             "Rboe": 0,
             "HitCnt": 4,
             "Lineup": 7,
@@ -658,7 +658,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.217,
+            "Avg": 0.22,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 8,
@@ -685,7 +685,7 @@
             "IsCurrent": false
           },
           {
-            "Avg": 0.161,
+            "Avg": 0.169,
             "Rboe": 0,
             "HitCnt": 3,
             "Lineup": 9,
@@ -714,12 +714,12 @@
         ],
         "Pitchers": [
           {
-            "Era": 3.07,
-            "Whip": 1.16,
+            "Era": 2.88,
+            "Whip": 1.13,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 9,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 5,
             "BalkCnt": 1,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -744,12 +744,12 @@
             "IsCurrent": false
           },
           {
-            "Era": 3.41,
-            "Whip": 1.17,
+            "Era": 3.23,
+            "Whip": 1.14,
             "RunCnt": 0,
-            "TotalL": 0,
+            "TotalL": 1,
             "TotalS": 0,
-            "TotalW": 0,
+            "TotalW": 2,
             "BalkCnt": 0,
             "ErrorCnt": 0,
             "IsSaveOK": "0",
@@ -22451,12 +22451,12 @@
         }
       ],
       "WinningPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000006906",
+        "Name": "艾菩樂"
       },
       "LoserPitcher": {
-        "Acnt": "",
-        "Name": ""
+        "Acnt": "0000002345",
+        "Name": "鄭浩均"
       },
       "Closer": null,
       "MVP": {
@@ -22468,7 +22468,7 @@
           "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L015574823122453305/2024_CPBL六隊Logo_R2_官網.png",
           "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L015581098468306680/2024_CPBL六隊Logo_R_官網.png"
         },
-        "YearlyCount": 3
+        "YearlyCount": 4
       },
       "Referee": [
         {
