@@ -4,7 +4,7 @@
       {
         "GameId": "2026-E-2",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -14,8 +14,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 1,
+            "L": 1,
             "T": 0
           }
         },
@@ -26,10 +26,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 1,
+            "L": 1,
             "T": 0
           }
         },
@@ -41,12 +41,46 @@
         "GameSno": 2,
         "PreExeDate": "2026-10-10T17:05:00",
         "Week": 41,
-        "InningSeq": 1,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
-        "Referee": []
+        "WinningPitcher": {
+          "Acnt": "0000007778",
+          "Name": "喬登"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007560",
+          "Name": "菲力士"
+        },
+        "Closer": {
+          "Acnt": "0000007293",
+          "Name": "鍾允華"
+        },
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "吳家維"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "邱景彥"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "王俊宏"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "紀華文"
+          },
+          {
+            "Job": "左線審",
+            "Name": "鄭惟丞"
+          },
+          {
+            "Job": "右線審",
+            "Name": "劉世偉"
+          }
+        ]
       }
     ]
   }
