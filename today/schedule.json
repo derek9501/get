@@ -2,10 +2,24 @@
   "Data": {
     "Games": [
       {
-        "GameId": "2026-E-2",
+        "GameId": "2026-E-3",
         "SkipTrackman": false,
-        "GameStatus": "FINISHED",
+        "GameStatus": "SCHEDULED",
         "Visiting": {
+          "Team": {
+            "Code": "ADD011",
+            "Name": "統一7-ELEVEn獅",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Home": {
           "Team": {
             "Code": "ACN011",
             "Name": "中信兄弟",
@@ -14,73 +28,25 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 1,
-            "L": 1,
-            "T": 0
-          }
-        },
-        "Home": {
-          "Team": {
-            "Code": "ADD011",
-            "Name": "統一7-ELEVEn獅",
-            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021496162893869773/logo_lions.png",
-            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021496167521474259/logo_lions_large.png"
-          },
-          "Score": 1,
-          "AccumulationScore": {
-            "W": 1,
-            "L": 1,
+            "W": 0,
+            "L": 0,
             "T": 0
           }
         },
         "Field": {
-          "No": "F31",
-          "Abbe": "亞太主"
+          "No": "F19",
+          "Abbe": "洲際"
         },
         "KindCode": "E",
-        "GameSno": 2,
-        "PreExeDate": "2026-10-10T17:05:00",
+        "GameSno": 3,
+        "PreExeDate": "2026-10-11T17:05:00",
         "Week": 41,
-        "InningSeq": 9,
+        "InningSeq": 1,
         "VisitingHomeType": 1,
-        "WinningPitcher": {
-          "Acnt": "0000007778",
-          "Name": "喬登"
-        },
-        "LoserPitcher": {
-          "Acnt": "0000007560",
-          "Name": "菲力士"
-        },
-        "Closer": {
-          "Acnt": "0000007293",
-          "Name": "鍾允華"
-        },
-        "Referee": [
-          {
-            "Job": "主審",
-            "Name": "吳家維"
-          },
-          {
-            "Job": "一壘審",
-            "Name": "邱景彥"
-          },
-          {
-            "Job": "二壘審",
-            "Name": "王俊宏"
-          },
-          {
-            "Job": "三壘審",
-            "Name": "紀華文"
-          },
-          {
-            "Job": "左線審",
-            "Name": "鄭惟丞"
-          },
-          {
-            "Job": "右線審",
-            "Name": "劉世偉"
-          }
-        ]
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
       }
     ]
   }
