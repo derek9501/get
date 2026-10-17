@@ -4,7 +4,7 @@
       {
         "GameId": "2026-C-1",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -26,7 +26,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
             "W": 0,
             "L": 0,
@@ -41,12 +41,37 @@
         "GameSno": 1,
         "PreExeDate": "2026-10-17T17:05:00",
         "Week": 42,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
+        "InningSeq": 5,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "張展榮"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "吳家維"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "尤志欽"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "王俊宏"
+          },
+          {
+            "Job": "左線審",
+            "Name": "楊崇煇"
+          },
+          {
+            "Job": "右線審",
+            "Name": "羅鈞鴻"
+          }
+        ]
       }
     ]
   }
