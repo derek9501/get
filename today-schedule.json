@@ -2,9 +2,9 @@
   "Data": {
     "Games": [
       {
-        "GameId": "2026-C-1",
+        "GameId": "2026-C-2",
         "SkipTrackman": false,
-        "GameStatus": "FINISHED",
+        "GameStatus": "SCHEDULED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -26,7 +26,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 3,
+          "Score": 0,
           "AccumulationScore": {
             "W": 0,
             "L": 0,
@@ -38,49 +38,15 @@
           "Abbe": "大巨蛋"
         },
         "KindCode": "C",
-        "GameSno": 1,
-        "PreExeDate": "2026-10-17T17:05:00",
+        "GameSno": 2,
+        "PreExeDate": "2026-10-18T17:05:00",
         "Week": 42,
-        "InningSeq": 9,
+        "InningSeq": 1,
         "VisitingHomeType": 1,
-        "WinningPitcher": {
-          "Acnt": "0000007779",
-          "Name": "蔣銲"
-        },
-        "LoserPitcher": {
-          "Acnt": "0000005604",
-          "Name": "勝騎士"
-        },
-        "Closer": {
-          "Acnt": "0000005788",
-          "Name": "林凱威"
-        },
-        "Referee": [
-          {
-            "Job": "主審",
-            "Name": "張展榮"
-          },
-          {
-            "Job": "一壘審",
-            "Name": "吳家維"
-          },
-          {
-            "Job": "二壘審",
-            "Name": "尤志欽"
-          },
-          {
-            "Job": "三壘審",
-            "Name": "王俊宏"
-          },
-          {
-            "Job": "左線審",
-            "Name": "楊崇煇"
-          },
-          {
-            "Job": "右線審",
-            "Name": "羅鈞鴻"
-          }
-        ]
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
       }
     ]
   }
