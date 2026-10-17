@@ -4,7 +4,7 @@
       {
         "GameId": "2026-C-1",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -26,7 +26,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 1,
+          "Score": 3,
           "AccumulationScore": {
             "W": 0,
             "L": 0,
@@ -41,11 +41,20 @@
         "GameSno": 1,
         "PreExeDate": "2026-10-17T17:05:00",
         "Week": 42,
-        "InningSeq": 5,
-        "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "InningSeq": 9,
+        "VisitingHomeType": 1,
+        "WinningPitcher": {
+          "Acnt": "0000007779",
+          "Name": "蔣銲"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000005604",
+          "Name": "勝騎士"
+        },
+        "Closer": {
+          "Acnt": "0000005788",
+          "Name": "林凱威"
+        },
         "Referee": [
           {
             "Job": "主審",
