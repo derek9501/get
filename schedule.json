@@ -4,7 +4,7 @@
       {
         "GameId": "2026-C-2",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -15,7 +15,7 @@
           "Score": 1,
           "AccumulationScore": {
             "W": 0,
-            "L": 1,
+            "L": 2,
             "T": 0
           }
         },
@@ -28,7 +28,7 @@
           },
           "Score": 3,
           "AccumulationScore": {
-            "W": 1,
+            "W": 2,
             "L": 0,
             "T": 0
           }
@@ -41,11 +41,20 @@
         "GameSno": 2,
         "PreExeDate": "2026-10-18T17:05:00",
         "Week": 42,
-        "InningSeq": 7,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
-        "Closer": null,
+        "WinningPitcher": {
+          "Acnt": "0000006555",
+          "Name": "梅賽鍶"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000007560",
+          "Name": "菲力士"
+        },
+        "Closer": {
+          "Acnt": "0000005788",
+          "Name": "林凱威"
+        },
         "Referee": [
           {
             "Job": "主審",
