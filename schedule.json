@@ -2,33 +2,33 @@
   "Data": {
     "Games": [
       {
-        "GameId": "2026-C-2",
+        "GameId": "2026-C-3",
         "SkipTrackman": false,
-        "GameStatus": "FINISHED",
+        "GameStatus": "SCHEDULED",
         "Visiting": {
-          "Team": {
-            "Code": "ACN011",
-            "Name": "中信兄弟",
-            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
-            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
-          },
-          "Score": 1,
-          "AccumulationScore": {
-            "W": 0,
-            "L": 2,
-            "T": 0
-          }
-        },
-        "Home": {
           "Team": {
             "Code": "AAA011",
             "Name": "味全龍",
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 3,
+          "Score": 0,
           "AccumulationScore": {
-            "W": 2,
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "ACN011",
+            "Name": "中信兄弟",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
             "L": 0,
             "T": 0
           }
@@ -38,49 +38,15 @@
           "Abbe": "大巨蛋"
         },
         "KindCode": "C",
-        "GameSno": 2,
-        "PreExeDate": "2026-10-18T17:05:00",
-        "Week": 42,
-        "InningSeq": 9,
+        "GameSno": 3,
+        "PreExeDate": "2026-10-20T18:35:00",
+        "Week": 43,
+        "InningSeq": 1,
         "VisitingHomeType": 1,
-        "WinningPitcher": {
-          "Acnt": "0000006555",
-          "Name": "梅賽鍶"
-        },
-        "LoserPitcher": {
-          "Acnt": "0000007560",
-          "Name": "菲力士"
-        },
-        "Closer": {
-          "Acnt": "0000005788",
-          "Name": "林凱威"
-        },
-        "Referee": [
-          {
-            "Job": "主審",
-            "Name": "邱景彥"
-          },
-          {
-            "Job": "一壘審",
-            "Name": "楊崇煇"
-          },
-          {
-            "Job": "二壘審",
-            "Name": "紀華文"
-          },
-          {
-            "Job": "三壘審",
-            "Name": "羅鈞鴻"
-          },
-          {
-            "Job": "左線審",
-            "Name": "劉世偉"
-          },
-          {
-            "Job": "右線審",
-            "Name": "鄭惟丞"
-          }
-        ]
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
       }
     ]
   }
