@@ -1,0 +1,53 @@
+{
+  "Data": {
+    "Games": [
+      {
+        "GameId": "2026-C-5",
+        "SkipTrackman": false,
+        "GameStatus": "SCHEDULED",
+        "Visiting": {
+          "Team": {
+            "Code": "ACN011",
+            "Name": "中信兄弟",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Home": {
+          "Team": {
+            "Code": "AAA011",
+            "Name": "味全龍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F29",
+          "Abbe": "大巨蛋"
+        },
+        "KindCode": "C",
+        "GameSno": 5,
+        "PreExeDate": "2026-10-23T18:35:00",
+        "Week": 43,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
+      }
+    ]
+  }
+}
