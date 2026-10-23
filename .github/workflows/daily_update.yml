@@ -1,0 +1,27 @@
+name: 每日早上5點更新比賽資料
+
+on:
+  schedule:
+    # 台灣時間早上 5 點 (UTC+8)，對應 UTC 時間為 21:00
+    - cron: '0 21 * * *'
+  workflow_dispatch: # 允許手動觸發測試
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 檢出程式碼
+        uses: actions/checkout@v3
+
+      - name: 設定 Python 環境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 安裝相依套件 (若有需要)
+        run: |
+          # pip install -r requirements.txt
+          echo "No requirements to install"
+
+      - name: 執行每日更新腳本
+        run: python update_daily.py
