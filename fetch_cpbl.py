@@ -415,44 +415,16 @@ def fetch_today_schedule(date_string):
     result = find_games(data)
 
     # --------------------------------------------------------
-    # 找不到賽程
+    # 找不到賽程 (判斷為無比賽日)
     # --------------------------------------------------------
 
     if result is None:
 
-        log("❌ API 有回應")
-        log("❌ 但是找不到有效的 GameSno")
-        log("❌ 不會判定成「今日沒有比賽」")
+        log("ℹ️ API 有回應，但找不到任何比賽 (GameSno)")
+        log("ℹ️ 判定為「今日沒有比賽」")
 
-        try:
-
-            preview = json.dumps(
-                data,
-                ensure_ascii=False,
-                indent=2
-            )
-
-            if len(preview) > 5000:
-
-                preview = (
-                    preview[:5000]
-                    + "\n......"
-                )
-
-            log("🔎 API 回應：")
-
-            print(
-                preview,
-                flush=True
-            )
-
-        except Exception:
-
-            pass
-
-        raise RuntimeError(
-            "CPBL 賽程 API 無法解析"
-        )
+        # 原本這裡是 raise RuntimeError，改為回傳原始資料與空陣列
+        return data, [] 
 
     games, path = result
 
