@@ -623,154 +623,92 @@ def main():
     log("=" * 60)
 
     # --------------------------------------------------------
-    # 台灣時間
+    # 支援透過指令傳入指定日期 (例如：python fetch_cpbl.py 2026-09-22)
     # --------------------------------------------------------
+    import sys
+    
+    if len(sys.argv) > 1:
+        # 如果有傳入參數，就使用指定的日期
+        target_date = sys.argv[1].strip()
+        log(f"🔧 執行模式：手動指定日期更新")
+    else:
+        # 如果沒有傳入參數，維持預設抓今天
+        now = datetime.now(TAIWAN_TZ)
+        target_date = now.strftime("%Y-%m-%d")
+        log(f"🇹🇼 執行模式：自動更新今日賽事")
+        log(f"🇹🇼 台灣時間：{now.strftime('%Y-%m-%d %H:%M:%S')}")
 
-    now = datetime.now(
-        TAIWAN_TZ
-    )
-
-    today = now.strftime(
-        "%Y-%m-%d"
-    )
-
-    log(
-        "🇹🇼 台灣時間："
-        f"{now.strftime('%Y-%m-%d %H:%M:%S')}"
-    )
-
-    log(
-        f"📅 查詢日期：{today}"
-    )
+    log(f"📅 查詢日期：{target_date}")
 
     # --------------------------------------------------------
-    # 今日賽程
+    # 取得指定日期的賽程 (API 會自動帶入 target_date)
     # --------------------------------------------------------
-
-    schedule_data, games = (
-        fetch_today_schedule(today)
-    )
+    schedule_data, games = fetch_today_schedule(target_date)
 
     # --------------------------------------------------------
-    # 儲存賽程
+    # 儲存賽程 (存檔的名稱也會自動變成指定的日期)
     # --------------------------------------------------------
-
-    save_json(
-        ROOT
-        / "schedule"
-        / f"{today}.json",
-        schedule_data
-    )
-
-    save_json(
-        ROOT
-        / "schedule.json",
-        schedule_data
-    )
-
-    save_json(
-        ROOT
-        / "today-schedule.json",
-        schedule_data
-    )
-
-    save_json(
-        ROOT
-        / "today"
-        / "schedule.json",
-        schedule_data
-    )
+    save_json(ROOT / "schedule" / f"{target_date}.json", schedule_data)
+    save_json(ROOT / "schedule.json", schedule_data)
+    save_json(ROOT / "today-schedule.json", schedule_data)
+    save_json(ROOT / "today" / "schedule.json", schedule_data)
 
     # --------------------------------------------------------
     # 真的沒有比賽
     # --------------------------------------------------------
-
     if not games:
-
-        log(
-            "ℹ️ CPBL API 確認今日沒有比賽"
-        )
-
-        log(
-            "✅ 賽程更新完成"
-        )
-
+        log(f"ℹ️ CPBL API 確認 {target_date} 沒有比賽")
+        log("✅ 賽程更新完成")
         return 0
 
     # --------------------------------------------------------
-    # 更新每一場
+    # 更新每一場單場比賽 data
     # --------------------------------------------------------
-
     success = 0
     failed = 0
-
     first_detail = None
 
-    for index, game in enumerate(
-        games,
-        start=1
-    ):
-
-        log(
-            f"📌 處理比賽 "
-            f"{index}/{len(games)}"
-        )
-
+    for index, game in enumerate(games, start=1):
+        log(f"📌 處理比賽 {index}/{len(games)}")
         try:
-
-            detail = process_game(
-                game
-            )
-
+            detail = process_game(game)
             success += 1
-
             if first_detail is None:
-
                 first_detail = detail
-
         except Exception as e:
-
             failed += 1
-
-            log(
-                f"❌ 比賽更新失敗：{e}"
-            )
+            log(f"❌ 比賽更新失敗：{e}")
 
     # --------------------------------------------------------
     # live_score.json
     # --------------------------------------------------------
-
     if first_detail is not None:
-
-        save_json(
-            ROOT
-            / "live_score.json",
-            first_detail
-        )
-
-        log(
-            "📺 live_score.json 已更新"
-        )
+        save_json(ROOT / "live_score.json", first_detail)
+        log("📺 live_score.json 已更新")
 
     # --------------------------------------------------------
     # 最終結果
     # --------------------------------------------------------
+    log("=" * 60)
+    log(f"📊 CPBL {target_date} 更新結果")
+    log("=" * 60)
+    log(f"⚾ 該日比賽：{len(games)} 場")
+    log(f"✅ 成功：{success} 場")
+    log(f"❌ 失敗：{failed} 場")
+
+    if success == 0:
+        log("❌ 所有比賽更新失敗")
+        return 1
+
+    if failed > 0:
+        log("⚠️ 部分比賽更新失敗")
+        return 1
 
     log("=" * 60)
-    log("📊 CPBL 更新結果")
+    log("🎉 CPBL 所有資料更新完成！")
     log("=" * 60)
 
-    log(
-        f"⚾ 今日比賽：{len(games)} 場"
-    )
-
-    log(
-        f"✅ 成功：{success} 場"
-    )
-
-    log(
-        f"❌ 失敗：{failed} 場"
-    )
+    return 0
 
     # --------------------------------------------------------
     # 全部失敗
