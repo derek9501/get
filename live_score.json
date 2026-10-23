@@ -1,7 +1,7 @@
 {
   "Data": {
     "Game": {
-      "GameId": "2026-C-6",
+      "GameId": "2026-C-5",
       "SkipTrackman": false,
       "GameStatus": "SCHEDULED",
       "Visiting": {
@@ -47,9 +47,9 @@
         "Abbe": "大巨蛋"
       },
       "KindCode": "C",
-      "GameSno": 6,
-      "PreExeDate": "2026-10-26T15:05:00",
-      "Week": 44,
+      "GameSno": 5,
+      "PreExeDate": "2026-10-25T17:05:00",
+      "Week": 43,
       "InningSeq": 1,
       "VisitingHomeType": 1,
       "WinningPitcher": null,
