@@ -2,11 +2,17 @@ name: CPBL 自動更新
 
 on:
   schedule:
-    # GitHub 每 5 分鐘嘗試執行一次
+    # 固定每 5 分鐘嘗試執行一次（預設抓取當日資料）
     - cron: "*/5 * * * *"
 
-  # 可以在 GitHub Actions 頁面手動執行
+  # 允許在 GitHub Actions 頁面手動觸發，並可填寫指定日期
   workflow_dispatch:
+    inputs:
+      target_date:
+        description: '輸入指定更新日期 (格式：YYYY-MM-DD，若留空則自動更新當日數據)'
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: write
@@ -60,7 +66,15 @@ jobs:
           echo "⚾ 開始執行 CPBL 自動更新"
           echo "=========================================="
 
-          python fetch_cpbl.py
+          TARGET_DATE="${{ github.event.inputs.target_date }}"
+
+          if [ -n "$TARGET_DATE" ]; then
+            echo "🔧 手動執行模式：指定日期 $TARGET_DATE"
+            python fetch_cpbl.py "$TARGET_DATE"
+          else
+            echo "🇹🇼 自動執行模式：更新今日數據"
+            python fetch_cpbl.py
+          fi
 
       # ==========================================
       # 提交並推送
