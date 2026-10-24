@@ -4,7 +4,7 @@
       {
         "GameId": "2026-C-5",
         "SkipTrackman": false,
-        "GameStatus": "POSTPONED",
+        "GameStatus": "SCHEDULED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -39,7 +39,7 @@
         },
         "KindCode": "C",
         "GameSno": 5,
-        "PreExeDate": "2026-10-24T17:05:00",
+        "PreExeDate": "2026-10-25T17:05:00",
         "Week": 43,
         "InningSeq": 1,
         "VisitingHomeType": 1,
@@ -61,8 +61,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 1,
-            "L": 3,
+            "W": 0,
+            "L": 0,
             "T": 0
           }
         },
@@ -75,8 +75,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 3,
-            "L": 1,
+            "W": 0,
+            "L": 0,
             "T": 0
           }
         },
@@ -86,39 +86,61 @@
         },
         "KindCode": "C",
         "GameSno": 6,
-        "PreExeDate": "2026-10-24T17:05:00",
+        "PreExeDate": "2026-10-25T17:05:00",
         "Week": 43,
         "InningSeq": 1,
         "VisitingHomeType": 1,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": [
-          {
-            "Job": "主審",
-            "Name": ""
+        "Referee": []
+      },
+      {
+        "GameId": "2026-C-7",
+        "SkipTrackman": false,
+        "GameStatus": "SCHEDULED",
+        "Visiting": {
+          "Team": {
+            "Code": "ACN011",
+            "Name": "中信兄弟",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          {
-            "Job": "一壘審",
-            "Name": ""
-          },
-          {
-            "Job": "二壘審",
-            "Name": ""
-          },
-          {
-            "Job": "三壘審",
-            "Name": ""
-          },
-          {
-            "Job": "左線審",
-            "Name": ""
-          },
-          {
-            "Job": "右線審",
-            "Name": ""
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
           }
-        ]
+        },
+        "Home": {
+          "Team": {
+            "Code": "AAA011",
+            "Name": "味全龍",
+            "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
+            "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
+          },
+          "Score": 0,
+          "AccumulationScore": {
+            "W": 0,
+            "L": 0,
+            "T": 0
+          }
+        },
+        "Field": {
+          "No": "F29",
+          "Abbe": "大巨蛋"
+        },
+        "KindCode": "C",
+        "GameSno": 7,
+        "PreExeDate": "2026-10-25T17:05:00",
+        "Week": 43,
+        "InningSeq": 1,
+        "VisitingHomeType": 1,
+        "WinningPitcher": null,
+        "LoserPitcher": null,
+        "Closer": null,
+        "Referee": []
       }
     ]
   }
