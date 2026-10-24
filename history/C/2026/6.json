@@ -13,8 +13,8 @@
         },
         "Score": 0,
         "AccumulationScore": {
-          "W": 0,
-          "L": 0,
+          "W": 1,
+          "L": 3,
           "T": 0
         },
         "HittingCnt": 0,
@@ -32,8 +32,8 @@
         },
         "Score": 0,
         "AccumulationScore": {
-          "W": 0,
-          "L": 0,
+          "W": 3,
+          "L": 1,
           "T": 0
         },
         "HittingCnt": 0,
@@ -52,12 +52,43 @@
       "Week": 44,
       "InningSeq": 1,
       "VisitingHomeType": 1,
-      "WinningPitcher": null,
-      "LoserPitcher": null,
-      "Closer": null,
-      "Referee": [],
       "LiveLog": [],
-      "MVP": null
+      "WinningPitcher": {
+        "Acnt": "",
+        "Name": ""
+      },
+      "LoserPitcher": {
+        "Acnt": "",
+        "Name": ""
+      },
+      "Closer": null,
+      "MVP": null,
+      "Referee": [
+        {
+          "Job": "主審",
+          "Name": ""
+        },
+        {
+          "Job": "一壘審",
+          "Name": ""
+        },
+        {
+          "Job": "二壘審",
+          "Name": ""
+        },
+        {
+          "Job": "三壘審",
+          "Name": ""
+        },
+        {
+          "Job": "左線審",
+          "Name": ""
+        },
+        {
+          "Job": "右線審",
+          "Name": ""
+        }
+      ]
     }
   }
 }
