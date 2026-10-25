@@ -4,7 +4,7 @@
       {
         "GameId": "2026-C-5",
         "SkipTrackman": false,
-        "GameStatus": "START",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -12,7 +12,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 1,
+          "Score": 4,
           "AccumulationScore": {
             "W": 1,
             "L": 3,
@@ -26,7 +26,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 0,
+          "Score": 3,
           "AccumulationScore": {
             "W": 3,
             "L": 1,
@@ -41,10 +41,16 @@
         "GameSno": 5,
         "PreExeDate": "2026-10-25T17:05:00",
         "Week": 43,
-        "InningSeq": 2,
+        "InningSeq": 9,
         "VisitingHomeType": 2,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000007560",
+          "Name": "菲力士"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000005788",
+          "Name": "林凱威"
+        },
         "Closer": null,
         "Referee": [
           {
@@ -86,7 +92,7 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 1,
+            "W": 2,
             "L": 3,
             "T": 0
           }
@@ -101,7 +107,7 @@
           "Score": 0,
           "AccumulationScore": {
             "W": 3,
-            "L": 1,
+            "L": 2,
             "T": 0
           }
         },
@@ -158,7 +164,7 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 1,
+            "W": 2,
             "L": 3,
             "T": 0
           }
@@ -173,7 +179,7 @@
           "Score": 0,
           "AccumulationScore": {
             "W": 3,
-            "L": 1,
+            "L": 2,
             "T": 0
           }
         },

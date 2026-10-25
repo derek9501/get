@@ -13,7 +13,7 @@
         },
         "Score": 0,
         "AccumulationScore": {
-          "W": 1,
+          "W": 2,
           "L": 3,
           "T": 0
         },
@@ -33,7 +33,7 @@
         "Score": 0,
         "AccumulationScore": {
           "W": 3,
-          "L": 1,
+          "L": 2,
           "T": 0
         },
         "HittingCnt": 0,
