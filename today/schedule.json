@@ -14,7 +14,7 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 1,
+            "W": 2,
             "L": 3,
             "T": 0
           }
@@ -29,7 +29,7 @@
           "Score": 0,
           "AccumulationScore": {
             "W": 3,
-            "L": 1,
+            "L": 2,
             "T": 0
           }
         },
@@ -86,8 +86,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 2,
+            "L": 3,
             "T": 0
           }
         },
@@ -100,8 +100,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 3,
+            "L": 2,
             "T": 0
           }
         },
@@ -118,7 +118,32 @@
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": ""
+          },
+          {
+            "Job": "一壘審",
+            "Name": ""
+          },
+          {
+            "Job": "二壘審",
+            "Name": ""
+          },
+          {
+            "Job": "三壘審",
+            "Name": ""
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
