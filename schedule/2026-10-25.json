@@ -4,7 +4,7 @@
       {
         "GameId": "2026-C-5",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "START",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -12,10 +12,10 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497108709222204/logo_brothers.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497102437737790/logo_brothers_large.png"
           },
-          "Score": 0,
+          "Score": 1,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 1,
+            "L": 3,
             "T": 0
           }
         },
@@ -28,8 +28,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 3,
+            "L": 1,
             "T": 0
           }
         },
@@ -41,12 +41,37 @@
         "GameSno": 5,
         "PreExeDate": "2026-10-25T17:05:00",
         "Week": 43,
-        "InningSeq": 1,
-        "VisitingHomeType": 1,
+        "InningSeq": 2,
+        "VisitingHomeType": 2,
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": "彭楚雲"
+          },
+          {
+            "Job": "一壘審",
+            "Name": "邱景彥"
+          },
+          {
+            "Job": "二壘審",
+            "Name": "紀華文"
+          },
+          {
+            "Job": "三壘審",
+            "Name": "王俊宏"
+          },
+          {
+            "Job": "左線審",
+            "Name": "劉世偉"
+          },
+          {
+            "Job": "右線審",
+            "Name": "張展榮"
+          }
+        ]
       },
       {
         "GameId": "2026-C-6",
@@ -133,8 +158,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 1,
+            "L": 3,
             "T": 0
           }
         },
@@ -147,8 +172,8 @@
           },
           "Score": 0,
           "AccumulationScore": {
-            "W": 0,
-            "L": 0,
+            "W": 3,
+            "L": 1,
             "T": 0
           }
         },
@@ -165,7 +190,32 @@
         "WinningPitcher": null,
         "LoserPitcher": null,
         "Closer": null,
-        "Referee": []
+        "Referee": [
+          {
+            "Job": "主審",
+            "Name": ""
+          },
+          {
+            "Job": "一壘審",
+            "Name": ""
+          },
+          {
+            "Job": "二壘審",
+            "Name": ""
+          },
+          {
+            "Job": "三壘審",
+            "Name": ""
+          },
+          {
+            "Job": "左線審",
+            "Name": ""
+          },
+          {
+            "Job": "右線審",
+            "Name": ""
+          }
+        ]
       }
     ]
   }
