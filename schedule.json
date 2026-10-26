@@ -4,7 +4,7 @@
       {
         "GameId": "2026-C-6",
         "SkipTrackman": false,
-        "GameStatus": "SCHEDULED",
+        "GameStatus": "FINISHED",
         "Visiting": {
           "Team": {
             "Code": "ACN011",
@@ -26,7 +26,7 @@
             "SmallLogoUrl": "http://cpbl.com.tw/files/atts/0L021497845061333235/logo_dragon.png",
             "BigLogoUrl": "http://cpbl.com.tw/files/atts/0L021497849799849722/logo_dragon_large.png"
           },
-          "Score": 0,
+          "Score": 6,
           "AccumulationScore": {
             "W": 3,
             "L": 2,
@@ -41,35 +41,41 @@
         "GameSno": 6,
         "PreExeDate": "2026-10-26T15:05:00",
         "Week": 44,
-        "InningSeq": 1,
+        "InningSeq": 9,
         "VisitingHomeType": 1,
-        "WinningPitcher": null,
-        "LoserPitcher": null,
+        "WinningPitcher": {
+          "Acnt": "0000006555",
+          "Name": "梅賽鍶"
+        },
+        "LoserPitcher": {
+          "Acnt": "0000005604",
+          "Name": "勝騎士"
+        },
         "Closer": null,
         "Referee": [
           {
             "Job": "主審",
-            "Name": ""
+            "Name": "楊崇煇"
           },
           {
             "Job": "一壘審",
-            "Name": ""
+            "Name": "尤志欽"
           },
           {
             "Job": "二壘審",
-            "Name": ""
+            "Name": "張展榮"
           },
           {
             "Job": "三壘審",
-            "Name": ""
+            "Name": "吳家維"
           },
           {
             "Job": "左線審",
-            "Name": ""
+            "Name": "紀華文"
           },
           {
             "Job": "右線審",
-            "Name": ""
+            "Name": "鄭惟丞"
           }
         ]
       }
